@@ -1,0 +1,125 @@
+[
+  {
+    "id": 28,
+    "name": {
+      "ca": "Renault Mégane CC (I & II)",
+      "en": "Renault Mégane CC (I & II)",
+      "es": "Renault Mégane CC (I & II)",
+      "de": "Renault Mégane CC (I & II)",
+      "fr": "Renault Mégane CC (I & II)",
+      "it": "Renault Mégane CC (I & II)"
+    },
+    "productionYears": "2003–2009",
+    "description": {
+      "ca": "Karmann va desenvolupar i produir el complex sistema de sostre de vidre retràctil per al popular Mégane Coupé-Cabriolet. Aquest model va ajudar a democratitzar els descapotables de sostre dur.",
+      "en": "Karmann developed and produced the complex retractable glass roof system for the popular Mégane Coupé-Cabriolet. This model helped to democratize hardtop convertibles.",
+      "es": "Karmann desarrolló y produjo el complejo sistema de techo de cristal retráctil para el popular Mégane Coupé-Cabriolet. Este modelo ayudó a democratizar los descapotables de techo duro.",
+      "de": "Karmann entwickelte und produzierte das komplexe versenkbare Glasdachsystem für das beliebte Mégane Coupé-Cabriolet. Dieses Modell trug zur Demokratisierung von Hardtop-Cabrios bei.",
+      "fr": "Karmann a développé et produit le système complexe de toit en verre rétractable pour le populaire Mégane Coupé-Cabriolet. Ce modèle a contribué à démocratiser les cabriolets à toit rigide.",
+      "it": "Karmann ha sviluppato e prodotto il complesso sistema di tetto in vetro retrattile per la popolare Mégane Coupé-Cabriolet. Questo modello ha contribuito a democratizzare le cabriolet con tetto rigido."
+    },
+    "imageUrl": "assets/images/renault_megane_cc.jpg",
+    "designer": "Patrick Le Quément",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 195-225 km/h",
+      "en": "Approx. 195-225 km/h",
+      "es": "Aprox. 195-225 km/h",
+      "de": "ca. 195-225 km/h",
+      "fr": "Env. 195-225 km/h",
+      "it": "Circa 195-225 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": []
+  },
+  {
+    "id": 29,
+    "name": {
+      "ca": "Spyker C8 Spyder",
+      "en": "Spyker C8 Spyder",
+      "es": "Spyker C8 Spyder",
+      "de": "Spyker C8 Spyder",
+      "fr": "Spyker C8 Spyder",
+      "it": "Spyker C8 Spyder"
+    },
+    "productionYears": "2000–2009",
+    "description": {
+      "ca": "En els primers anys de Spyker Cars, la producció de les carrosseries d'alumini d'aquest exòtic supercotxe es va subcontractar a Karmann, abans que Spyker traslladés la producció internament.",
+      "en": "In the early years of Spyker Cars, the production of the aluminum bodies for this exotic supercar was outsourced to Karmann, before Spyker moved production in-house.",
+      "es": "En los primeros años de Spyker Cars, la producción de las carrocerías de aluminio de este exótico supercoche se subcontrató a Karmann, antes de que Spyker trasladara la producción internamente.",
+      "de": "In den frühen Jahren von Spyker Cars wurde die Produktion der Aluminiumkarosserien für diesen exotischen Supersportwagen an Karmann ausgelagert, bevor Spyker die Produktion ins eigene Haus verlegte.",
+      "fr": "Dans les premières années de Spyker Cars, la production des carrosseries en aluminium de cette supercar exotique a été sous-traitée à Karmann, avant que Spyker ne rapatrie la production en interne.",
+      "it": "Nei primi anni di Spyker Cars, la produzione delle carrozzerie in alluminio di questa esotica supercar fu affidata a Karmann, prima che Spyker trasferisse la produzione internamente."
+    },
+    "imageUrl": "assets/images/spyker_c8_spyder.jpg",
+    "designer": "Maarten de Bruijn",
+    "engine": {
+      "ca": "V8 (Audi)",
+      "en": "V8 (Audi)",
+      "es": "V8 (Audi)",
+      "de": "V8 (Audi)",
+      "fr": "V8 (Audi)",
+      "it": "V8 (Audi)"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 300 km/h",
+      "en": "Approx. 300 km/h",
+      "es": "Aprox. 300 km/h",
+      "de": "ca. 300 km/h",
+      "fr": "Env. 300 km/h",
+      "it": "Circa 300 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [19]
+  },
+  {
+    "id": 30,
+    "name": {
+      "ca": "Pontiac G6 Convertible",
+      "en": "Pontiac G6 Convertible",
+      "es": "Pontiac G6 Convertible",
+      "de": "Pontiac G6 Cabrio",
+      "fr": "Pontiac G6 Cabriolet",
+      "it": "Pontiac G6 Convertible"
+    },
+    "productionYears": "2006–2009",
+    "description": {
+      "ca": "Karmann va dissenyar, enginyar i fabricar el complex sostre rígid retràctil de dues peces per al descapotable Pontiac G6. Era un dels sostres d'aquest tipus més grans del mercat en aquell moment.",
+      "en": "Karmann designed, engineered, and manufactured the complex two-piece retractable hardtop for the Pontiac G6 convertible. It was one of the largest roofs of its kind on the market at the time.",
+      "es": "Karmann diseñó, desarrolló y fabricó el complejo techo rígido retráctil de dos piezas para el descapotable Pontiac G6. Era uno de los techos de este tipo más grandes del mercado en ese momento.",
+      "de": "Karmann entwarf, konstruierte und fertigte das komplexe zweiteilige versenkbare Hardtop für das Pontiac G6 Cabrio. Es war damals eines der größten Dächer seiner Art auf dem Markt.",
+      "fr": "Karmann a conçu, développé et fabriqué le toit rigide rétractable complexe en deux parties pour le cabriolet Pontiac G6. C'était l'un des plus grands toits de ce type sur le marché à l'époque.",
+      "it": "Karmann ha progettato, ingegnerizzato e prodotto il complesso tetto rigido retrattile in due pezzi per la Pontiac G6 convertibile. All'epoca era uno dei tetti più grandi del suo genere sul mercato."
+    },
+    "imageUrl": "assets/images/pontiac_g6_convertible.jpg",
+    "designer": "General Motors (cotxe), Karmann (sostre)",
+    "engine": {
+      "ca": "V6",
+      "en": "V6",
+      "es": "V6",
+      "de": "V6",
+      "fr": "V6",
+      "it": "V6"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 210 km/h",
+      "en": "Approx. 210 km/h",
+      "es": "Aprox. 210 km/h",
+      "de": "ca. 210 km/h",
+      "fr": "Env. 210 km/h",
+      "it": "Circa 210 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": []
+  }
+]

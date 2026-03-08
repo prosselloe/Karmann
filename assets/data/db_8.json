@@ -1,0 +1,125 @@
+[
+  {
+    "id": 22,
+    "name": {
+      "ca": "Mercedes-Benz SLK (R170)",
+      "en": "Mercedes-Benz SLK (R170)",
+      "es": "Mercedes-Benz SLK (R170)",
+      "de": "Mercedes-Benz SLK (R170)",
+      "fr": "Mercedes-Benz SLK (R170)",
+      "it": "Mercedes-Benz SLK (R170)"
+    },
+    "productionYears": "1996–2004",
+    "description": {
+      "ca": "A més de la seva planta a Bremen, Mercedes va subcontractar part de la producció del popular roadster SLK a Karmann per satisfer l'alta demanda. Karmann va muntar vehicles complets.",
+      "en": "In addition to its plant in Bremen, Mercedes outsourced part of the production of the popular SLK roadster to Karmann to meet high demand. Karmann assembled complete vehicles.",
+      "es": "Además de su planta en Bremen, Mercedes subcontrató parte de la producción del popular roadster SLK a Karmann para satisfacer la alta demanda. Karmann ensambló vehículos completos.",
+      "de": "Zusätzlich zu seinem Werk in Bremen lagerte Mercedes einen Teil der Produktion des beliebten SLK-Roadsters an Karmann aus, um die hohe Nachfrage zu decken. Karmann montierte komplette Fahrzeuge.",
+      "fr": "En plus de son usine de Brême, Mercedes a sous-traité une partie de la production du populaire roadster SLK à Karmann pour répondre à la forte demande. Karmann a assemblé des véhicules complets.",
+      "it": "Oltre al suo stabilimento di Brema, Mercedes ha subappaltato parte della produzione della popolare roadster SLK a Karmann per soddisfare l'elevata domanda. Karmann ha assemblato veicoli completi."
+    },
+    "imageUrl": "assets/images/mercedes_benz_slk_cabriolet.jpg",
+    "designer": "Bruno Sacco, Peter Pfeiffer",
+    "engine": {
+      "ca": "4/6 cilindres en línia/V",
+      "en": "4/6 cylinder Inline/V",
+      "es": "4/6 cilindros en línea/V",
+      "de": "4/6 Zylinder Reihe/V",
+      "fr": "4/6 cylindres en ligne/V",
+      "it": "4/6 cilindri in linea/V"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 223-240 km/h",
+      "en": "Approx. 223-240 km/h",
+      "es": "Aprox. 223-240 km/h",
+      "de": "ca. 223-240 km/h",
+      "fr": "Env. 223-240 km/h",
+      "it": "Circa 223-240 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [23]
+  },
+  {
+    "id": 23,
+    "name": {
+      "ca": "Mercedes-Benz CLK (A208/C208)",
+      "en": "Mercedes-Benz CLK (A208/C208)",
+      "es": "Mercedes-Benz CLK (A208/C208)",
+      "de": "Mercedes-Benz CLK (A208/C208)",
+      "fr": "Mercedes-Benz CLK (A208/C208)",
+      "it": "Mercedes-Benz CLK (A208/C208)"
+    },
+    "productionYears": "1997–2003",
+    "description": {
+      "ca": "Karmann va ser el soci de producció de Mercedes-Benz per a les versions Coupé i Cabriolet del primer CLK, basat en la plataforma del Classe C. La seva experiència en la fabricació de descapotables va ser clau.",
+      "en": "Karmann was Mercedes-Benz's production partner for the Coupé and Cabriolet versions of the first CLK, based on the C-Class platform. Their experience in manufacturing convertibles was key.",
+      "es": "Karmann fue el socio de producción de Mercedes-Benz para las versiones Coupé y Cabriolet del primer CLK, basado en la plataforma del Clase C. Su experiencia en la fabricación de descapotables fue clave.",
+      "de": "Karmann war Produktionspartner von Mercedes-Benz für die Coupé- und Cabriolet-Versionen des ersten CLK, basierend auf der C-Klasse-Plattform. Ihre Erfahrung im Cabrio-Bau war entscheidend.",
+      "fr": "Karmann était le partenaire de production de Mercedes-Benz pour les versions Coupé et Cabriolet du premier CLK, basé sur la plate-forme de la Classe C. Leur expérience dans la fabrication de cabriolets a été essentielle.",
+      "it": "Karmann è stato il partner di produzione di Mercedes-Benz per le versioni Coupé e Cabriolet della prima CLK, basata sulla piattaforma della Classe C. La loro esperienza nella produzione di cabriolet è stata fondamentale."
+    },
+    "imageUrl": "assets/images/mercedes_benz_clk_cabriolet.jpg",
+    "designer": "Michael Fink",
+    "engine": {
+      "ca": "4/6/8 cilindres en línia/V",
+      "en": "4/6/8 cylinder Inline/V",
+      "es": "4/6/8 cilindros en línea/V",
+      "de": "4/6/8 Zylinder Reihe/V",
+      "fr": "4/6/8 cylindres en ligne/V",
+      "it": "4/6/8 cilindri in linea/V"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 208-250 km/h",
+      "en": "Approx. 208-250 km/h",
+      "es": "Aprox. 208-250 km/h",
+      "de": "ca. 208-250 km/h",
+      "fr": "Env. 208-250 km/h",
+      "it": "Circa 208-250 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [22]
+  },
+  {
+    "id": 24,
+    "name": {
+      "ca": "Chrysler Crossfire",
+      "en": "Chrysler Crossfire",
+      "es": "Chrysler Crossfire",
+      "de": "Chrysler Crossfire",
+      "fr": "Chrysler Crossfire",
+      "it": "Chrysler Crossfire"
+    },
+    "productionYears": "2003–2007",
+    "description": {
+      "ca": "El Crossfire, tant en versió Coupé com Roadster, va ser muntat per Karmann a Alemanya. Compartia la seva plataforma i molts components amb el Mercedes-Benz SLK (R170).",
+      "en": "The Crossfire, in both Coupé and Roadster versions, was assembled by Karmann in Germany. It shared its platform and many components with the Mercedes-Benz SLK (R170).",
+      "es": "El Crossfire, tanto en versión Coupé como Roadster, fue ensamblado por Karmann en Alemania. Compartía su plataforma y muchos componentes con el Mercedes-Benz SLK (R170).",
+      "de": "Der Crossfire, sowohl als Coupé als auch als Roadster, wurde von Karmann in Deutschland montiert. Er teilte seine Plattform und viele Komponenten mit dem Mercedes-Benz SLK (R170).",
+      "fr": "Le Crossfire, en version Coupé et Roadster, a été assemblé par Karmann en Allemagne. Il partageait sa plate-forme et de nombreux composants avec le Mercedes-Benz SLK (R170).",
+      "it": "La Crossfire, sia in versione Coupé che Roadster, è stata assemblata da Karmann in Germania. Condivideva la sua piattaforma e molti componenti con la Mercedes-Benz SLK (R170)."
+    },
+    "imageUrl": "assets/images/chrysler_crossfire.jpg",
+    "designer": "Eric Stoddard",
+    "engine": {
+      "ca": "V6",
+      "en": "V6",
+      "es": "V6",
+      "de": "V6",
+      "fr": "V6",
+      "it": "V6"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 240-250 km/h",
+      "en": "Approx. 240-250 km/h",
+      "es": "Aprox. 240-250 km/h",
+      "de": "ca. 240-250 km/h",
+      "fr": "Env. 240-250 km/h",
+      "it": "Circa 240-250 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [22]
+  }
+]

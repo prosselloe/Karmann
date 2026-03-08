@@ -1,0 +1,164 @@
+[
+  {
+    "id": 10,
+    "name": {
+      "ca": "VW Scirocco (Mk1 i Mk2)",
+      "en": "VW Scirocco (Mk1 & Mk2)",
+      "es": "VW Scirocco (Mk1 y Mk2)",
+      "de": "VW Scirocco (Mk1 & Mk2)",
+      "fr": "VW Scirocco (Mk1 & Mk2)",
+      "it": "VW Scirocco (Mk1 e Mk2)"
+    },
+    "productionYears": "1974–1992",
+    "description": {
+      "ca": "El successor espiritual del Karmann Ghia, el Scirocco va ser un coupé esportiu dissenyat per Giugiaro i produït per Karmann. Va ser un gran èxit comercial.",
+      "en": "The spiritual successor to the Karmann Ghia, the Scirocco was a sports coupé designed by Giugiaro and produced by Karmann. It was a great commercial success.",
+      "es": "El sucesor espiritual del Karmann Ghia, el Scirocco fue un coupé deportivo diseñado por Giugiaro y producido por Karmann. Fue un gran éxito comercial.",
+      "de": "Als spiritueller Nachfolger des Karmann Ghia war der Scirocco ein von Giugiaro entworfenes und von Karmann produziertes Sportcoupé. Er war ein großer kommerzieller Erfolg.",
+      "fr": "Successeur spirituel de la Karmann Ghia, le Scirocco était un coupé sportif conçu par Giugiaro et produit par Karmann. Ce fut un grand succès commercial.",
+      "it": "L'erede spirituale della Karmann Ghia, la Scirocco era una coupé sportiva disegnata da Giugiaro e prodotta da Karmann. Fu un grande successo commerciale."
+    },
+    "imageUrl": "assets/images/vw_scirocco.jpg",
+    "designer": "Giorgetto Giugiaro (Mk1)",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Fins a 200 km/h",
+      "en": "Up to 200 km/h",
+      "es": "Hasta 200 km/h",
+      "de": "Bis zu 200 km/h",
+      "fr": "Jusqu'à 200 km/h",
+      "it": "Fino a 200 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [1, 9, 11]
+  },
+  {
+    "id": 11,
+    "name": {
+      "ca": "VW Corrado",
+      "en": "VW Corrado",
+      "es": "VW Corrado",
+      "de": "VW Corrado",
+      "fr": "VW Corrado",
+      "it": "VW Corrado"
+    },
+    "productionYears": "1988–1995",
+    "description": {
+      "ca": "El Corrado va ser el successor del Scirocco. Aquest coupé esportiu va ser fabricat íntegrament per Karmann i és conegut pel seu aleró posterior actiu i el seu potent motor VR6.",
+      "en": "The Corrado was the successor to the Scirocco. This sports coupé was manufactured entirely by Karmann and is known for its active rear spoiler and its powerful VR6 engine.",
+      "es": "El Corrado fue el sucesor del Scirocco. Este coupé deportivo fue fabricado íntegramente por Karmann y es conocido por su alerón trasero activo y su potente motor VR6.",
+      "de": "Der Corrado war der Nachfolger des Scirocco. Dieses Sportcoupé wurde komplett von Karmann gefertigt und ist bekannt für seinen aktiven Heckspoiler und seinen leistungsstarken VR6-Motor.",
+      "fr": "La Corrado était le successeur du Scirocco. Ce coupé sportif a été entièrement fabriqué par Karmann et est connu pour son aileron arrière actif et son puissant moteur VR6.",
+      "it": "La Corrado è stata la succeditrice della Scirocco. Questa coupé sportiva è stata prodotta interamente da Karmann ed è nota per il suo spoiler posteriore attivo e il suo potente motore VR6."
+    },
+    "imageUrl": "assets/images/vw_corrado.jpg",
+    "designer": "Herbert Schäfer",
+    "engine": {
+      "ca": "4 cilindres en línia, VR6",
+      "en": "Inline 4-cylinder, VR6",
+      "es": "4 cilindros en línea, VR6",
+      "de": "4-Zylinder-Reihenmotor, VR6",
+      "fr": "4 cylindres en ligne, VR6",
+      "it": "4 cilindri in linea, VR6"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 210-235 km/h",
+      "en": "Approx. 210-235 km/h",
+      "es": "Aprox. 210-235 km/h",
+      "de": "ca. 210-235 km/h",
+      "fr": "Env. 210-235 km/h",
+      "it": "Circa 210-235 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [9, 10]
+  },
+  {
+    "id": 12,
+    "name": {
+      "ca": "Opel Diplomat A i B Coupé",
+      "en": "Opel Diplomat A and B Coupé",
+      "es": "Opel Diplomat A y B Coupé",
+      "de": "Opel Diplomat A und B Coupé",
+      "fr": "Opel Diplomat A et B Coupé",
+      "it": "Opel Diplomat A e B Coupé"
+    },
+    "productionYears": "1965–1971",
+    "description": {
+      "ca": "Karmann va estar involucrat en dues iteracions exclusives del coupé basat en l'Opel Diplomat. Va fabricar una sèrie molt limitada de l'elegant Diplomat A Coupé i, anys més tard, va construir un prototip únic per al Diplomat B, que va influir en dissenys futurs tot i no arribar a la producció.",
+      "en": "Karmann was involved in two exclusive iterations of the coupé based on the Opel Diplomat. It manufactured a very limited series of the elegant Diplomat A Coupé and, years later, built a unique prototype for the Diplomat B, which influenced future designs despite not reaching production.",
+      "es": "Karmann estuvo involucrado en dos iteraciones exclusivas del coupé basado en el Opel Diplomat. Fabricó una serie muy limitada del elegante Diplomat A Coupé y, años más tarde, construyó un prototipo único para el Diplomat B, que influyó en diseños futuros a pesar de no llegar a la producción.",
+      "de": "Karmann war an zwei exklusiven Iterationen des auf dem Opel Diplomat basierenden Coupés beteiligt. Sie fertigten eine sehr limitierte Serie des eleganten Diplomat A Coupés und bauten Jahre später einen einzigartigen Prototyp für den Diplomat B, der zukünftige Designs beeinflusste, obwohl er nicht in Produktion ging.",
+      "fr": "Karmann a été impliqué dans deux itérations exclusives du coupé basé sur l'Opel Diplomat. Elle a fabriqué une série très limitée de l'élégant Coupé Diplomat A et, des années plus tard, a construit un prototype unique pour le Diplomat B, qui a influencé les conceptions futures bien qu'il n'ait pas atteint la production.",
+      "it": "Karmann è stata coinvolta in due iterazioni esclusive della coupé basata sulla Opel Diplomat. Ha prodotto una serie molto limitata dell'elegante Diplomat A Coupé e, anni dopo, ha costruito un prototipo unico per la Diplomat B, che ha influenzato i design futuri pur non raggiungendo la produzione."
+    },
+    "imageUrl": "assets/images/opel_diplomat.jpg",
+    "designer": "Karmann/Opel",
+    "engine": {
+      "ca": "V8 (Chevrolet)",
+      "en": "V8 (Chevrolet)",
+      "es": "V8 (Chevrolet)",
+      "de": "V8 (Chevrolet)",
+      "fr": "V8 (Chevrolet)",
+      "it": "V8 (Chevrolet)"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 205 km/h",
+      "en": "Approx. 205 km/h",
+      "es": "Aprox. 205 km/h",
+      "de": "ca. 205 km/h",
+      "fr": "Env. 205 km/h",
+      "it": "Circa 205 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Opel Diplomat A Coupé",
+          "en": "Opel Diplomat A Coupé",
+          "es": "Opel Diplomat A Coupé",
+          "de": "Opel Diplomat A Coupé",
+          "fr": "Opel Diplomat A Coupé",
+          "it": "Opel Diplomat A Coupé"
+        },
+        "productionYears": "1965–1967",
+        "changes": {
+          "ca": "Karmann va fabricar una producció molt exclusiva i limitada (347 unitats) d'un coupé de luxe basat en la berlina Diplomat A. Aquests cotxes es van muntar a mà i estaven equipats amb un motor V8 de Chevrolet.",
+          "en": "Karmann manufactured a very exclusive and limited production run (347 units) of a luxury coupé based on the Diplomat A sedan. These cars were hand-assembled and equipped with a Chevrolet V8 engine.",
+          "es": "Karmann fabricó una producción muy exclusiva y limitada (347 unidades) de un coupé de lujo basado en la berlina Diplomat A. Estos coches se ensamblaron a mano y estaban equipados con un motor V8 de Chevrolet.",
+          "de": "Karmann fertigte eine sehr exklusive und limitierte Kleinserie (347 Einheiten) eines Luxus-Coupés auf Basis der Diplomat A Limousine. Diese Autos wurden von Hand montiert und waren mit einem Chevrolet V8-Motor ausgestattet.",
+          "fr": "Karmann a fabriqué une production très exclusive et limitée (347 unités) d'un coupé de luxe basé sur la berline Diplomat A. Ces voitures ont été assemblées à la main et équipées d'un moteur V8 Chevrolet.",
+          "it": "Karmann ha prodotto una serie molto esclusiva e limitata (347 unità) di una coupé di lusso basata sulla berlina Diplomat A. Queste auto sono state assemblate a mano e dotate di un motore V8 Chevrolet."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Opel Diplomat B Coupé (Prototip)",
+          "en": "Opel Diplomat B Coupé (Prototype)",
+          "es": "Opel Diplomat B Coupé (Prototipo)",
+          "de": "Opel Diplomat B Coupé (Prototyp)",
+          "fr": "Opel Diplomat B Coupé (Prototype)",
+          "it": "Opel Diplomat B Coupé (Prototipo)"
+        },
+        "productionYears": "1971",
+        "changes": {
+          "ca": "Karmann va construir un prototip d'un elegant coupé basat en la berlina Opel Diplomat B. Tot i que va rebre bones crítiques, el projecte mai va arribar a la producció en sèrie, però va influir en dissenys futurs.",
+          "en": "Karmann built a prototype of an elegant coupé based on the Opel Diplomat B sedan. Although it received good reviews, the project never reached series production, but it influenced future designs.",
+          "es": "Karmann construyó un prototipo de un elegante coupé basado en la berlina Opel Diplomat B. Aunque recibió buenas críticas, el proyecto nunca llegó a la producción en serie, pero influyó en diseños futuros.",
+          "de": "Karmann baute einen Prototyp eines eleganten Coupés auf Basis der Opel Diplomat B Limousine. Obwohl er gute Kritiken erhielt, ging das Projekt nie in Serienproduktion, beeinflusste aber zukünftige Designs.",
+          "fr": "Karmann a construit un prototype d'un élégant coupé basé sur la berline Opel Diplomat B. Bien qu'il ait reçu de bonnes critiques, le projet n'a jamais atteint la production en série, mais il a influencé les conceptions futures.",
+          "it": "Karmann costruì un prototipo di un'elegante coupé basata sulla berlina Opel Diplomat B. Sebbene ricevette buone recensioni, il progetto non raggiunse mai la produzione di serie, ma influenzò i design futuri."
+        }
+      }
+    ],
+    "relatedModels": []
+  }
+]

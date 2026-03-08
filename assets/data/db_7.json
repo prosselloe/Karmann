@@ -1,0 +1,125 @@
+[
+  {
+    "id": 19,
+    "name": {
+      "ca": "Audi A4/S4/RS4 Cabriolet (B6/B7)",
+      "en": "Audi A4/S4/RS4 Cabriolet (B6/B7)",
+      "es": "Audi A4/S4/RS4 Cabriolet (B6/B7)",
+      "de": "Audi A4/S4/RS4 Cabriolet (B6/B7)",
+      "fr": "Audi A4/S4/RS4 Cabriolet (B6/B7)",
+      "it": "Audi A4/S4/RS4 Cabriolet (B6/B7)"
+    },
+    "productionYears": "2002–2009",
+    "description": {
+      "ca": "Karmann va fabricar les carrosseries i els sistemes de sostre per a la popular gamma de descapotables de l'Audi A4, incloent-hi les versions d'alt rendiment S4 i RS4.",
+      "en": "Karmann manufactured the bodies and roof systems for the popular Audi A4 convertible range, including the high-performance S4 and RS4 versions.",
+      "es": "Karmann fabricó las carrocerías y los sistemas de techo para la popular gama de descapotables del Audi A4, incluyendo las versiones de alto rendimiento S4 y RS4.",
+      "de": "Karmann fertigte die Karosserien und Dachsysteme für die beliebte Audi A4 Cabriolet-Reihe, einschließlich der Hochleistungsversionen S4 und RS4.",
+      "fr": "Karmann a fabriqué les carrosseries et les systèmes de toit pour la populaire gamme de cabriolets Audi A4, y compris les versions haute performance S4 et RS4.",
+      "it": "Karmann ha prodotto le scocche e i sistemi del tetto per la popolare gamma di cabriolet Audi A4, comprese le versioni ad alte prestazioni S4 e RS4."
+    },
+    "imageUrl": "assets/images/audi_rs4_cabriolet.jpg",
+    "designer": "Peter Schreyer, Walter de Silva",
+    "engine": {
+      "ca": "4/6/8 cilindres en línia/V",
+      "en": "4/6/8 cylinder Inline/V",
+      "es": "4/6/8 cilindros en línea/V",
+      "de": "4/6/8 Zylinder Reihe/V",
+      "fr": "4/6/8 cylindres en ligne/V",
+      "it": "4/6/8 cilindri in linea/V"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 210-250 km/h",
+      "en": "Approx. 210-250 km/h",
+      "es": "Aprox. 210-250 km/h",
+      "de": "ca. 210-250 km/h",
+      "fr": "Env. 210-250 km/h",
+      "it": "Circa 210-250 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [18]
+  },
+  {
+    "id": 20,
+    "name": {
+      "ca": "BMW 2000 C/CS (Tipus 120)",
+      "en": "BMW 2000 C/CS (Type 120)",
+      "es": "BMW 2000 C/CS (Tipo 120)",
+      "de": "BMW 2000 C/CS (Typ 120)",
+      "fr": "BMW 2000 C/CS (Type 120)",
+      "it": "BMW 2000 C/CS (Tipo 120)"
+    },
+    "productionYears": "1965–1969",
+    "description": {
+      "ca": "Aquest elegant coupé va ser construït íntegrament per Karmann per a BMW, ajudant a establir la reputació de la marca en el segment de coupés de luxe.",
+      "en": "This elegant coupé was built entirely by Karmann for BMW, helping to establish the brand's reputation in the luxury coupé segment.",
+      "es": "Este elegante coupé fue construido íntegramente por Karmann para BMW, ayudando a establecer la reputación de la marca en el segmento de coupés de lujo.",
+      "de": "Dieses elegante Coupé wurde komplett von Karmann für BMW gebaut und trug dazu bei, den Ruf der Marke im Luxus-Coupé-Segment zu begründen.",
+      "fr": "Cet élégant coupé a été entièrement construit par Karmann pour BMW, contribuant à établir la réputation de la marque dans le segment des coupés de luxe.",
+      "it": "Questa elegante coupé è stata costruita interamente da Karmann per la BMW, contribuendo a consolidare la reputazione del marchio nel segmento delle coupé di lusso."
+    },
+    "imageUrl": "assets/images/bmw_2000_c_cs.jpg",
+    "designer": "Wilhelm Hofmeister",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 170-185 km/h",
+      "en": "Approx. 170-185 km/h",
+      "es": "Aprox. 170-185 km/h",
+      "de": "ca. 170-185 km/h",
+      "fr": "Env. 170-185 km/h",
+      "it": "Circa 170-185 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [21]
+  },
+  {
+    "id": 21,
+    "name": {
+      "ca": "BMW Sèrie 6 Coupé (E24)",
+      "en": "BMW 6 Series Coupé (E24)",
+      "es": "BMW Serie 6 Coupé (E24)",
+      "de": "BMW 6er Coupé (E24)",
+      "fr": "BMW Série 6 Coupé (E24)",
+      "it": "BMW Serie 6 Coupé (E24)"
+    },
+    "productionYears": "1976–1989",
+    "description": {
+      "ca": "Inicialment, Karmann va fabricar les carrosseries del BMW Sèrie 6, també conegut com a \"Tauró\". Després de 1977, la producció es va traslladar completament a les plantes de BMW, però la contribució inicial de Karmann va ser clau per llançar aquest icònic coupé de luxe.",
+      "en": "Initially, Karmann manufactured the bodies for the BMW 6 Series, also known as the \"Shark\". After 1977, production was moved entirely to BMW plants, but Karmann's initial contribution was key to launching this iconic luxury coupé.",
+      "es": "Inicialmente, Karmann fabricó las carrocerías del BMW Serie 6, también conocido como el \"Tiburón\". Después de 1977, la producción se trasladó por completo a las plantas de BMW, pero la contribución inicial de Karmann fue clave para lanzar este icónico coupé de lujo.",
+      "de": "Anfangs fertigte Karmann die Karosserien für den BMW 6er, auch bekannt als der \"Hai\". Nach 1977 wurde die Produktion vollständig in die BMW-Werke verlagert, aber Karmanns anfänglicher Beitrag war entscheidend für die Einführung dieses ikonischen Luxus-Coupés.",
+      "fr": "Initialement, Karmann a fabriqué les carrosseries de la BMW Série 6, également connue sous le nom de \"Requin\". Après 1977, la production a été entièrement transférée dans les usines BMW, mais la contribution initiale de Karmann a été essentielle pour lancer ce coupé de luxe emblématique.",
+      "it": "Inizialmente, Karmann produsse le scocche per la BMW Serie 6, conosciuta anche come lo \"Squalo\". Dopo il 1977, la produzione fu spostata interamente negli stabilimenti BMW, ma il contributo iniziale di Karmann fu fondamentale per lanciare questa iconica coupé di lusso."
+    },
+    "imageUrl": "assets/images/bmw_6_series.jpg",
+    "designer": "Paul Bracq",
+    "engine": {
+      "ca": "6 cilindres en línia",
+      "en": "Inline 6-cylinder",
+      "es": "6 cilindros en línea",
+      "de": "6-Zylinder-Reihenmotor",
+      "fr": "6 cylindres en ligne",
+      "it": "6 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 215-230 km/h",
+      "en": "Approx. 215-230 km/h",
+      "es": "Aprox. 215-230 km/h",
+      "de": "ca. 215-230 km/h",
+      "fr": "Env. 215-230 km/h",
+      "it": "Circa 215-230 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [20]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": 16,
+    "name": {
+      "ca": "Porsche 914",
+      "en": "Porsche 914",
+      "es": "Porsche 914",
+      "de": "Porsche 914",
+      "fr": "Porsche 914",
+      "it": "Porsche 914"
+    },
+    "productionYears": "1969–1972",
+    "description": {
+      "ca": "Una col·laboració entre VW i Porsche. Mentre que el 914/4 tenia un motor Volkswagen, el 914/6 estava equipat amb un motor Porsche de 6 cilindres. Karmann va fabricar les carrosseries completes.",
+      "en": "A collaboration between VW and Porsche. While the 914/4 had a Volkswagen engine, the 914/6 was equipped with a 6-cylinder Porsche engine. Karmann manufactured the complete bodies.",
+      "es": "Una colaboración entre VW y Porsche. Mientras que el 914/4 tenía un motor Volkswagen, el 914/6 estaba equipado con un motor Porsche de 6 cilindros. Karmann fabricó las carrocerías completas.",
+      "de": "Eine Zusammenarbeit zwischen VW und Porsche. Während der 914/4 einen Volkswagen-Motor hatte, war der 914/6 mit einem 6-Zylinder-Porsche-Motor ausgestattet. Karmann fertigte die kompletten Karosserien.",
+      "fr": "Une collaboration entre VW et Porsche. Alors que la 914/4 avait un moteur Volkswagen, la 914/6 était équipée d'un moteur Porsche à 6 cylindres. Karmann a fabriqué les carrosseries complètes.",
+      "it": "Una collaborazione tra VW e Porsche. Mentre la 914/4 aveva un motore Volkswagen, la 914/6 era dotata di un motore Porsche a 6 cilindri. Karmann ha prodotto le scocche complete."
+    },
+    "imageUrl": "assets/images/porsche_914.jpg",
+    "designer": "Ferdinand Alexander Porsche",
+    "engine": {
+      "ca": "Bòxer de 6 cilindres",
+      "en": "6-cylinder boxer",
+      "es": "Bóxer de 6 cilindros",
+      "de": "6-Zylinder-Boxermotor",
+      "fr": "6 cylindres à plat (Boxer)",
+      "it": "Boxer a 6 cilindri"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 207 km/h",
+      "en": "Approx. 207 km/h",
+      "es": "Aprox. 207 km/h",
+      "de": "ca. 207 km/h",
+      "fr": "Env. 207 km/h",
+      "it": "Circa 207 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [14, 15]
+  },
+  {
+    "id": 17,
+    "name": {
+      "ca": "Porsche 968 Coupé & Cabriolet",
+      "en": "Porsche 968 Coupé & Cabriolet",
+      "es": "Porsche 968 Coupé & Cabriolet",
+      "de": "Porsche 968 Coupé & Cabriolet",
+      "fr": "Porsche 968 Coupé & Cabriolet",
+      "it": "Porsche 968 Coupé & Cabriolet"
+    },
+    "productionYears": "1992–1995",
+    "description": {
+      "ca": "El 968 va ser l'evolució final de la línia de models amb motor davanter de Porsche. Karmann va rebre l'encàrrec de produir les carrosseries pintades per a les versions Coupé i Cabriolet.",
+      "en": "The 968 was the final evolution of Porsche's front-engine model line. Karmann was commissioned to produce the painted bodies for the Coupé and Cabriolet versions.",
+      "es": "El 968 fue la evolución final de la línea de modelos con motor delantero de Porsche. Karmann recibió el encargo de producir las carrocerías pintadas para las versiones Coupé y Cabriolet.",
+      "de": "Der 968 war die letzte Evolutionsstufe der Frontmotor-Modellreihe von Porsche. Karmann wurde mit der Produktion der lackierten Karosserien für die Coupé- und Cabriolet-Versionen beauftragt.",
+      "fr": "La 968 était l'évolution finale de la gamme de modèles à moteur avant de Porsche. Karmann a été chargé de produire les carrosseries peintes pour les versions Coupé et Cabriolet.",
+      "it": "La 968 è stata l'evoluzione finale della linea di modelli a motore anteriore di Porsche. Karmann è stata incaricata di produrre le scocche verniciate per le versioni Coupé e Cabriolet."
+    },
+    "imageUrl": "assets/images/porsche_968.jpg",
+    "designer": "Harm Lagaay",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 252 km/h",
+      "en": "Approx. 252 km/h",
+      "es": "Aprox. 252 km/h",
+      "de": "ca. 252 km/h",
+      "fr": "Env. 252 km/h",
+      "it": "Circa 252 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [14, 16]
+  },
+  {
+    "id": 18,
+    "name": {
+      "ca": "Audi 80 Cabriolet",
+      "en": "Audi 80 Cabriolet",
+      "es": "Audi 80 Cabriolet",
+      "de": "Audi 80 Cabriolet",
+      "fr": "Audi 80 Cabriolet",
+      "it": "Audi 80 Cabriolet"
+    },
+    "productionYears": "1991–2000",
+    "description": {
+      "ca": "Audi va confiar en Karmann per a la producció del seu primer descapotable des de la dècada de 1950. Karmann va construir les carrosseries i va realitzar el muntatge final.",
+      "en": "Audi relied on Karmann for the production of its first convertible since the 1950s. Karmann built the bodies and carried out the final assembly.",
+      "es": "Audi confió en Karmann para la producción de su primer descapotable desde la década de 1950. Karmann construyó las carrocerías y realizó el montaje final.",
+      "de": "Audi verließ sich bei der Produktion seines ersten Cabrios seit den 1950er Jahren auf Karmann. Karmann baute die Karosserien und führte die Endmontage durch.",
+      "fr": "Audi a fait confiance à Karmann pour la production de son premier cabriolet depuis les années 1950. Karmann a construit les carrosseries et a réalisé l'assemblage final.",
+      "it": "L'Audi si è affidata a Karmann per la produzione della sua prima cabriolet dagli anni '50. Karmann ha costruito le scocche e ha effettuato l'assemblaggio finale."
+    },
+    "imageUrl": "assets/images/audi_80_cabriolet.jpg",
+    "imageUrlRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Audi_Cabriolet_2.3E_front.jpg/500px-Audi_Cabriolet_2.3E_front.jpg",
+    "designer": "Audi AG",
+    "engine": {
+      "ca": "4 i 5 cilindres en línia, V6",
+      "en": "Inline 4 & 5-cylinder, V6",
+      "es": "4 y 5 cilindros en línea, V6",
+      "de": "4- und 5-Zylinder-Reihenmotor, V6",
+      "fr": "4 et 5 cylindres en ligne, V6",
+      "it": "4 e 5 cilindri in linea, V6"
+    },
+    "topSpeed": {
+      "ca": "Fins a 220 km/h",
+      "en": "Up to 220 km/h",
+      "es": "Hasta 220 km/h",
+      "de": "Bis zu 220 km/h",
+      "fr": "Jusqu'à 220 km/h",
+      "it": "Fino a 220 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [19]
+  }
+]

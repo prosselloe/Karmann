@@ -1,0 +1,180 @@
+[
+  {
+    "id": 7,
+    "name": {
+      "ca": "VW SP2",
+      "en": "VW SP2",
+      "es": "VW SP2",
+      "de": "VW SP2",
+      "fr": "VW SP2",
+      "it": "VW SP2"
+    },
+    "productionYears": "1972–1976",
+    "description": {
+      "ca": "Un coupé esportiu dissenyat i construït per Volkswagen do Brasil. Encara que no va ser un projecte directe de Karmann a Alemanya, la seva existència va ser possible gràcies a l'experiència de la filial local Karmann-Ghia do Brasil.",
+      "en": "A sports coupé designed and built by Volkswagen do Brasil. Although it was not a direct project of Karmann in Germany, its existence was made possible by the experience of the local subsidiary Karmann-Ghia do Brasil.",
+      "es": "Un coupé deportivo diseñado y construido por Volkswagen do Brasil. Aunque no fue un proyecto directo de Karmann en Alemania, su existencia fue posible gracias a la experiencia de la filial local Karmann-Ghia do Brasil.",
+      "de": "Ein Sportcoupé, das von Volkswagen do Brasil entworfen und gebaut wurde. Obwohl es kein direktes Projekt von Karmann in Deutschland war, wurde seine Existenz durch die Erfahrung der lokalen Tochtergesellschaft Karmann-Ghia do Brasil ermöglicht.",
+      "fr": "Un coupé sportif conçu et construit par Volkswagen do Brasil. Bien qu'il ne s'agisse pas d'un projet direct de Karmann en Allemagne, son existence a été rendue possible par l'expérience de la filiale locale Karmann-Ghia do Brasil.",
+      "it": "Una coupé sportiva progettata e costruita da Volkswagen do Brasil. Sebbene non fosse un progetto diretto di Karmann in Germania, la sua esistenza fu resa possibile dall'esperienza della filiale locale Karmann-Ghia do Brasil."
+    },
+    "imageUrl": "assets/images/vw_sp2.jpg",
+    "designer": "Marcio Piancastelli, José Vicente Martins",
+    "engine": {
+      "ca": "Bòxer de 4 cilindres",
+      "en": "4-cylinder boxer",
+      "es": "Bóxer de 4 cilindros",
+      "de": "4-Zylinder-Boxermotor",
+      "fr": "4 cylindres à plat (Boxer)",
+      "it": "Boxer a 4 cilindri"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 161 km/h",
+      "en": "Approx. 161 km/h",
+      "es": "Aprox. 161 km/h",
+      "de": "ca. 161 km/h",
+      "fr": "Env. 161 km/h",
+      "it": "Circa 161 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [1]
+  },
+  {
+    "id": 8,
+    "name": {
+      "ca": "DKW Cabriolets",
+      "en": "DKW Cabriolets",
+      "es": "DKW Cabriolets",
+      "de": "DKW Cabriolets",
+      "fr": "DKW Cabriolets",
+      "it": "DKW Cabriolet"
+    },
+    "productionYears": "1950–1955",
+    "description": {
+      "ca": "Karmann va ser el carrosser escollit per Auto Union per a fabricar les versions descapotables de luxe dels seus models DKW de postguerra.",
+      "en": "Karmann was the coachbuilder chosen by Auto Union to manufacture the luxury convertible versions of its post-war DKW models.",
+      "es": "Karmann fue el carrocero elegido por Auto Union para fabricar las versiones descapotables de lujo de sus modelos DKW de posguerra.",
+      "de": "Karmann war der von der Auto Union ausgewählte Karosseriebauer für die Herstellung der Luxus-Cabrio-Versionen ihrer Nachkriegs-DKW-Modelle.",
+      "fr": "Karmann a été le carrossier choisi par Auto Union pour fabriquer les versions cabriolet de luxe de ses modèles DKW d'après-guerre.",
+      "it": "Karmann fu il carrozziere scelto da Auto Union per produrre le versioni cabriolet di lusso dei suoi modelli DKW del dopoguerra."
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/MHV_DKW_F91_Convertible_01.jpg/500px-MHV_DKW_F91_Convertible_01.jpg",
+    "designer": "Karmann",
+    "engine": {
+      "ca": "2 i 3 cilindres de dos temps",
+      "en": "2 and 3-cylinder two-stroke",
+      "es": "2 y 3 cilindros de dos tiempos",
+      "de": "2- und 3-Zylinder-Zweitaktmotor",
+      "fr": "2 et 3 cylindres à deux temps",
+      "it": "2 e 3 cilindri a due tempi"
+    },
+    "topSpeed": {
+      "ca": "Variable",
+      "en": "Variable",
+      "es": "Variable",
+      "de": "Variabel",
+      "fr": "Variable",
+      "it": "Variabile"
+    },
+    "isCabriolet": true,
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Meisterklasse Cabriolet",
+          "en": "Meisterklasse Cabriolet",
+          "es": "Meisterklasse Cabriolet",
+          "de": "Meisterklasse Cabriolet",
+          "fr": "Meisterklasse Cabriolet",
+          "it": "Meisterklasse Cabriolet"
+        },
+        "productionYears": "1950-1952",
+        "changes": {
+          "ca": "Una versió elegant de 2 places (i ocasional 2+2) del popular sedan de DKW.",
+          "en": "An elegant 2-seater (and occasional 2+2) version of the popular DKW sedan.",
+          "es": "Una versión elegante de 2 plazas (y ocasional 2+2) del popular sedán de DKW.",
+          "de": "Eine elegante 2-Sitzer- (und gelegentlich 2+2-) Version der beliebten DKW-Limousine.",
+          "fr": "Une élégante version 2 places (et occasionnellement 2+2) de la populaire berline DKW.",
+          "it": "Un'elegante versione a 2 posti (e occasionalmente 2+2) della popolare berlina DKW."
+        },
+        "productionDetails": {
+          "ca": "Se'n van fabricar 5,010 unitats, un nombre considerable per a un descapotable de l'època.",
+          "en": "5,010 units were manufactured, a considerable number for a convertible of that era.",
+          "es": "Se fabricaron 5,010 unidades, un número considerable para un descapotable de la época.",
+          "de": "Es wurden 5.010 Einheiten hergestellt, eine beachtliche Anzahl für ein Cabriolet dieser Zeit.",
+          "fr": "5 010 unités ont été fabriquées, un nombre considérable pour un cabriolet de cette époque.",
+          "it": "Ne furono prodotte 5.010 unità, un numero considerevole per una cabriolet di quell'epoca."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "F91 Luxuscabriolet",
+          "en": "F91 Luxuscabriolet",
+          "es": "F91 Luxuscabriolet",
+          "de": "F91 Luxuscabriolet",
+          "fr": "F91 Luxuscabriolet",
+          "it": "F91 Luxuscabriolet"
+        },
+        "productionYears": "1953-1955",
+        "changes": {
+          "ca": "Un descapotable més modern i luxós, basat en el nou xassís F91. Es distingia per la seva qualitat de fabricació.",
+          "en": "A more modern and luxurious convertible, based on the new F91 chassis. It was distinguished by its build quality.",
+          "es": "Un descapotable más moderno y lujoso, basado en el nuevo chasis F91. Se distinguía por su calidad de fabricación.",
+          "de": "Ein moderneres und luxuriöseres Cabriolet, basierend auf dem neuen F91-Fahrgestell. Es zeichnete sich durch seine Verarbeitungsqualität aus.",
+          "fr": "Un cabriolet plus moderne et luxueux, basé sur le nouveau châssis F91. Il se distinguait par sa qualité de fabrication.",
+          "it": "Una cabriolet più moderna e lussuosa, basata sul nuovo telaio F91. Si distingueva per la qualità costruttiva."
+        },
+        "productionDetails": {
+          "ca": "Molt més exclusiu, amb només 625 unitats produïdes.",
+          "en": "Much more exclusive, with only 625 units produced.",
+          "es": "Mucho más exclusivo, con solo 625 unidades producidas.",
+          "de": "Viel exklusiver, mit nur 625 produzierten Einheiten.",
+          "fr": "Beaucoup plus exclusif, avec seulement 625 unités produites.",
+          "it": "Molto più esclusiva, con solo 625 unità prodotte."
+        }
+      }
+    ],
+    "relatedModels": [5]
+  },
+  {
+    "id": 9,
+    "name": {
+      "ca": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "en": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "es": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "de": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "fr": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "it": "VW Golf Cabriolet (Mk1, Mk3, Mk4)"
+    },
+    "productionYears": "1979–2002",
+    "description": {
+      "ca": "Karmann va ser el fabricant exclusiu de les versions descapotables del Golf durant diverses generacions. La característica barra antivolcada li va valer el sobrenom de \"cistella de maduixes\".",
+      "en": "Karmann was the exclusive manufacturer of the convertible versions of the Golf for several generations. The characteristic roll bar earned it the nickname \"strawberry basket\".",
+      "es": "Karmann fue el fabricante exclusivo de las versiones descapotables del Golf durante varias generacions. La característica barra antivuelco le valió el apodo de \"cesta de fresas\".",
+      "de": "Karmann war der exklusive Hersteller der Cabrio-Versionen des Golf über mehrere Generationen hinweg. Der charakteristische Überrollbügel brachte ihm den Spitznamen \"Erdbeerkörbchen\" ein.",
+      "fr": "Karmann a été le fabricant exclusif des versions cabriolet de la Golf pendant plusieurs générations. L'arceau de sécurité caractéristique lui a valu le surnom de \"panier à fraises\".",
+      "it": "Karmann è stato il produttore esclusivo delle versioni cabriolet della Golf per diverse generazioni. La caratteristica barra antiribaltamento le è valsa il soprannome di \"cestino di fragole\"."
+    },
+    "imageUrl": "assets/images/vw_golf_cabriolet.jpg",
+    "designer": "Giorgetto Giugiaro (original), Karmann",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 150-190 km/h",
+      "en": "Approx. 150-190 km/h",
+      "es": "Aprox. 150-190 km/h",
+      "de": "ca. 150-190 km/h",
+      "fr": "Env. 150-190 km/h",
+      "it": "Circa 150-190 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [5]
+  }
+]

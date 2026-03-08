@@ -1,0 +1,154 @@
+
+[
+  {
+    "id": 34,
+    "name": {
+      "ca": "Kia Sportage (Primera Gen)",
+      "en": "Kia Sportage (First Gen)",
+      "es": "Kia Sportage (Primera Gen)",
+      "de": "Kia Sportage (Erste Gen)",
+      "fr": "Kia Sportage (Première Gén)",
+      "it": "Kia Sportage (Prima Gen)"
+    },
+    "productionYears": "1995–1998",
+    "description": {
+      "ca": "Karmann va fabricar la primera generació del Kia Sportage per al mercat europeu, ajudant la marca coreana a establir-se al continent amb el seu nou SUV.",
+      "en": "Karmann manufactured the first generation of the Kia Sportage for the European market, helping the Korean brand establish itself on the continent with its new SUV.",
+      "es": "Karmann fabricó la primera generación del Kia Sportage para el mercado europeo, ayudando a la marca coreana a establecerse en el continente con su nuevo SUV.",
+      "de": "Karmann fertigte die erste Generation des Kia Sportage für den europäischen Markt und half der koreanischen Marke, sich mit ihrem neuen SUV auf dem Kontinent zu etablieren.",
+      "fr": "Karmann a fabriqué la première génération du Kia Sportage pour le marché européen, aidant la marque coréenne à s'établir sur le continent avec son nouveau SUV.",
+      "it": "Karmann ha prodotto la prima generazione della Kia Sportage per il mercato europeo, aiutando il marchio coreano a stabilirsi nel continente con il suo nuovo SUV."
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kia_Sportage_front_20070924.jpg/500px-Kia_Sportage_front_20070924.jpg",
+    "designer": "Kia Motors",
+    "engine": {
+      "ca": "2.0L 4 cilindres (gasolina i dièsel)",
+      "en": "2.0L 4-cylinder (petrol and diesel)",
+      "es": "2.0L 4 cilindros (gasolina y diésel)",
+      "de": "2.0L 4-Zylinder (Benzin und Diesel)",
+      "fr": "2.0L 4 cylindres (essence et diesel)",
+      "it": "2.0L 4 cilindri (benzina e diesel)"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 160 km/h",
+      "en": "Approx. 160 km/h",
+      "es": "Aprox. 160 km/h",
+      "de": "ca. 160 km/h",
+      "fr": "Env. 160 km/h",
+      "it": "Circa 160 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Producció Europea",
+          "en": "European Production",
+          "es": "Producción Europea",
+          "de": "Europäische Produktion",
+          "fr": "Production Européenne",
+          "it": "Produzione Europea"
+        },
+        "productionYears": "1995-1998",
+        "changes": {
+          "ca": "La producció a Osnabrück va permetre a Kia evitar aranzels d'importació i adaptar el vehicle als gustos europeus.",
+          "en": "Production in Osnabrück allowed Kia to avoid import tariffs and adapt the vehicle to European tastes.",
+          "es": "La producción en Osnabrück permitió a Kia evitar aranceles de importación y adaptar el vehículo a los gustos europeos.",
+          "de": "Die Produktion in Osnabrück ermöglichte es Kia, Einfuhrzölle zu vermeiden und das Fahrzeug an den europäischen Geschmack anzupassen.",
+          "fr": "La production à Osnabrück a permis à Kia d'éviter les droits de douane à l'importation et d'adapter le véhicule aux goûts européens.",
+          "it": "La produzione a Osnabrück ha permesso a Kia di evitare i dazi di importazione e di adattare il veicolo ai gusti europei."
+        },
+        "productionDetails": {
+          "ca": "Es van fabricar 25,984 unitats del Sportage a les instal·lacions de Karmann.",
+          "en": "25,984 units of the Sportage were manufactured at Karmann's facilities.",
+          "es": "Se fabricaron 25,984 unidades del Sportage en las instalaciones de Karmann.",
+          "de": "In den Karmann-Werken wurden 25.984 Einheiten des Sportage hergestellt.",
+          "fr": "25 984 unités du Sportage ont été fabriquées dans les usines de Karmann.",
+          "it": "Nello stabilimento di Karmann sono state prodotte 25.984 unità dello Sportage."
+        }
+      }
+    ],
+    "relatedModels": [36]
+  },
+  {
+    "id": 35,
+    "name": {
+      "ca": "Land Rover Defender (ed. limitada)",
+      "en": "Land Rover Defender (limited ed.)",
+      "es": "Land Rover Defender (ed. limitada)",
+      "de": "Land Rover Defender (limitierte Aufl.)",
+      "fr": "Land Rover Defender (éd. limitée)",
+      "it": "Land Rover Defender (ed. limitata)"
+    },
+    "productionYears": "1998-2005",
+    "description": {
+      "ca": "Karmann va produir una sèrie limitada de Land Rover Defender amb sostre de lona desmuntable i altres modificacions especials per al mercat alemany.",
+      "en": "Karmann produced a limited series of Land Rover Defenders with a removable canvas roof and other special modifications for the German market.",
+      "es": "Karmann produjo una serie limitada de Land Rover Defenders con techo de lona desmontable y otras modificaciones especiales para el mercado alemán.",
+      "de": "Karmann produzierte eine limitierte Serie von Land Rover Defender mit abnehmbarem Stoffdach und anderen speziellen Modifikationen für den deutschen Markt.",
+      "fr": "Karmann a produit une série limitée de Land Rover Defender avec un toit en toile amovible et d'autres modifications spéciales pour le marché allemand.",
+      "it": "Karmann ha prodotto una serie limitata di Land Rover Defender con tetto in tela rimovibile e altre modifiche speciali per il mercato tedesco."
+    },
+    "imageUrl": "assets/images/land_rover_defender.jpg",
+    "designer": "Land Rover",
+    "engine": {
+      "ca": "Dièsel de 4 cilindres",
+      "en": "4-cylinder Diesel",
+      "es": "Diésel de 4 cilindros",
+      "de": "4-Zylinder-Dieselmotor",
+      "fr": "Diesel 4 cylindres",
+      "it": "Diesel a 4 cilindri"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 145 km/h",
+      "en": "Approx. 145 km/h",
+      "es": "Aprox. 145 km/h",
+      "de": "ca. 145 km/h",
+      "fr": "Env. 145 km/h",
+      "it": "Circa 145 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [6]
+  },
+  {
+    "id": 36,
+    "name": {
+      "ca": "Nissan Micra C+C",
+      "en": "Nissan Micra C+C",
+      "es": "Nissan Micra C+C",
+      "de": "Nissan Micra C+C",
+      "fr": "Nissan Micra C+C",
+      "it": "Nissan Micra C+C"
+    },
+    "productionYears": "2005–2009",
+    "description": {
+      "ca": "Karmann va ser soci en el desenvolupament i la producció del sostre de vidre retràctil d'aquest petit coupé-cabriolet, basat en el popular Nissan Micra. Es fabricava a la planta de Nissan a Sunderland (Regne Unit).",
+      "en": "Karmann was a partner in the development and production of the retractable glass roof of this small coupé-cabriolet, based on the popular Nissan Micra. It was manufactured at Nissan's plant in Sunderland (UK).",
+      "es": "Karmann fue socio en el desarrollo y la producción del techo de cristal retráctil de este pequeño coupé-cabriolet, basado en el popular Nissan Micra. Se fabricaba en la planta de Nissan en Sunderland (Reino Unido).",
+      "de": "Karmann war Partner bei der Entwicklung und Produktion des versenkbaren Glasdachs dieses kleinen Coupé-Cabriolets auf Basis des beliebten Nissan Micra. Es wurde im Nissan-Werk in Sunderland (Großbritannien) hergestellt.",
+      "fr": "Karmann a été partenaire dans le développement et la production du toit en verre rétractable de ce petit coupé-cabriolet, basé sur la populaire Nissan Micra. Il était fabriqué à l'usine Nissan de Sunderland (Royaume-Uni).",
+      "it": "Karmann è stata partner nello sviluppo e nella produzione del tetto in vetro retrattile di questa piccola coupé-cabriolet, basata sulla popolare Nissan Micra. Veniva prodotta nello stabilimento Nissan di Sunderland (Regno Unito)."
+    },
+    "imageUrl": "assets/images/nissan_micra_c_c.jpg",
+    "designer": "Nissan",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 176-190 km/h",
+      "en": "Approx. 176-190 km/h",
+      "es": "Aprox. 176-190 km/h",
+      "de": "ca. 176-190 km/h",
+      "fr": "Env. 176-190 km/h",
+      "it": "Circa 176-190 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [34]
+  }
+]

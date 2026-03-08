@@ -1,0 +1,125 @@
+[
+  {
+    "id": 25,
+    "name": {
+      "ca": "Triumph TR6",
+      "en": "Triumph TR6",
+      "es": "Triumph TR6",
+      "de": "Triumph TR6",
+      "fr": "Triumph TR6",
+      "it": "Triumph TR6"
+    },
+    "productionYears": "1968–1976",
+    "description": {
+      "ca": "El TR6 va ser un roadster britànic clàssic. Karmann va ser responsable del redisseny de la carrosseria, donant-li un aspecte més modern i masculí que el seu predecessor, el TR5.",
+      "en": "The TR6 was a classic British roadster. Karmann was responsible for redesigning the bodywork, giving it a more modern and masculine look than its predecessor, the TR5.",
+      "es": "El TR6 fue un roadster británico clásico. Karmann fue responsable de rediseñar la carrocería, dándole un aspecto más moderno y masculino que su predecesor, el TR5.",
+      "de": "Der TR6 war ein klassischer britischer Roadster. Karmann war für die Neugestaltung der Karosserie verantwortlich und verlieh ihr ein moderneres und maskulineres Aussehen als seinem Vorgänger, dem TR5.",
+      "fr": "Le TR6 était un roadster britannique classique. Karmann a été responsable de la refonte de la carrosserie, lui donnant un look plus moderne et masculin que son prédécesseur, le TR5.",
+      "it": "La TR6 era una classica roadster britannica. Karmann fu responsabile della riprogettazione della carrozzeria, conferendole un aspetto più moderno e mascolino rispetto al suo predecessore, la TR5."
+    },
+    "imageUrl": "assets/images/triumph_tr6.jpg",
+    "designer": "Karmann (redisseny)",
+    "engine": {
+      "ca": "6 cilindres en línia",
+      "en": "Inline 6-cylinder",
+      "es": "6 cilindros en línea",
+      "de": "6-Zylinder-Reihenmotor",
+      "fr": "6 cylindres en ligne",
+      "it": "6 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 190 km/h",
+      "en": "Approx. 190 km/h",
+      "es": "Aprox. 190 km/h",
+      "de": "ca. 190 km/h",
+      "fr": "Env. 190 km/h",
+      "it": "Circa 190 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [26]
+  },
+  {
+    "id": 26,
+    "name": {
+      "ca": "Jaguar E-Type (sostres durs)",
+      "en": "Jaguar E-Type (hardtops)",
+      "es": "Jaguar E-Type (techos duros)",
+      "de": "Jaguar E-Type (Hardtops)",
+      "fr": "Jaguar E-Type (hard-tops)",
+      "it": "Jaguar E-Type (hardtop)"
+    },
+    "productionYears": "1961-1964",
+    "description": {
+      "ca": "Karmann va fabricar sostres durs opcionals per a l'icònic Jaguar E-Type, oferint una alternativa a la capota de lona per als models roadster.",
+      "en": "Karmann manufactured optional hardtops for the iconic Jaguar E-Type, offering an alternative to the canvas top for the roadster models.",
+      "es": "Karmann fabricó techos duros opcionales para el icónico Jaguar E-Type, ofreciendo una alternativa a la capota de lona para los modelos roadster.",
+      "de": "Karmann fertigte optionale Hardtops für den ikonischen Jaguar E-Type und bot damit eine Alternative zum Stoffverdeck für die Roadster-Modelle.",
+      "fr": "Karmann a fabriqué des hard-tops en option pour l'emblématique Jaguar E-Type, offrant une alternative à la capote en toile pour les modèles roadster.",
+      "it": "Karmann ha prodotto hardtop opzionali per l'iconica Jaguar E-Type, offrendo un'alternativa alla capote in tela per i modelli roadster."
+    },
+    "imageUrl": "assets/images/jaguar_e_type.jpg",
+    "designer": "Malcolm Sayer",
+    "engine": {
+      "ca": "N/A (component)",
+      "en": "N/A (component)",
+      "es": "N/A (componente)",
+      "de": "N/A (Komponente)",
+      "fr": "N/A (composant)",
+      "it": "N/A (componente)"
+    },
+    "topSpeed": {
+      "ca": "N/A",
+      "en": "N/A",
+      "es": "N/A",
+      "de": "N/A",
+      "fr": "N/A",
+      "it": "N/A"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [25, 27]
+  },
+  {
+    "id": 27,
+    "name": {
+      "ca": "Jaguar XK8/XKR (X100) Convertible",
+      "en": "Jaguar XK8/XKR (X100) Convertible",
+      "es": "Jaguar XK8/XKR (X100) Convertible",
+      "de": "Jaguar XK8/XKR (X100) Cabriolet",
+      "fr": "Jaguar XK8/XKR (X100) Cabriolet",
+      "it": "Jaguar XK8/XKR (X100) Convertibile"
+    },
+    "productionYears": "1996–2006",
+    "description": {
+      "ca": "Karmann va contribuir significativament en el desenvolupament i la producció de la carrosseria i el sistema de sostre del descapotable XK8, el successor espiritual de l'E-Type.",
+      "en": "Karmann contributed significantly to the development and production of the bodywork and roof system of the XK8 convertible, the spiritual successor to the E-Type.",
+      "es": "Karmann contribuyó significativamente al desarrollo y la producción de la carrocería y el sistema de techo del descapotable XK8, el sucesor espiritual del E-Type.",
+      "de": "Karmann trug maßgeblich zur Entwicklung und Produktion der Karosserie und des Dachsystems des XK8-Cabriolets bei, dem geistigen Nachfolger des E-Type.",
+      "fr": "Karmann a contribué de manière significative au développement et à la production de la carrosserie et du système de toit du cabriolet XK8, le successeur spirituel de la Type E.",
+      "it": "Karmann ha contribuito in modo significativo allo sviluppo e alla produzione della scocca e del sistema del tetto della XK8 convertibile, l'erede spirituale della E-Type."
+    },
+    "imageUrl": "assets/images/jaguar_xkr.jpg",
+    "designer": "Geoff Lawson",
+    "engine": {
+      "ca": "V8",
+      "en": "V8",
+      "es": "V8",
+      "de": "V8",
+      "fr": "V8",
+      "it": "V8"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 250 km/h (limitada)",
+      "en": "Approx. 250 km/h (limited)",
+      "es": "Aprox. 250 km/h (limitada)",
+      "de": "ca. 250 km/h (begrenzt)",
+      "fr": "Env. 250 km/h (limitée)",
+      "it": "Circa 250 km/h (limitata)"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [26]
+  }
+]

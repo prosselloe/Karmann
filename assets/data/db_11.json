@@ -1,0 +1,183 @@
+[
+  {
+    "id": 31,
+    "name": {
+      "ca": "Ford Escort Cabriolet i Cosworth",
+      "en": "Ford Escort Cabriolet and Cosworth",
+      "es": "Ford Escort Cabriolet y Cosworth",
+      "de": "Ford Escort Cabriolet und Cosworth",
+      "fr": "Ford Escort Cabriolet et Cosworth",
+      "it": "Ford Escort Cabriolet e Cosworth"
+    },
+    "productionYears": "1983–1997",
+    "description": {
+      "ca": "Karmann va tenir un paper clau en diverses versions especials del popular Ford Escort. Va dissenyar i construir les versions descapotables de l'Escort europeu (Mk3, Mk4, Mk5), oferint una opció de sostre obert assequible. Per a l'icònic Escort RS Cosworth, Karmann va fabricar panells de carrosseria crucials. A més, la seva filial brasilera, Karmann-Ghia do Brasil, va desenvolupar una versió descapotable de l'Escort XR3 per al mercat sud-americà.",
+      "en": "Karmann played a key role in several special versions of the popular Ford Escort. It designed and built the convertible versions of the European Escort (Mk3, Mk4, Mk5), offering an affordable open-top option. For the iconic Escort RS Cosworth, Karmann manufactured crucial body panels. Additionally, its Brazilian subsidiary, Karmann-Ghia do Brasil, developed a convertible version of the Escort XR3 for the South American market.",
+      "es": "Karmann desempeñó un papel clave en varias versiones especiales del popular Ford Escort. Diseñó y construyó las versiones descapotables del Escort europeo (Mk3, Mk4, Mk5), ofreciendo una opción de techo abierto asequible. Para el icónico Escort RS Cosworth, Karmann fabricó paneles de carrocería cruciales. Además, su filial brasileña, Karmann-Ghia do Brasil, desarrolló una versión descapotable del Escort XR3 para el mercado sudamericano.",
+      "de": "Karmann spielte eine Schlüsselrolle bei mehreren Sonderversionen des beliebten Ford Escort. Sie entwarfen und bauten die Cabrio-Versionen des europäischen Escort (Mk3, Mk4, Mk5) und boten eine erschwingliche Open-Top-Option. Für den ikonischen Escort RS Cosworth fertigte Karmann wichtige Karosserieteile. Darüber hinaus entwickelte seine brasilianische Tochtergesellschaft, Karmann-Ghia do Brasil, eine Cabrio-Version des Escort XR3 für den südamerikanischen Markt.",
+      "fr": "Karmann a joué un rôle clé dans plusieurs versions spéciales de la populaire Ford Escort. Elle a conçu et construit les versions cabriolets de l'Escort européenne (Mk3, Mk4, Mk5), offrant une option décapotable abordable. Pour l'emblématique Escort RS Cosworth, Karmann a fabriqué des panneaux de carrosserie cruciaux. De plus, sa filiale brésilienne, Karmann-Ghia do Brasil, a développé une version cabriolet de l'Escort XR3 pour le marché sud-américain.",
+      "it": "Karmann ha svolto un ruolo chiave in diverse versioni speciali della popolare Ford Escort. Ha progettato e costruito le versioni cabriolet della Escort europea (Mk3, Mk4, Mk5), offrendo un'opzione open-top economica. Per l'iconica Escort RS Cosworth, Karmann ha prodotto pannelli di carrozzeria cruciali. Inoltre, la sua filiale brasiliana, Karmann-Ghia do Brasil, ha sviluppato una versione cabriolet della Escort XR3 per il mercato sudamericano."
+    },
+    "imageUrl": "assets/images/ford_escort_cabriolet.jpg",
+    "designer": "Karmann",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 160-225 km/h",
+      "en": "Approx. 160-225 km/h",
+      "es": "Aprox. 160-225 km/h",
+      "de": "ca. 160-225 km/h",
+      "fr": "Env. 160-225 km/h",
+      "it": "Circa 160-225 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Ford Escort Cabriolet (Europa)",
+          "en": "Ford Escort Cabriolet (Europe)",
+          "es": "Ford Escort Cabriolet (Europa)",
+          "de": "Ford Escort Cabriolet (Europa)",
+          "fr": "Ford Escort Cabriolet (Europe)",
+          "it": "Ford Escort Cabriolet (Europa)"
+        },
+        "productionYears": "1983–1997",
+        "changes": {
+          "ca": "Karmann va dissenyar i va construir les versions descapotables de l'Escort europeu. Aquests models van oferir una opció de sostre obert assequible i popular al mercat de masses.",
+          "en": "Karmann designed and built the convertible versions of the European Escort. These models offered an affordable and popular open-top option to the mass market.",
+          "es": "Karmann diseñó y construyó las versiones descapotables del Escort europeo. Estos modelos ofrecieron una opción de techo abierto asequible y popular en el mercado de masas.",
+          "de": "Karmann entwarf und baute die Cabrio-Versionen des europäischen Escort. Diese Modelle boten eine erschwingliche und beliebte Open-Top-Option für den Massenmarkt.",
+          "fr": "Karmann a conçu et construit les versions cabriolet de l'Escort européenne. Ces modèles offraient une option décapotable abordable et populaire sur le marché de masse.",
+          "it": "Karmann ha progettato e costruito le versioni cabriolet della Escort europea. Questi modelli offrivano un'opzione open-top economica e popolare per il mercato di massa."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Ford Escort RS Cosworth",
+          "en": "Ford Escort RS Cosworth",
+          "es": "Ford Escort RS Cosworth",
+          "de": "Ford Escort RS Cosworth",
+          "fr": "Ford Escort RS Cosworth",
+          "it": "Ford Escort RS Cosworth"
+        },
+        "productionYears": "1992–1996",
+        "changes": {
+          "ca": "Per a la llegendària versió de ral·li homologada per a carrer, Karmann va ser l'encarregat de fabricar els panells de carrosseria, incloent-hi els característics passos de roda eixamplats i el famós aleró posterior \"cua de balena\".",
+          "en": "For the legendary street-legal rally version, Karmann was commissioned to manufacture the body panels, including the characteristic widened wheel arches and the famous \"whale tail\" rear spoiler.",
+          "es": "Para la legendaria versión de rally homologada para calle, Karmann fue el encargado de fabricar los paneles de la carrocería, incluyendo los característicos pasos de rueda ensanchados y el famoso alerón trasero \"cola de ballena\".",
+          "de": "Für die legendäre straßenzugelassene Rallye-Version wurde Karmann mit der Herstellung der Karosserieteile beauftragt, einschließlich der charakteristischen verbreiterten Radkästen und des berühmten \"Walflosse\"-Heckspoilers.",
+          "fr": "Pour la légendaire version de rallye homologuée pour la route, Karmann a été chargé de fabriquer les panneaux de carrosserie, y compris les passages de roue élargis caractéristiques et le célèbre aileron arrière en \"queue de baleine\".",
+          "it": "Per la leggendaria versione da rally omologata per la strada, Karmann fu incaricata di produrre i pannelli della carrozzeria, compresi i caratteristici passaruota allargati e il famoso alettone posteriore a \"coda di balena\"."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Ford (Brasil) Escort XR3 Cabriolet",
+          "en": "Ford (Brazil) Escort XR3 Cabriolet",
+          "es": "Ford (Brasil) Escort XR3 Cabriolet",
+          "de": "Ford (Brasilien) Escort XR3 Cabriolet",
+          "fr": "Ford (Brésil) Escort XR3 Cabriolet",
+          "it": "Ford (Brasile) Escort XR3 Cabriolet"
+        },
+        "productionYears": "1985–1995",
+        "changes": {
+          "ca": "Karmann-Ghia do Brasil va ser la filial brasilera que va dissenyar i va construir una versió descapotable de l'Escort XR3 per al mercat sud-americà, independent de la versió europea.",
+          "en": "Karmann-Ghia do Brasil was the Brazilian subsidiary that designed and built a convertible version of the Escort XR3 for the South American market, independent of the European version.",
+          "es": "Karmann-Ghia do Brasil fue la filial brasileña que diseñó y construyó una versión descapotable del Escort XR3 para el mercado sudamericano, independiente de la versión europea.",
+          "de": "Karmann-Ghia do Brasil war die brasilianische Tochtergesellschaft, die eine Cabrio-Version des Escort XR3 für den südamerikanischen Markt entwarf und baute, unabhängig von der europäischen Version.",
+          "fr": "Karmann-Ghia do Brasil était la filiale brésilienne qui a conçu et construit une version cabriolet de l'Escort XR3 pour le marché sud-américain, indépendante de la version européenne.",
+          "it": "Karmann-Ghia do Brasil è stata la filiale brasiliana che ha progettato e costruito una versione cabriolet della Escort XR3 per il mercato sudamericano, indipendente dalla versione europea."
+        }
+      }
+    ],
+    "relatedModels": [32]
+  },
+  {
+    "id": 32,
+    "name": {
+      "ca": "Ford Sierra XR4i / Merkur XR4Ti",
+      "en": "Ford Sierra XR4i / Merkur XR4Ti",
+      "es": "Ford Sierra XR4i / Merkur XR4Ti",
+      "de": "Ford Sierra XR4i / Merkur XR4Ti",
+      "fr": "Ford Sierra XR4i / Merkur XR4Ti",
+      "it": "Ford Sierra XR4i / Merkur XR4Ti"
+    },
+    "productionYears": "1985–1989",
+    "description": {
+      "ca": "Aquest cotxe era una versió per al mercat nord-americà del Ford Sierra XR4i, muntat per Karmann. Es va vendre a través de la marca Merkur de Ford i és conegut pel seu distintiu aleró biplà.",
+      "en": "This car was a version for the North American market of the Ford Sierra XR4i, assembled by Karmann. It was sold through Ford's Merkur brand and is known for its distinctive biplane spoiler.",
+      "es": "Este coche era una versión para el mercado norteamericano del Ford Sierra XR4i, ensamblado por Karmann. Se vendió a través de la marca Merkur de Ford y es conocido por su distintivo alerón biplano.",
+      "de": "Dieses Auto war eine von Karmann montierte Version des Ford Sierra XR4i für den nordamerikanischen Markt. Es wurde über Fords Marke Merkur verkauft und ist bekannt für seinen markanten Doppeldecker-Spoiler.",
+      "fr": "Cette voiture était une version pour le marché nord-américain de la Ford Sierra XR4i, assemblée par Karmann. Elle a été vendue sous la marque Merkur de Ford et est connue pour son aileron biplan distinctif.",
+      "it": "Questa vettura era una versione per il mercato nordamericano della Ford Sierra XR4i, assemblata da Karmann. Fu venduta attraverso il marchio Merkur di Ford ed è nota per il suo caratteristico spoiler a biplano."
+    },
+    "imageUrl": "assets/images/ford_sierra.jpg",
+    "designer": "Uwe Bahnsen, Robert Lutz",
+    "engine": {
+      "ca": "4 cilindres en línia Turbo",
+      "en": "Inline 4-cylinder Turbo",
+      "es": "4 cilindros en línea Turbo",
+      "de": "4-Zylinder-Reihenmotor Turbo",
+      "fr": "4 cylindres en ligne Turbo",
+      "it": "4 cilindri in linea Turbo"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 209 km/h",
+      "en": "Approx. 209 km/h",
+      "es": "Aprox. 209 km/h",
+      "de": "ca. 209 km/h",
+      "fr": "Env. 209 km/h",
+      "it": "Circa 209 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [31]
+  },
+  {
+    "id": 33,
+    "name": {
+      "ca": "AMC Javelin",
+      "en": "AMC Javelin",
+      "es": "AMC Javelin",
+      "de": "AMC Javelin",
+      "fr": "AMC Javelin",
+      "it": "AMC Javelin"
+    },
+    "productionYears": "1969-1970",
+    "description": {
+      "ca": "Per al model de 1970, AMC va contractar Karmann per a construir els utillatges per a les noves portes i parafangs del Javelin, com a part del seu redisseny.",
+      "en": "For the 1970 model, AMC hired Karmann to build the tooling for the new doors and fenders of the Javelin, as part of its redesign.",
+      "es": "Para el modelo de 1970, AMC contrató a Karmann para construir el utillaje para las nuevas puertas y guardabarros del Javelin, como parte de su rediseño.",
+      "de": "Für das Modell von 1970 beauftragte AMC Karmann mit dem Bau der Werkzeuge für die neuen Türen und Kotflügel des Javelin im Rahmen seiner Neugestaltung.",
+      "fr": "Pour le modèle de 1970, AMC a engagé Karmann pour construire l'outillage des nouvelles portes et ailes de la Javelin, dans le cadre de sa refonte.",
+      "it": "Per il modello del 1970, AMC incaricò Karmann di costruire gli stampi per le nuove porte e parafanghi della Javelin, come parte della sua riprogettazione."
+    },
+    "imageUrl": "assets/images/amc_javelin.jpg",
+    "designer": "Dick Teague",
+    "engine": {
+      "ca": "6 cilindres en línia, V8",
+      "en": "Inline 6-cylinder, V8",
+      "es": "6 cilindros en línea, V8",
+      "de": "6-Zylinder-Reihenmotor, V8",
+      "fr": "6 cylindres en ligne, V8",
+      "it": "6 cilindri in linea, V8"
+    },
+    "topSpeed": {
+      "ca": "Fins a 200 km/h",
+      "en": "Up to 200 km/h",
+      "es": "Hasta 200 km/h",
+      "de": "Bis zu 200 km/h",
+      "fr": "Jusqu'à 200 km/h",
+      "it": "Fino a 200 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": []
+  }
+]

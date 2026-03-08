@@ -1,0 +1,126 @@
+
+[
+  {
+    "id": 1,
+    "name": {
+      "ca": "VW Karmann Ghia Tipus 14",
+      "en": "VW Karmann Ghia Type 14",
+      "es": "VW Karmann Ghia Tipo 14",
+      "de": "VW Karmann Ghia Typ 14",
+      "fr": "VW Karmann Ghia Type 14",
+      "it": "VW Karmann Ghia Tipo 14"
+    },
+    "productionYears": "1955–1974",
+    "description": {
+      "ca": "El model més icònic. Combinava la fiabilitat mecànica del Volkswagen Escarabat amb una carrosseria elegant dissenyada per la Carrozzeria Ghia i construïda a mà per Karmann, convertint-se en un clàssic de culte. Es van produir més de 445.000 unitats entre coupé i descapotable.",
+      "en": "The most iconic model. It combined the mechanical reliability of the Volkswagen Beetle with an elegant body designed by Carrozzeria Ghia and hand-built by Karmann, becoming a cult classic. Over 445,000 units were produced between coupé and convertible.",
+      "es": "El modelo más icónico. Combinaba la fiabilidad mecánica del Volkswagen Beetle con una carrocería elegante diseñada por la Carrozzeria Ghia y construida a mano por Karmann, convirtiéndose en un clásico de culto. Se produjeron más de 445,000 unidades entre coupé y descapotable.",
+      "de": "Das ikonischste Modell. Es kombinierte die mechanische Zuverlässigkeit des Volkswagen Käfers mit einer eleganten Karosserie, die von der Carrozzeria Ghia entworfen und von Karmann handgefertigt wurde, und wurde so zu einem Kultklassiker. Über 445.000 Einheiten wurden als Coupé und Cabriolet produziert.",
+      "fr": "Le modèle le plus emblématique. Il combinait la fiabilité mécanique de la Volkswagen Coccinelle avec une carrosserie élégante conçue par la Carrozzeria Ghia et construite à la main par Karmann, devenant un classique culte. Plus de 445 000 unités ont été produites en coupé et en cabriolet.",
+      "it": "Il modello più iconico. Combinava l'affidabilità meccanica del Maggiolino Volkswagen con un'elegante carrozzeria progettata dalla Carrozzeria Ghia e costruita a mano da Karmann, diventando un classico di culto. Oltre 445.000 unità furono prodotte tra coupé e cabriolet."
+    },
+    "imageUrl": "assets/images/vw_karmann_ghia_type_14.jpg",
+    "designer": "Luigi Segre (Carrozzeria Ghia)",
+    "engine": {
+      "ca": "Bòxer de 4 cilindres",
+      "en": "4-cylinder boxer",
+      "es": "Bóxer de 4 cilindros",
+      "de": "4-Zylinder-Boxermotor",
+      "fr": "4 cylindres à plat (Boxer)",
+      "it": "Boxer a 4 cilindri"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 140 km/h",
+      "en": "Approx. 140 km/h",
+      "es": "Aprox. 140 km/h",
+      "de": "ca. 140 km/h",
+      "fr": "Env. 140 km/h",
+      "it": "Circa 140 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [2, 3, 5]
+  },
+  {
+    "id": 2,
+    "name": {
+      "ca": "VW Karmann Ghia Tipus 34",
+      "en": "VW Karmann Ghia Type 34",
+      "es": "VW Karmann Ghia Tipo 34",
+      "de": "VW Karmann Ghia Typ 34",
+      "fr": "VW Karmann Ghia Type 34",
+      "it": "VW Karmann Ghia Tipo 34"
+    },
+    "productionYears": "1961–1969",
+    "description": {
+      "ca": "Conegut com a 'Razor Edge' o 'Grosser Karmann', presentava línies més rectes i modernes, basat en la plataforma del VW Tipus 3 (1600 cc). Era més ràpid i espaiós que el Tipus 14, però el seu alt preu va limitar-ne la producció a 42.505 unitats.",
+      "en": "Known as 'Razor Edge' or 'Grosser Karmann', it featured straighter, more modern lines, based on the VW Type 3 (1600 cc) platform. It was faster and more spacious than the Type 14, but its high price limited production to 42,505 units.",
+      "es": "Conocido como 'Razor Edge' o 'Grosser Karmann', presentaba líneas más rectas y modernas, basado en la plataforma del VW Tipo 3 (1600 cc). Era más rápido y espacioso que el Tipo 14, pero su alto precio limitó su producción a 42,505 unidades.",
+      "de": "Bekannt als 'Razor Edge' oder 'Großer Karmann', zeichnete er sich durch geradere, modernere Linien aus und basierte auf der Plattform des VW Typ 3 (1600 ccm). Er war schneller und geräumiger als der Typ 14, aber sein hoher Preis begrenzte die Produktion auf 42.505 Einheiten.",
+      "fr": "Connu sous le nom de 'Razor Edge' ou 'Grosser Karmann', il présentait des lignes plus droites et plus modernes, basées sur la plateforme de la VW Type 3 (1600 cc). Il était plus rapide et plus spacieux que le Type 14, mais son prix élevé a limité sa production à 42 505 unités.",
+      "it": "Conosciuto come 'Razor Edge' o 'Grosser Karmann', presentava linee più dritte e moderne, basate sulla piattaforma della VW Tipo 3 (1600 cc). Era più veloce e spazioso del Tipo 14, ma il suo prezzo elevato ne limitò la produzione a 42.505 unità."
+    },
+    "imageUrl": "assets/images/vw_karmann_ghia_type_34.jpg",
+    "designer": "Sergio Sartorelli (Carrozzeria Ghia)",
+    "engine": {
+      "ca": "Bòxer de 4 cilindres, 1.5L-1.6L",
+      "en": "4-cylinder boxer, 1.5L-1.6L",
+      "es": "Bóxer de 4 cilindros, 1.5L-1.6L",
+      "de": "4-Zylinder-Boxermotor, 1,5L-1,6L",
+      "fr": "4 cylindres à plat (Boxer), 1.5L-1.6L",
+      "it": "Boxer a 4 cilindri, 1.5L-1.6L"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 150 km/h",
+      "en": "Approx. 150 km/h",
+      "es": "Aprox. 150 km/h",
+      "de": "ca. 150 km/h",
+      "fr": "Env. 150 km/h",
+      "it": "Circa 150 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [1, 3]
+  },
+  {
+    "id": 3,
+    "name": {
+      "ca": "VW Karmann Ghia TC",
+      "en": "VW Karmann Ghia TC",
+      "es": "VW Karmann Ghia TC",
+      "de": "VW Karmann Ghia TC",
+      "fr": "VW Karmann Ghia TC",
+      "it": "VW Karmann Ghia TC"
+    },
+    "productionYears": "1970–1976",
+    "description": {
+      "ca": "Dissenyat per Ghia i produït al Brasil, aquest cupè (Touring Coupé) oferia una estètica més moderna i esportiva, exclusiva per al mercat sud-americà. Es van produir 18.119 unitats.",
+      "en": "Designed by Ghia and produced in Brazil, this coupé (Touring Coupé) offered a more modern and sporty aesthetic, exclusive to the South American market. 18,119 units were produced.",
+      "es": "Diseñado por Ghia y producido en Brasil, este cupé (Touring Coupé) ofrecía una estética más moderna y deportiva, exclusiva para el mercado sudamericano. Se produjeron 18,119 unidades.",
+      "de": "Entworfen von Ghia und in Brasilien produziert, bot dieses Coupé (Touring Coupé) eine modernere und sportlichere Ästhetik, exklusiv für den südamerikanischen Markt. 18.119 Einheiten wurden produziert.",
+      "fr": "Conçu par Ghia et produit au Brésil, ce coupé (Touring Coupé) offrait une esthétique plus moderne et sportive, exclusive au marché sud-américain. 18 119 unités ont été produites.",
+      "it": "Progettata da Ghia e prodotta in Brasile, questa coupé (Touring Coupé) offriva un'estetica più moderna e sportiva, esclusiva per il mercato sudamericano. Furono prodotte 18.119 unità."
+    },
+    "imageUrl": "assets/images/vw_karmann_ghia_tc.jpg",
+    "designer": "Giorgetto Giugiaro (Carrozzeria Ghia)",
+    "engine": {
+      "ca": "Bòxer de 4 cilindres, 1.6L",
+      "en": "4-cylinder boxer, 1.6L",
+      "es": "Bóxer de 4 cilindros, 1.6L",
+      "de": "4-Zylinder-Boxermotor, 1,6L",
+      "fr": "4 cylindres à plat (Boxer), 1.6L",
+      "it": "Boxer a 4 cilindri, 1.6L"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 145 km/h",
+      "en": "Approx. 145 km/h",
+      "es": "Aprox. 145 km/h",
+      "de": "ca. 145 km/h",
+      "fr": "Env. 145 km/h",
+      "it": "Circa 145 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [1, 2]
+  }
+]
