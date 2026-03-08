@@ -1,0 +1,19 @@
+{
+  "appTitle": "Passió Karmann",
+  "searchHint": "Cercar per nom o any...",
+  "filterAll": "Tots",
+  "filterCabriolet": "Cabriolets",
+  "dataSheetTitle": "Dades Clau",
+  "designerLabel": "Dissenyador",
+  "engineLabel": "Motor",
+  "topSpeedLabel": "Velocitat Màxima",
+  "versionsTitle": "Versions i Canvis",
+  "noResults": "No s'han trobat resultats",
+  "relatedModelsTitle": "Models Relacionats",
+  "mainChangesLabel": "Canvis Principals",
+  "productionDataLabel": "Dades de Producció",
+  "productionDetailsLabel": "Detalls de Producció",
+  "sortByName": "Ordena per nom",
+  "sortByYear": "Ordena per any",
+  "sortDefault": "Sense ordenar"
+}

@@ -1,0 +1,19 @@
+{
+  "appTitle": "Karmann Leidenschaft",
+  "searchHint": "Suche nach Name oder Jahr...",
+  "filterAll": "Alle",
+  "filterCabriolet": "Cabriolets",
+  "dataSheetTitle": "Schlüsseldaten",
+  "designerLabel": "Designer",
+  "engineLabel": "Motor",
+  "topSpeedLabel": "Höchstgeschwindigkeit",
+  "versionsTitle": "Versionen & Änderungen",
+  "noResults": "Keine Ergebnisse gefunden",
+  "relatedModelsTitle": "Verwandte Modelle",
+  "mainChangesLabel": "Wesentliche Änderungen",
+  "productionDataLabel": "Produktionsdaten",
+  "productionDetailsLabel": "Produktionsdetails",
+  "sortByName": "Nach Namen sortieren",
+  "sortByYear": "Nach Jahr sortieren",
+  "sortDefault": "Keine Sortierung"
+}

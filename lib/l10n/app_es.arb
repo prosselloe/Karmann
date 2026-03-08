@@ -1,0 +1,19 @@
+{
+  "appTitle": "Pasión Karmann",
+  "searchHint": "Buscar por nombre o año...",
+  "filterAll": "Todos",
+  "filterCabriolet": "Cabriolets",
+  "dataSheetTitle": "Datos Clave",
+  "designerLabel": "Diseñador",
+  "engineLabel": "Motor",
+  "topSpeedLabel": "Velocidad Máxima",
+  "versionsTitle": "Versiones y Cambios",
+  "noResults": "No se han encontrado resultados",
+  "relatedModelsTitle": "Modelos Relacionados",
+  "mainChangesLabel": "Cambios Principales",
+  "productionDataLabel": "Datos de Producción",
+  "productionDetailsLabel": "Detalles de Producción",
+  "sortByName": "Ordenar por nombre",
+  "sortByYear": "Ordenar por año",
+  "sortDefault": "Sin ordenar"
+}

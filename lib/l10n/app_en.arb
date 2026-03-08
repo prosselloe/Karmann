@@ -1,0 +1,19 @@
+{
+  "appTitle": "Karmann Passion",
+  "searchHint": "Search by name or year...",
+  "filterAll": "All",
+  "filterCabriolet": "Cabriolets",
+  "dataSheetTitle": "Key Data",
+  "designerLabel": "Designer",
+  "engineLabel": "Engine",
+  "topSpeedLabel": "Top Speed",
+  "versionsTitle": "Versions & Changes",
+  "noResults": "No results found",
+  "relatedModelsTitle": "Related Models",
+  "mainChangesLabel": "Main Changes",
+  "productionDataLabel": "Production Data",
+  "productionDetailsLabel": "Production Details",
+  "sortByName": "Sort by name",
+  "sortByYear": "Sort by year",
+  "sortDefault": "No sort"
+}
