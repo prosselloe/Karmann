@@ -1,8 +1,8 @@
-# Project Blueprint: Passió Karmann
+# Project Blueprint: Karmann Versions
 
 ## 1. Visió General del Projecte
 
-**Passió Karmann** és una aplicació mòbil i web desenvolupada amb Flutter que serveix com a galeria interactiva i guia de referència per a una selecció de vehicles històrics carrossats per l'empresa alemanya Karmann.
+**Karmann Versions** és una aplicació mòbil i web desenvolupada amb Flutter que serveix com a galeria interactiva i guia de referència per a una selecció de vehicles històrics carrossats per l'empresa alemanya Karmann.
 
 L'objectiu de l'aplicació és oferir als entusiastes de l'automoció una eina visualment atractiva i rica en informació per a explorar la contribució de Karmann a la història de l'automòbil, amb un enfocament especial en models icònics de marques com Porsche i Volkswagen.
 
