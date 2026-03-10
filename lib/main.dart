@@ -22,11 +22,15 @@ class ThemeProvider with ChangeNotifier {
   }
 }
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final modelProvider = ModelProvider();
+  await modelProvider.fetchModels();
+
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => ModelProvider()),
+        ChangeNotifierProvider.value(value: modelProvider),
         ChangeNotifierProvider(create: (context) => LocaleProvider()),
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
       ],
@@ -171,7 +175,7 @@ class KarmannApp extends StatelessWidget {
           builder: (context, themeProvider, child) {
             return MaterialApp.router(
               routerConfig: _router,
-              title: 'Karmann Versions',
+              title: 'Karmann Models',
               theme: lightTheme,
               darkTheme: darkTheme,
               themeMode: themeProvider.themeMode,
@@ -211,10 +215,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    // Crida segura per a carregar les dades inicials.
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      Provider.of<ModelProvider>(context, listen: false).fetchModels();
-    });
   }
 
   @override
@@ -338,17 +338,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: [
                             Hero(
                               tag: model.getName(context),
-                              child: Image.network(
+                              child: Image.asset(
                                 model.imageUrl,
                                 height: 180,
                                 fit: BoxFit.cover,
-                                loadingBuilder:
-                                    (context, child, loadingProgress) {
-                                      if (loadingProgress == null) return child;
-                                      return const Center(
-                                        child: CircularProgressIndicator(),
-                                      );
-                                    },
                                 errorBuilder: (context, error, stackTrace) =>
                                     const Center(
                                       child: Padding(
@@ -440,7 +433,7 @@ class DetailScreen extends StatelessWidget {
           children: [
             Hero(
               tag: model.getName(context),
-              child: Image.network(
+              child: Image.asset(
                 model.imageUrl,
                 height: 300,
                 width: double.infinity,
@@ -559,7 +552,7 @@ class DetailScreen extends StatelessWidget {
                                     ),
                                     child: Column(
                                       children: [
-                                        Image.network(
+                                        Image.asset(
                                           relatedModel.imageUrl,
                                           height: 60,
                                           width: 150,
