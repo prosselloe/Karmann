@@ -51,7 +51,7 @@
         "changes": {
           "ca": "Karmann va dissenyar i va construir les versions descapotables de l'Escort europeu. Aquests models van oferir una opció de sostre obert assequible i popular al mercat de masses.",
           "en": "Karmann designed and built the convertible versions of the European Escort. These models offered an affordable and popular open-top option to the mass market.",
-          "es": "Karmann diseñó y construyó las versiones descapotables del Escort europeo. Estos modelos ofrecieron una opción de techo abierto asequible y popular en el mercado de masas.",
+          "es": "Karmann diseñó y construyó las versiones descapotables del Escort europeo. Estos models ofrecieron una opción de techo abierto asequible y popular en el mercado de masas.",
           "de": "Karmann entwarf und baute die Cabrio-Versionen des europäischen Escort. Diese Modelle boten eine erschwingliche und beliebte Open-Top-Option für den Massenmarkt.",
           "fr": "Karmann a conçu et construit les versions cabriolet de l'Escort européenne. Ces modèles offraient une option décapotable abordable et populaire sur le marché de masse.",
           "it": "Karmann ha progettato e costruito le versioni cabriolet della Escort europea. Questi modelli offrivano un'opzione open-top economica e popolare per il mercato di massa."
@@ -96,7 +96,7 @@
         }
       }
     ],
-    "relatedModels": [32]
+    "relatedModels": [32, 37]
   },
   {
     "id": 32,
@@ -137,7 +137,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [31]
+    "relatedModels": [31, 37]
   },
   {
     "id": 33,

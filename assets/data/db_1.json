@@ -1,20 +1,19 @@
-
 [
   {
     "id": 1,
     "name": {
-      "ca": "VW Karmann Ghia Tipus 14",
-      "en": "VW Karmann Ghia Type 14",
-      "es": "VW Karmann Ghia Tipo 14",
-      "de": "VW Karmann Ghia Typ 14",
-      "fr": "VW Karmann Ghia Type 14",
-      "it": "VW Karmann Ghia Tipo 14"
+      "ca": "Volkswagen Karmann Ghia Tipus 14",
+      "en": "Volkswagen Karmann Ghia Type 14",
+      "es": "Volkswagen Karmann Ghia Tipo 14",
+      "de": "Volkswagen Karmann Ghia Typ 14",
+      "fr": "Volkswagen Karmann Ghia Type 14",
+      "it": "Volkswagen Karmann Ghia Tipo 14"
     },
     "productionYears": "1955–1974",
     "description": {
       "ca": "El model més icònic. Combinava la fiabilitat mecànica del Volkswagen Escarabat amb una carrosseria elegant dissenyada per la Carrozzeria Ghia i construïda a mà per Karmann, convertint-se en un clàssic de culte. Es van produir més de 445.000 unitats entre coupé i descapotable.",
       "en": "The most iconic model. It combined the mechanical reliability of the Volkswagen Beetle with an elegant body designed by Carrozzeria Ghia and hand-built by Karmann, becoming a cult classic. Over 445,000 units were produced between coupé and convertible.",
-      "es": "El modelo más icónico. Combinaba la fiabilidad mecánica del Volkswagen Beetle con una carrocería elegante diseñada por la Carrozzeria Ghia y construida a mano por Karmann, convirtiéndose en un clásico de culto. Se produjeron más de 445,000 unidades entre coupé y descapotable.",
+      "es": "El modelo más icónico. Combinaba la fiabilidad mecánica del Volkswagen Escarabajo con una carrocería elegante diseñada por la Carrozzeria Ghia y construida a mano por Karmann, convirtiéndose en un clásico de culto. Se produjeron más de 445,000 unidades entre coupé y descapotable.",
       "de": "Das ikonischste Modell. Es kombinierte die mechanische Zuverlässigkeit des Volkswagen Käfers mit einer eleganten Karosserie, die von der Carrozzeria Ghia entworfen und von Karmann handgefertigt wurde, und wurde so zu einem Kultklassiker. Über 445.000 Einheiten wurden als Coupé und Cabriolet produziert.",
       "fr": "Le modèle le plus emblématique. Il combinait la fiabilité mécanique de la Volkswagen Coccinelle avec une carrosserie élégante conçue par la Carrozzeria Ghia et construite à la main par Karmann, devenant un classique culte. Plus de 445 000 unités ont été produites en coupé et en cabriolet.",
       "it": "Il modello più iconico. Combinava l'affidabilità meccanica del Maggiolino Volkswagen con un'elegante carrozzeria progettata dalla Carrozzeria Ghia e costruita a mano da Karmann, diventando un classico di culto. Oltre 445.000 unità furono prodotte tra coupé e cabriolet."
@@ -44,21 +43,21 @@
   {
     "id": 2,
     "name": {
-      "ca": "VW Karmann Ghia Tipus 34",
-      "en": "VW Karmann Ghia Type 34",
-      "es": "VW Karmann Ghia Tipo 34",
-      "de": "VW Karmann Ghia Typ 34",
-      "fr": "VW Karmann Ghia Type 34",
-      "it": "VW Karmann Ghia Tipo 34"
+      "ca": "Volkswagen Karmann Ghia Tipus 34",
+      "en": "Volkswagen Karmann Ghia Type 34",
+      "es": "Volkswagen Karmann Ghia Tipo 34",
+      "de": "Volkswagen Karmann Ghia Typ 34",
+      "fr": "Volkswagen Karmann Ghia Type 34",
+      "it": "Volkswagen Karmann Ghia Tipo 34"
     },
     "productionYears": "1961–1969",
     "description": {
-      "ca": "Conegut com a 'Razor Edge' o 'Grosser Karmann', presentava línies més rectes i modernes, basat en la plataforma del VW Tipus 3 (1600 cc). Era més ràpid i espaiós que el Tipus 14, però el seu alt preu va limitar-ne la producció a 42.505 unitats.",
-      "en": "Known as 'Razor Edge' or 'Grosser Karmann', it featured straighter, more modern lines, based on the VW Type 3 (1600 cc) platform. It was faster and more spacious than the Type 14, but its high price limited production to 42,505 units.",
-      "es": "Conocido como 'Razor Edge' o 'Grosser Karmann', presentaba líneas más rectas y modernas, basado en la plataforma del VW Tipo 3 (1600 cc). Era más rápido y espacioso que el Tipo 14, pero su alto precio limitó su producción a 42,505 unidades.",
-      "de": "Bekannt als 'Razor Edge' oder 'Großer Karmann', zeichnete er sich durch geradere, modernere Linien aus und basierte auf der Plattform des VW Typ 3 (1600 ccm). Er war schneller und geräumiger als der Typ 14, aber sein hoher Preis begrenzte die Produktion auf 42.505 Einheiten.",
-      "fr": "Connu sous le nom de 'Razor Edge' ou 'Grosser Karmann', il présentait des lignes plus droites et plus modernes, basées sur la plateforme de la VW Type 3 (1600 cc). Il était plus rapide et plus spacieux que le Type 14, mais son prix élevé a limité sa production à 42 505 unités.",
-      "it": "Conosciuto come 'Razor Edge' o 'Grosser Karmann', presentava linee più dritte e moderne, basate sulla piattaforma della VW Tipo 3 (1600 cc). Era più veloce e spazioso del Tipo 14, ma il suo prezzo elevato ne limitò la produzione a 42.505 unità."
+      "ca": "Conegut com a 'Razor Edge' o 'Grosser Karmann', presentava línies més rectes i modernes, basat en la plataforma del Volkswagen Tipus 3 (1600 cc). Era més ràpid i espaiós que el Tipus 14, però el seu alt preu va limitar-ne la producció a 42.505 unitats.",
+      "en": "Known as 'Razor Edge' or 'Grosser Karmann', it featured straighter, more modern lines, based on the Volkswagen Type 3 (1600 cc) platform. It was faster and more spacious than the Type 14, but its high price limited production to 42,505 units.",
+      "es": "Conocido como 'Razor Edge' o 'Grosser Karmann', presentaba líneas más rectas y modernas, basado en la plataforma del Volkswagen Tipo 3 (1600 cc). Era más rápido y espacioso que el Tipo 14, pero su alto precio limitó su producción a 42,505 unidades.",
+      "de": "Bekannt als 'Razor Edge' oder 'Großer Karmann', zeichnete er sich durch geradere, modernere Linien aus und basierte auf der Plattform des Volkswagen Typ 3 (1600 ccm). Er war schneller und geräumiger als der Typ 14, aber sein hoher Preis begrenzte die Produktion auf 42.505 Einheiten.",
+      "fr": "Connu sous le nom de 'Razor Edge' ou 'Grosser Karmann', il présentait des lignes plus droites et plus modernes, basées sur la plateforme de la Volkswagen Type 3 (1600 cc). Il était plus rapide et plus spacieux que le Type 14, mais son prix élevé a limité sa production à 42 505 unités.",
+      "it": "Conosciuto come 'Razor Edge' o 'Grosser Karmann', presentava linee più dritte e moderne, basate sulla piattaforma della Volkswagen Tipo 3 (1600 cc). Era più veloce e spazioso del Tipo 14, ma il suo prezzo elevato ne limitò la produzione a 42.505 unità."
     },
     "imageUrl": "assets/images/vw_karmann_ghia_type_34.jpg",
     "designer": "Sergio Sartorelli (Carrozzeria Ghia)",
@@ -85,12 +84,12 @@
   {
     "id": 3,
     "name": {
-      "ca": "VW Karmann Ghia TC",
-      "en": "VW Karmann Ghia TC",
-      "es": "VW Karmann Ghia TC",
-      "de": "VW Karmann Ghia TC",
-      "fr": "VW Karmann Ghia TC",
-      "it": "VW Karmann Ghia TC"
+      "ca": "Volkswagen Karmann Ghia TC",
+      "en": "Volkswagen Karmann Ghia TC",
+      "es": "Volkswagen Karmann Ghia TC",
+      "de": "Volkswagen Karmann Ghia TC",
+      "fr": "Volkswagen Karmann Ghia TC",
+      "it": "Volkswagen Karmann Ghia TC"
     },
     "productionYears": "1970–1976",
     "description": {

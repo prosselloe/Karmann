@@ -1,23 +1,22 @@
-
 [
   {
     "id": 4,
     "name": {
-      "ca": "VW Karmann GF Buggy",
-      "en": "VW Karmann GF Buggy",
-      "es": "VW Karmann GF Buggy",
-      "de": "VW Karmann GF Buggy",
-      "fr": "VW Karmann GF Buggy",
-      "it": "VW Karmann GF Buggy"
+      "ca": "Volkswagen Karmann GF Buggy",
+      "en": "Volkswagen Karmann GF Buggy",
+      "es": "Volkswagen Karmann GF Buggy",
+      "de": "Volkswagen Karmann GF Buggy",
+      "fr": "Volkswagen Karmann GF Buggy",
+      "it": "Volkswagen Karmann GF Buggy"
     },
     "productionYears": "1971–1974",
     "description": {
-      "ca": "La resposta de Karmann a la febre dels Dune Buggies. Basat en el xassís del VW Escarabat, el GF (Gute Fahrt) Buggy oferia un disseny propi i una qualitat de construcció superior als kits de l'època.",
-      "en": "Karmann's answer to the Dune Buggy craze. Based on the VW Beetle chassis, the GF (Gute Fahrt) Buggy offered its own design and superior build quality compared to the kits of the era.",
-      "es": "La respuesta de Karmann a la fiebre de los Dune Buggies. Basado en el chasis del VW Beetle, el GF (Gute Fahrt) Buggy ofrecía un diseño propio y una calidad de construcción superior a los kits de la época.",
-      "de": "Karmanns Antwort auf das Dune-Buggy-Fieber. Basierend auf dem VW-Käfer-Chassis bot der GF (Gute Fahrt) Buggy ein eigenes Design und eine höhere Verarbeitungsqualität als die Bausätze der damaligen Zeit.",
-      "fr": "La réponse de Karmann à la folie des Dune Buggies. Basé sur le châssis de la VW Coccinelle, le buggy GF (Gute Fahrt) offrait son propre design et une qualité de construction supérieure aux kits de l'époque.",
-      "it": "La risposta di Karmann alla febbre dei Dune Buggy. Basato sul telaio del Maggiolino VW, il Buggy GF (Gute Fahrt) offriva un design proprio e una qualità costruttiva superiore ai kit dell'epoca."
+      "ca": "La resposta de Karmann a la febre dels Dune Buggies. Basat en el xassís del Volkswagen Escarabat, el GF (Gute Fahrt) Buggy oferia un disseny propi i una qualitat de construcció superior als kits de l'època.",
+      "en": "Karmann's answer to the Dune Buggy craze. Based on the Volkswagen Beetle chassis, the GF (Gute Fahrt) Buggy offered its own design and superior build quality compared to the kits of the era.",
+      "es": "La respuesta de Karmann a la fiebre de los Dune Buggies. Basado en el chasis del Volkswagen Escarabajo, el GF (Gute Fahrt) Buggy ofrecía un diseño propio y una calidad de construcción superior a los kits de la época.",
+      "de": "Karmanns Antwort auf das Dune-Buggy-Fieber. Basierend auf dem Volkswagen-Käfer-Chassis bot der GF (Gute Fahrt) Buggy ein eigenes Design und eine höhere Verarbeitungsqualität als die Bausätze der damaligen Zeit.",
+      "fr": "La réponse de Karmann à la folie des Dune Buggies. Basé sur le châssis de la Volkswagen Coccinelle, le buggy GF (Gute Fahrt) offrait son propre design et une qualité de construction supérieure aux kits de l'époque.",
+      "it": "La risposta di Karmann alla febbre dei Dune Buggy. Basato sul telaio del Maggiolino Volkswagen, il Buggy GF (Gute Fahrt) offriva un design proprio e una qualità costruttiva superiore ai kit dell'epoca."
     },
     "imageUrl": "assets/images/vw_karmann_gf_buggy.jpg",
     "designer": "Karmann",
@@ -72,18 +71,18 @@
   {
     "id": 5,
     "name": {
-      "ca": "VW Beetle Cabriolet",
-      "en": "VW Beetle Convertible",
-      "es": "VW Beetle Cabriolet",
-      "de": "VW Käfer Cabriolet",
-      "fr": "VW Coccinelle Cabriolet",
-      "it": "VW Maggiolino Cabriolet"
+      "ca": "Volkswagen Escarabat Cabriolet",
+      "en": "Volkswagen Beetle Convertible",
+      "es": "Volkswagen Escarabajo Cabriolet",
+      "de": "Volkswagen Käfer Cabriolet",
+      "fr": "Volkswagen Coccinelle Cabriolet",
+      "it": "Volkswagen Maggiolino Cabriolet"
     },
-    "productionYears": "1949–2019",
+    "productionYears": "1949–2009",
     "description": {
-      "ca": "Un dels descapotables més populars del món, Karmann va convertir el fiable Volkswagen Beetle en un descapotable de quatre places que va gaudir d'una producció de més de 30 anys. La seva influència va continuar en les generacions posteriors.",
+      "ca": "Un dels descapotables més populars del món, Karmann va convertir el fiable Volkswagen Escarabat en un descapotable de quatre places que va gaudir d'una producció de més de 30 anys. La seva influència va continuar en les generacions posteriors.",
       "en": "One of the world's most popular convertibles, Karmann turned the reliable Volkswagen Beetle into a four-seater convertible that enjoyed a production run of over 30 years. Its influence continued in later generations.",
-      "es": "Uno de los descapotables más populares del mundo, Karmann convirtió el fiable Volkswagen Beetle en un descapotable de cuatro plazas que disfrutó de una producción de más de 30 años. Su influencia continuó en las generaciones posteriores.",
+      "es": "Uno de los descapotables más populares del mundo, Karmann convirtió el fiable Volkswagen Escarabajo en un descapotable de cuatro plazas que disfrutó de una producción de más de 30 anys. Su influencia continuó en las generaciones posteriores.",
       "de": "Als eines der beliebtesten Cabrios der Welt verwandelte Karmann den zuverlässigen Volkswagen Käfer in ein viersitziges Cabrio, das über 30 Jahre lang produziert wurde. Sein Einfluss setzte sich in späteren Generationen fort.",
       "fr": "L'une des décapotables les plus populaires au monde, Karmann a transformé la fiable Volkswagen Coccinelle en une décapotable quatre places qui a connu une production de plus de 30 ans. Son influence s'est poursuivie dans les générations suivantes.",
       "it": "Una delle cabriolet più popolari al mondo, Karmann trasformò l'affidabile Volkswagen Maggiolino in una cabriolet a quattro posti che godette di una produzione di oltre 30 anni. La sua influenza è continuata nelle generazioni successive."
@@ -119,17 +118,17 @@
         },
         "productionYears": "1949–1970",
         "changes": {
-          "ca": "Primers models basats en el Beetle estàndard. Canvis menors en motors i acabats interiors al llarg dels anys. Finestra posterior ovalada fins al 1957, després rectangular més gran.",
+          "ca": "Primers models basats en l'Escarabat estàndard. Canvis menors en motors i acabats interiors al llarg dels anys. Finestra posterior ovalada fins al 1957, després rectangular més gran.",
           "en": "Early models based on the standard Beetle. Minor changes to engines and interior finishes over the years. Oval rear window until 1957, then a larger rectangular one.",
-          "es": "Primeros modelos basados en el Beetle estándar. Cambios menores en motores y acabados interiores a lo largo de los años. Ventana trasera ovalada hasta 1957, luego rectangular más grande.",
+          "es": "Primeros modelos basados en el Escarabajo estándar. Cambios menores en motores y acabados interiores a lo largo de los años. Ventana trasera ovalada hasta 1957, luego rectangular más grande.",
           "de": "Frühe Modelle basierend auf dem Standard-Käfer. Geringfügige Änderungen an Motoren und Innenausstattung im Laufe der Jahre. Ovales Heckfenster bis 1957, dann ein größeres rechteckiges.",
           "fr": "Premiers modèles basés sur la Coccinelle standard. Changements mineurs aux moteurs et aux finitions intérieures au fil des ans. Lunette arrière ovale jusqu'en 1957, puis rectangulaire plus grande.",
           "it": "Primi modelli basati sul Maggiolino standard. Modifiche minori a motori e finiture interne nel corso degli anni. Lunotto posteriore ovale fino al 1957, poi uno rettangolare più grande."
         },
         "productionDetails": {
-          "ca": "En total, es van fabricar 331,847 unitats del Beetle Cabriolet clàssic.",
+          "ca": "En total, es van fabricar 331,847 unitats de l'Escarabat Cabriolet clàssic.",
           "en": "In total, 331,847 units of the classic Beetle Cabriolet were manufactured.",
-          "es": "En total, se fabricaron 331.847 unidades del Beetle Cabriolet clásico.",
+          "es": "En total, se fabricaron 331.847 unidades del Escarabajo Cabriolet clásico.",
           "de": "Insgesamt wurden 331.847 Einheiten des klassischen Käfer Cabriolets hergestellt.",
           "fr": "Au total, 331 847 unités de la Coccinelle Cabriolet classique ont été fabriquées.",
           "it": "In totale, furono prodotte 331.847 unità del Maggiolino Cabriolet classico."
@@ -137,9 +136,9 @@
       },
       {
         "versionName": {
-          "ca": "Model 1302/1303 \"Super Beetle\"",
+          "ca": "Model 1302/1303 \"Super Escarabat\"",
           "en": "Model 1302/1303 \"Super Beetle\"",
-          "es": "Modelo 1302/1303 \"Super Beetle\"",
+          "es": "Modelo 1302/1303 \"Super Escarabajo\"",
           "de": "Modell 1302/1303 \"Super-Käfer\"",
           "fr": "Modèle 1302/1303 \"Super Coccinelle\"",
           "it": "Modello 1302/1303 \"Super Maggiolino\""
@@ -181,26 +180,26 @@
           "it": "Karmann è stato un partner chiave nello sviluppo e nella produzione dei sistemi del tetto per le nuove generazioni del Maggiolino Cabriolet, mantenendo la sua eredità."
         },
         "productionDetails": {
-          "ca": "La producció es va traslladar a les plantes de VW a Mèxic, però l'enginyeria de Karmann va ser fonamental.",
-          "en": "Production was moved to VW plants in Mexico, but Karmann's engineering was fundamental.",
-          "es": "La producción se trasladó a las plantas de VW en México, pero la ingeniería de Karmann fue fundamental.",
-          "de": "Die Produktion wurde in die VW-Werke in Mexiko verlagert, aber die Ingenieurskunst von Karmann war von grundlegender Bedeutung.",
-          "fr": "La production a été transférée dans les usines VW au Mexique, mais l'ingénierie de Karmann a été fondamentale.",
-          "it": "La produzione fu trasferita negli stabilimenti VW in Messico, ma l'ingegneria di Karmann fu fondamentale."
+          "ca": "La producció es va traslladar a les plantes de Volkswagen a Mèxic, però l'enginyeria de Karmann va ser fonamental.",
+          "en": "Production was moved to Volkswagen plants in Mexico, but Karmann's engineering was fundamental.",
+          "es": "La producción se trasladó a las plantas de Volkswagen en México, pero la ingeniería de Karmann fue fundamental.",
+          "de": "Die Produktion wurde in die Volkswagen-Werke in Mexiko verlagert, aber die Ingenieurskunst von Karmann war von grundlegender Bedeutung.",
+          "fr": "La production a été transférée dans les usines Volkswagen au Mexique, mais l'ingénierie de Karmann a été fondamentale.",
+          "it": "La produzione fu trasferita negli stabilimenti Volkswagen in Messico, ma l'ingegneria di Karmann fu fondamentale."
         }
       }
     ],
-    "relatedModels": [1, 4]
+    "relatedModels": [1, 4, 38]
   },
   {
     "id": 6,
     "name": {
-      "ca": "VW Transporter T3",
-      "en": "VW Transporter T3",
-      "es": "VW Transporter T3",
-      "de": "VW Transporter T3",
-      "fr": "VW Transporter T3",
-      "it": "VW Transporter T3"
+      "ca": "Volkswagen Transporter T3",
+      "en": "Volkswagen Transporter T3",
+      "es": "Volkswagen Transporter T3",
+      "de": "Volkswagen Transporter T3",
+      "fr": "Volkswagen Transporter T3",
+      "it": "Volkswagen Transporter T3"
     },
     "productionYears": "1980–1992",
     "description": {
@@ -233,21 +232,21 @@
     "versions": [
       {
         "versionName": {
-          "ca": "Karmann Gipsy (VW T3)",
-          "en": "Karmann Gipsy (VW T3)",
-          "es": "Karmann Gipsy (VW T3)",
-          "de": "Karmann Gipsy (VW T3)",
-          "fr": "Karmann Gipsy (VW T3)",
-          "it": "Karmann Gipsy (VW T3)"
+          "ca": "Karmann Gipsy (Volkswagen T3)",
+          "en": "Karmann Gipsy (Volkswagen T3)",
+          "es": "Karmann Gipsy (Volkswagen T3)",
+          "de": "Karmann Gipsy (Volkswagen T3)",
+          "fr": "Karmann Gipsy (Volkswagen T3)",
+          "it": "Karmann Gipsy (Volkswagen T3)"
         },
         "productionYears": "1980-1992",
         "changes": {
-          "ca": "Una autocaravana amb una distintiva carrosseria monocasc de fibra de vidre sobre el xassís del VW T3, coneguda per la seva durabilitat i disseny intel·ligent.",
-          "en": "A motorhome with a distinctive fiberglass monocoque body on the VW T3 chassis, known for its durability and smart design.",
-          "es": "Una autocaravana con una distintiva carrocería monocasco de fibra de vidrio sobre el chasis del VW T3, conocida por su durabilidad y diseño inteligente.",
-          "de": "Ein Wohnmobil mit einer unverwechselbaren GFK-Monocoque-Karosserie auf dem VW T3-Fahrgestell, bekannt für seine Langlebigkeit und sein intelligentes Design.",
-          "fr": "Un camping-car avec une carrosserie monocoque en fibre de verre distinctive sur le châssis du VW T3, connu pour sa durabilité et son design intelligent.",
-          "it": "Un camper con una distintiva scocca monoscocca in fibra di vetro sul telaio del VW T3, noto per la sua durata e il suo design intelligente."
+          "ca": "Una autocaravana amb una distintiva carrosseria monocasc de fibra de vidre sobre el xassís del Volkswagen T3, coneguda per la seva durabilitat i disseny intel·ligent.",
+          "en": "A motorhome with a distinctive fiberglass monocoque body on the Volkswagen T3 chassis, known for its durability and smart design.",
+          "es": "Una autocaravana con una distintiva carrocería monocasco de fibra de vidrio sobre el chasis del Volkswagen T3, conocida por su durabilidad y diseño inteligente.",
+          "de": "Ein Wohnmobil mit einer unverwechselbaren GFK-Monocoque-Karosserie auf dem Volkswagen T3-Fahrgestell, bekannt für seine Langlebigkeit und sein intelligentes Design.",
+          "fr": "Un camping-car avec une carrosserie monocoque en fibre de verre distinctive sur le châssis du Volkswagen T3, connu pour sa durabilité et son design intelligent.",
+          "it": "Un camper con una distintiva scocca monoscocca in fibra di vetro sul telaio del Volkswagen T3, noto per la sua durata e il suo design intelligente."
         },
         "productionDetails": {
           "ca": "Es van produir 891 unitats del model Gipsy.",
@@ -260,12 +259,12 @@
       },
       {
         "versionName": {
-          "ca": "Karmann sobre VW LT",
-          "en": "Karmann on VW LT",
-          "es": "Karmann sobre VW LT",
-          "de": "Karmann auf VW LT",
-          "fr": "Karmann sur VW LT",
-          "it": "Karmann su VW LT"
+          "ca": "Karmann sobre Volkswagen LT",
+          "en": "Karmann on Volkswagen LT",
+          "es": "Karmann sobre Volkswagen LT",
+          "de": "Karmann auf Volkswagen LT",
+          "fr": "Karmann sur Volkswagen LT",
+          "it": "Karmann su Volkswagen LT"
         },
         "productionYears": "Anys 80-90",
         "changes": {

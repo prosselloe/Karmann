@@ -2,12 +2,12 @@
   {
     "id": 7,
     "name": {
-      "ca": "VW SP2",
-      "en": "VW SP2",
-      "es": "VW SP2",
-      "de": "VW SP2",
-      "fr": "VW SP2",
-      "it": "VW SP2"
+      "ca": "Volkswagen SP2",
+      "en": "Volkswagen SP2",
+      "es": "Volkswagen SP2",
+      "de": "Volkswagen SP2",
+      "fr": "Volkswagen SP2",
+      "it": "Volkswagen SP2"
     },
     "productionYears": "1972–1976",
     "description": {
@@ -139,12 +139,12 @@
   {
     "id": 9,
     "name": {
-      "ca": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
-      "en": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
-      "es": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
-      "de": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
-      "fr": "VW Golf Cabriolet (Mk1, Mk3, Mk4)",
-      "it": "VW Golf Cabriolet (Mk1, Mk3, Mk4)"
+      "ca": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "en": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "es": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "de": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "fr": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)",
+      "it": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)"
     },
     "productionYears": "1979–2002",
     "description": {

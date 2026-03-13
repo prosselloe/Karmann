@@ -2,12 +2,12 @@
   {
     "id": 10,
     "name": {
-      "ca": "VW Scirocco (Mk1 i Mk2)",
-      "en": "VW Scirocco (Mk1 & Mk2)",
-      "es": "VW Scirocco (Mk1 y Mk2)",
-      "de": "VW Scirocco (Mk1 & Mk2)",
-      "fr": "VW Scirocco (Mk1 & Mk2)",
-      "it": "VW Scirocco (Mk1 e Mk2)"
+      "ca": "Volkswagen Scirocco (Mk1 i Mk2)",
+      "en": "Volkswagen Scirocco (Mk1 & Mk2)",
+      "es": "Volkswagen Scirocco (Mk1 y Mk2)",
+      "de": "Volkswagen Scirocco (Mk1 & Mk2)",
+      "fr": "Volkswagen Scirocco (Mk1 & Mk2)",
+      "it": "Volkswagen Scirocco (Mk1 e Mk2)"
     },
     "productionYears": "1974–1992",
     "description": {
@@ -43,12 +43,12 @@
   {
     "id": 11,
     "name": {
-      "ca": "VW Corrado",
-      "en": "VW Corrado",
-      "es": "VW Corrado",
-      "de": "VW Corrado",
-      "fr": "VW Corrado",
-      "it": "VW Corrado"
+      "ca": "Volkswagen Corrado",
+      "en": "Volkswagen Corrado",
+      "es": "Volkswagen Corrado",
+      "de": "Volkswagen Corrado",
+      "fr": "Volkswagen Corrado",
+      "it": "Volkswagen Corrado"
     },
     "productionYears": "1988–1995",
     "description": {
@@ -97,7 +97,7 @@
       "en": "Karmann was involved in two exclusive iterations of the coupé based on the Opel Diplomat. It manufactured a very limited series of the elegant Diplomat A Coupé and, years later, built a unique prototype for the Diplomat B, which influenced future designs despite not reaching production.",
       "es": "Karmann estuvo involucrado en dos iteraciones exclusivas del coupé basado en el Opel Diplomat. Fabricó una serie muy limitada del elegante Diplomat A Coupé y, años más tarde, construyó un prototipo único para el Diplomat B, que influyó en diseños futuros a pesar de no llegar a la producción.",
       "de": "Karmann war an zwei exklusiven Iterationen des auf dem Opel Diplomat basierenden Coupés beteiligt. Sie fertigten eine sehr limitierte Serie des eleganten Diplomat A Coupés und bauten Jahre später einen einzigartigen Prototyp für den Diplomat B, der zukünftige Designs beeinflusste, obwohl er nicht in Produktion ging.",
-      "fr": "Karmann a été impliqué dans deux itérations exclusives du coupé basé sur l'Opel Diplomat. Elle a fabriqué une série très limitée de l'élégant Coupé Diplomat A et, des années plus tard, a construit un prototype unique pour le Diplomat B, qui a influencé les conceptions futures bien qu'il n'ait pas atteint la production.",
+      "fr": "Karmann a été impliqué dans deux itérations exclusives du coupé basé sur l'Opel Diplomat. Elle a fabriqué une série très limitée de l'élégant Coupé Diplomat A et, des années plus tard, a construit un prototip unique pour le Diplomat B, qui a influencé les conceptions futures bien qu'il n'ait pas atteint la production.",
       "it": "Karmann è stata coinvolta in due iterazioni esclusive della coupé basata sulla Opel Diplomat. Ha prodotto una serie molto limitata dell'elegante Diplomat A Coupé e, anni dopo, ha costruito un prototipo unico per la Diplomat B, che ha influenzato i design futuri pur non raggiungendo la produzione."
     },
     "imageUrl": "assets/images/opel_diplomat.jpg",

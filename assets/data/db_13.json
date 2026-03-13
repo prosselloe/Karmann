@@ -1,0 +1,85 @@
+
+[
+  {
+    "id": 37,
+    "name": {
+      "ca": "Ford Eifel Roadster",
+      "en": "Ford Eifel Roadster",
+      "es": "Ford Eifel Roadster",
+      "de": "Ford Eifel Roadster",
+      "fr": "Ford Eifel Roadster",
+      "it": "Ford Eifel Roadster"
+    },
+    "productionYears": "1939",
+    "description": {
+      "ca": "El 1939, Karmann va construir aproximadament 800 unitats d'una versió roadster de dues places del popular Ford Eifel. Aquest model destacava per les seves línies esportives i va ser una de les primeres grans col·laboracions de Karmann amb Ford, demostrant la seva habilitat per a crear carrosseries especials atractives sobre xassissos de producció.",
+      "en": "In 1939, Karmann built approximately 800 units of a two-seater roadster version of the popular Ford Eifel. This model stood out for its sporty lines and was one of Karmann's first major collaborations with Ford, showcasing their ability to create attractive special bodies on production chassis.",
+      "es": "En 1939, Karmann construyó aproximadamente 800 unidades de una versión roadster de dos plazas del popular Ford Eifel. Este modelo destacaba por sus líneas deportivas y fue una de las primeras grandes colaboraciones de Karmann con Ford, demostrando su habilidad para crear carrocerías especiales atractivas sobre chasis de producción.",
+      "de": "1939 baute Karmann etwa 800 Einheiten einer zweisitzigen Roadster-Version des beliebten Ford Eifel. Dieses Modell zeichnete sich durch seine sportlichen Linien aus und war eine der ersten großen Kooperationen von Karmann mit Ford, die ihre Fähigkeit unter Beweis stellte, attraktive Sonderkarosserien auf Serienfahrgestellen zu schaffen.",
+      "fr": "En 1939, Karmann a construit environ 800 unités d'une version roadster à deux places de la populaire Ford Eifel. Ce modèle se distinguait par ses lignes sportives et fut l'une des premières collaborations majeures de Karmann avec Ford, démontrant sa capacité à créer des carrosseries spéciales attrayantes sur des châssis de production.",
+      "it": "Nel 1939, Karmann costruì circa 800 unità di una versione roadster a due posti della popolare Ford Eifel. Questo modello si distingueva per le sue linee sportive e fu una delle prime importanti collaborazioni di Karmann con Ford, dimostrando la loro abilità nel creare attraenti carrozzerie speciali su telai di produzione."
+    },
+    "imageUrl": "assets/images/ford_eifel_roadster.jpg",
+    "designer": "Karmann",
+    "engine": {
+      "ca": "4 cilindres, 1.2 L",
+      "en": "4-cylinder, 1.2 L",
+      "es": "4 cilindros, 1.2 L",
+      "de": "4-Zylinder, 1.2 L",
+      "fr": "4 cylindres, 1.2 L",
+      "it": "4 cilindri, 1.2 L"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 110 km/h",
+      "en": "Approx. 110 km/h",
+      "es": "Aprox. 110 km/h",
+      "de": "ca. 110 km/h",
+      "fr": "Env. 110 km/h",
+      "it": "Circa 110 km/h"
+    },
+    "isCabriolet": false,
+    "versions": [],
+    "relatedModels": [31, 32]
+  },
+  {
+    "id": 38,
+    "name": {
+      "ca": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "en": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "es": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "de": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "fr": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "it": "Volkswagen Beetle Cabriolet Karmann Edition"
+    },
+    "productionYears": "2015-2019",
+    "description": {
+      "ca": "Basat en el Beetle modern, aquesta edició especial ret homenatge a la llarga història de Karmann en la producció dels descapotables de Volkswagen. Igual que altres 'Karmann Edition', incloïa detalls exclusius com tapisseria d'Alcantara, logotips 'Karmann', llantes distintives i equipament superior, fusionant el disseny retro del Beetle amb un toc de luxe i exclusivitat.",
+      "en": "Based on the modern Beetle, this special edition pays tribute to Karmann's long history of producing Volkswagen convertibles. Like other 'Karmann Edition' models, it included exclusive details such as Alcantara upholstery, 'Karmann' logos, distinctive wheels, and superior equipment, merging the Beetle's retro design with a touch of luxury and exclusivity.",
+      "es": "Basado en el Beetle moderno, esta edición especial rinde homenaje a la larga historia de Karmann en la producción de los descapotables de Volkswagen. Al igual que otras 'Karmann Edition', incluía detalles exclusivos como tapicería de Alcantara, logotipos 'Karmann', llantas distintivas y equipamiento superior, fusionando el diseño retro del Beetle con un toque de lujo y exclusividad.",
+      "de": "Basierend auf dem modernen Beetle, zollt diese Sonderedition der langen Geschichte von Karmann bei der Herstellung von Volkswagen-Cabriolets Tribut. Wie andere 'Karmann Edition'-Modelle umfasste sie exklusive Details wie Alcantara-Polsterung, 'Karmann'-Logos, markante Felgen und eine gehobene Ausstattung, die das Retro-Design des Beetle mit einem Hauch von Luxus und Exklusivität verband.",
+      "fr": "Basée sur la Beetle moderne, cette édition spéciale rend hommage à la longue histoire de Karmann dans la production des cabriolets Volkswagen. Comme les autres modèles 'Karmann Edition', elle comprenait des détails exclusifs tels qu'une sellerie en Alcantara, des logos 'Karmann', des jantes distinctives et un équipement supérieur, fusionant le design rétro de la Beetle avec une touche de luxe et d'exclusivité.",
+      "it": "Basata sulla Beetle moderna, questa edizione speciale rende omaggio alla lunga storia di Karmann nella produzione delle decappottabili Volkswagen. Come altri modelli 'Karmann Edition', includeva dettagli esclusivi come rivestimenti in Alcantara, loghi 'Karmann', cerchi distintivi e un equipaggiamento superiore, fondendo il design retrò della Beetle con un tocco di lusso ed esclusività."
+    },
+    "imageUrl": "assets/images/vw_beetle_cabrio_karmann_edition.jpg",
+    "designer": "Volkswagen & Karmann",
+    "engine": {
+      "ca": "Varis, habitualment 1.4 TSI",
+      "en": "Various, commonly 1.4 TSI",
+      "es": "Varios, habitualmente 1.4 TSI",
+      "de": "Verschiedene, üblicherweise 1.4 TSI",
+      "fr": "Divers, généralement 1.4 TSI",
+      "it": "Vari, comunemente 1.4 TSI"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 200 km/h",
+      "en": "Approx. 200 km/h",
+      "es": "Aprox. 200 km/h",
+      "de": "ca. 200 km/h",
+      "fr": "Env. 200 km/h",
+      "it": "Circa 200 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [5]
+  }
+]
