@@ -68,6 +68,10 @@ android {
         release {
             // Sign with the release key.
             signingConfig signingConfigs.release
+
+            // Enable code shrinking, obfuscation, and optimization.
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
