@@ -78,3 +78,36 @@ L'aplicació és funcionalment completa, però la seva interfície d'usuari és 
 5.  **Animacions i Transicions:**
     - Afegir animacions d'entrada subtils per als elements de la llista a mesura que apareixen.
     - Implementar una "Hero Animation" a la imatge del cotxe durant la transició entre la pantalla de llista i la de detalls, creant una experiència de navegació més fluida i professional.
+
+---
+
+## 4. Notes Tècniques de Compilació
+
+### 4.1. Configuració de ProGuard/R8 per a Versions de Release
+
+Quan es genera una versió de *release* de l'aplicació per a Android (per exemple, per a la Play Store), el sistema de compilació utilitza una eina anomenada R8 per optimitzar i reduir la mida del codi. Aquest procés inclou:
+
+1.  **Ofuscació (*Minification*):** Canvia els noms de les classes, mètodes i camps per uns de més curts per estalviar espai.
+2.  **Reducció (*Shrinking*):** Analitza el codi i elimina les classes i mètodes que creu que no s'utilitzen.
+
+**El Problema:**
+
+De vegades, R8 pot ser massa agressiu i eliminar codi que és necessari per a l'aplicació, especialment quan s'accedeix a aquest codi de manera indirecta (*reflection*), una tècnica comuna en *plugins* de Flutter. Això pot causar *crashes* inesperats en la versió de *release* que no apareixen mai durant el desenvolupament (mode *debug*).
+
+**La Solució:**
+
+Per evitar aquest problema, s'ha configurat el projecte per utilitzar regles de ProGuard específiques per a Flutter. Aquestes regles s'han afegit al fitxer `android/app/proguard-rules.pro` i indiquen a R8 que ha de conservar intactes certes classes i mètodes essencials del motor de Flutter i els seus *plugins*.
+
+Aquesta configuració s'activa al fitxer `android/app/build.gradle` amb les línies:
+
+'''groovy
+buildTypes {
+    release {
+        // ...
+        minifyEnabled true
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+}
+'''
+
+Aquesta configuració és **crucial** per garantir l'estabilitat de l'aplicació en dispositius reals un cop publicada a la Play Store.
