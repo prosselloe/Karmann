@@ -15,9 +15,8 @@ class ThemeProvider with ChangeNotifier {
   ThemeMode get themeMode => _themeMode;
 
   void toggleTheme() {
-    _themeMode = _themeMode == ThemeMode.light
-        ? ThemeMode.dark
-        : ThemeMode.light;
+    _themeMode =
+        _themeMode == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
     notifyListeners();
   }
 }
@@ -75,7 +74,7 @@ class KarmannApp extends StatelessWidget {
 
     // Tema Clar
     final ThemeData lightTheme = ThemeData(
-      useMaterial3: true,
+      useMaterial3: false,
       brightness: Brightness.light,
       colorScheme: ColorScheme.fromSeed(
         seedColor: primarySeedColor,
@@ -123,7 +122,7 @@ class KarmannApp extends StatelessWidget {
 
     // Tema Fosc
     final ThemeData darkTheme = ThemeData(
-      useMaterial3: true,
+      useMaterial3: false,
       brightness: Brightness.dark,
       colorScheme: ColorScheme.fromSeed(
         seedColor: primarySeedColor,
@@ -322,7 +321,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemCount: provider.models.length,
                   gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: 400,
-                    childAspectRatio: 3 / 4, // <-- Canvi aquí
+                    childAspectRatio: 4 / 3, // <-- Canvi aquí
                     mainAxisSpacing: 8,
                     crossAxisSpacing: 8,
                   ),
@@ -336,23 +335,24 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            Hero(
-                              tag: model.getName(context),
-                              child: Image.asset(
-                                model.imageUrl,
-                                height: 180,
-                                fit: BoxFit.cover,
-                                errorBuilder: (context, error, stackTrace) =>
-                                    const Center(
-                                      child: Padding(
-                                        padding: EdgeInsets.all(16.0),
-                                        child: Icon(
-                                          Icons.broken_image,
-                                          size: 50,
-                                          color: Colors.grey,
-                                        ),
+                            Flexible(
+                              child: Hero(
+                                tag: model.getName(context),
+                                child: Image.asset(
+                                  model.imageUrl,
+                                  fit: BoxFit.cover,
+                                  errorBuilder: (context, error, stackTrace) =>
+                                      const Center(
+                                    child: Padding(
+                                      padding: EdgeInsets.all(16.0),
+                                      child: Icon(
+                                        Icons.broken_image,
+                                        size: 50,
+                                        color: Colors.grey,
                                       ),
                                     ),
+                                  ),
+                                ),
                               ),
                             ),
                             Padding(
@@ -477,7 +477,6 @@ class DetailScreen extends StatelessWidget {
                     textAlign: TextAlign.justify,
                   ),
                   const SizedBox(height: 24),
-
                   Card(
                     elevation: 0,
                     shape: RoundedRectangleBorder(
@@ -525,7 +524,6 @@ class DetailScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 24),
-
                   if (model.relatedModels.isNotEmpty) ...[
                     Text(l10n.relatedModelsTitle, style: textTheme.titleLarge),
                     const SizedBox(height: 16),

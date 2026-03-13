@@ -30,7 +30,7 @@ class KarmannService {
     try {
       List<dynamic> allModelsJson = [];
 
-      for (int i = 1; i <= 12; i++) {
+      for (int i = 1; i <= 13; i++) {
         final jsonString = await rootBundle.loadString(
           'assets/data/db_$i.json',
         );
