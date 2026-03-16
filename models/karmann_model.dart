@@ -15,6 +15,7 @@ class KarmannModel {
   final int id;
   final Map<String, String> name;
   final String productionYears;
+  final int unitsProduced;
   final String imageUrl;
   final bool isCabriolet;
   final Map<String, String> description;
@@ -28,6 +29,7 @@ class KarmannModel {
     required this.id,
     required this.name,
     required this.productionYears,
+    required this.unitsProduced,
     required this.imageUrl,
     required this.isCabriolet,
     required this.description,
@@ -43,6 +45,7 @@ class KarmannModel {
       id: json['id'] as int,
       name: Map<String, String>.from(json['name']),
       productionYears: json['productionYears'] as String,
+      unitsProduced: json['unitsProduced'] as int,
       imageUrl: json['imageUrl'] as String,
       isCabriolet: json['isCabriolet'] as bool,
       description: Map<String, String>.from(json['description']),
