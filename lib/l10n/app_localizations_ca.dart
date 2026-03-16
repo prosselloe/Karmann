@@ -9,19 +9,28 @@ class AppLocalizationsCa extends AppLocalizations {
   AppLocalizationsCa([String locale = 'ca']) : super(locale);
 
   @override
-  String get appTitle => 'Karmann Models';
+  String get appTitle => 'Models Karmann';
 
   @override
-  String get searchHint => 'Cercar per nom o any...';
+  String get searchHint => 'Cerca models...';
 
   @override
-  String get filterAll => 'Tots';
+  String get noResults => 'No s\'han trobat resultats';
 
   @override
-  String get filterCabriolet => 'Cabriolets';
+  String get sortByName => 'Ordenar per nom';
 
   @override
-  String get dataSheetTitle => 'Dades Clau';
+  String get sortByYear => 'Ordenar per any';
+
+  @override
+  String get sortByUnits => 'Ordenar per unitats';
+
+  @override
+  String get sortDefault => 'Per defecte';
+
+  @override
+  String get dataSheetTitle => 'Fitxa tècnica';
 
   @override
   String get designerLabel => 'Dissenyador';
@@ -30,32 +39,26 @@ class AppLocalizationsCa extends AppLocalizations {
   String get engineLabel => 'Motor';
 
   @override
-  String get topSpeedLabel => 'Velocitat Màxima';
+  String get topSpeedLabel => 'Velocitat màxima';
 
   @override
-  String get versionsTitle => 'Versions i Canvis';
+  String get unitsProducedLabel => 'Unitats produïdes';
 
   @override
-  String get noResults => 'No s\'han trobat resultats';
+  String get relatedModelsTitle => 'Models relacionats';
 
   @override
-  String get relatedModelsTitle => 'Models Relacionats';
+  String get versionsAndVariantsTitle => 'Versions i Variants';
 
   @override
-  String get mainChangesLabel => 'Canvis Principals';
+  String get manufacturingPlantLabel => 'Planta de fabricació';
 
   @override
-  String get productionDataLabel => 'Dades de Producció';
+  String get filterByPlant => 'Filtrar per planta';
 
   @override
-  String get productionDetailsLabel => 'Detalls de Producció';
+  String get allPlants => 'Totes les plantes';
 
   @override
-  String get sortByName => 'Ordena per nom';
-
-  @override
-  String get sortByYear => 'Ordena per any';
-
-  @override
-  String get sortDefault => 'Sense ordenar';
+  String get filterActive => 'Filtre actiu';
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:karmann/models/karmann_model.dart';
 import 'package:karmann/services/karmann_service.dart';
 
-enum SortType { none, byName, byYear }
+enum SortType { none, byName, byYear, byUnits }
 
 class ModelProvider with ChangeNotifier {
   final KarmannService _karmannService = KarmannService();
@@ -10,10 +10,12 @@ class ModelProvider with ChangeNotifier {
   List<KarmannModel> _filteredModels = [];
   bool _isLoading = false;
   SortType _sortType = SortType.none;
+  String? _selectedPlant;
 
   List<KarmannModel> get models => _filteredModels;
   bool get isLoading => _isLoading;
   SortType get sortType => _sortType;
+  String? get selectedPlant => _selectedPlant;
 
   ModelProvider() {
     fetchModels();
@@ -32,6 +34,21 @@ class ModelProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  List<String> getAvailablePlants(BuildContext context) {
+    final plants = _models
+        .map((model) => model.getManufacturingPlant(context))
+        .whereType<String>() // Filters out nulls and ensures a List<String>
+        .toSet()
+        .toList();
+    plants.sort();
+    return plants;
+  }
+
+  void filterByPlant(String? plant, BuildContext context) {
+    _selectedPlant = plant;
+    search('', context); // Clear previous search and apply plant filter
+  }
+
   List<KarmannModel> getModelsByIds(List<int> ids) {
     return _models.where((model) => ids.contains(model.id)).toList();
   }
@@ -46,20 +63,27 @@ class ModelProvider with ChangeNotifier {
   }
 
   void search(String query, BuildContext context) {
-    if (query.isEmpty) {
-      _filteredModels = List.from(_models);
-    } else {
+    List<KarmannModel> tempModels = List.from(_models);
+
+    // Filter by plant first
+    if (_selectedPlant != null && _selectedPlant!.isNotEmpty) {
+      tempModels = tempModels.where((model) {
+        final plantName = model.getManufacturingPlant(context);
+        return plantName != null && plantName == _selectedPlant;
+      }).toList();
+    }
+
+    // Then, filter by search query
+    if (query.isNotEmpty) {
       final lowerCaseQuery = query.toLowerCase();
       final searchYear = int.tryParse(query);
 
-      _filteredModels = _models.where((model) {
-        // Search by name (case-insensitive)
+      tempModels = tempModels.where((model) {
         final modelName = model.getName(context).toLowerCase();
         if (modelName.contains(lowerCaseQuery)) {
           return true;
         }
 
-        // Search by production year
         if (searchYear != null) {
           final yearsString = model.productionYears;
           final years = yearsString.split(RegExp(r'–|-'));
@@ -68,7 +92,6 @@ class ModelProvider with ChangeNotifier {
           final startYear = int.tryParse(startYearStr);
 
           if (startYear != null) {
-            // Case 1: Range (e.g., '1955-1974')
             if (years.length == 2) {
               final endYearStr = years[1].trim().toLowerCase();
               int? endYear;
@@ -82,19 +105,17 @@ class ModelProvider with ChangeNotifier {
               if (endYear != null) {
                 return searchYear >= startYear && searchYear <= endYear;
               }
-            }
-            // Case 2: Single year (e.g., '1970')
-            else if (years.length == 1) {
+            } else if (years.length == 1) {
               return searchYear == startYear;
             }
           }
         }
 
-        // Fallback search if the query isn't a perfect year number but might be in the string
         return model.productionYears.contains(query);
       }).toList();
     }
-    // Re-apply current sort order to search results
+
+    _filteredModels = tempModels;
     sort(_sortType, context: context, notify: false);
     notifyListeners();
   }
@@ -113,6 +134,11 @@ class ModelProvider with ChangeNotifier {
           final yearA = _getStartYear(a.productionYears) ?? 0;
           final yearB = _getStartYear(b.productionYears) ?? 0;
           return yearA.compareTo(yearB);
+        });
+        break;
+      case SortType.byUnits:
+        _filteredModels.sort((a, b) {
+          return b.unitsProduced.compareTo(a.unitsProduced);
         });
         break;
       case SortType.none:

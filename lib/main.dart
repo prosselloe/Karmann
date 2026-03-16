@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import 'package:karmann/providers/model_provider.dart';
@@ -8,7 +10,6 @@ import 'package:karmann/models/karmann_model.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:karmann/l10n/app_localizations.dart';
 
-// Provider per a la gestió del tema (clar/fosc)
 class ThemeProvider with ChangeNotifier {
   ThemeMode _themeMode = ThemeMode.system;
 
@@ -23,13 +24,11 @@ class ThemeProvider with ChangeNotifier {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final modelProvider = ModelProvider();
-  await modelProvider.fetchModels();
 
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider.value(value: modelProvider),
+        ChangeNotifierProvider(create: (context) => ModelProvider()),
         ChangeNotifierProvider(create: (context) => LocaleProvider()),
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
       ],
@@ -63,7 +62,6 @@ class KarmannApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Paleta de colors i tipografia
     const Color primarySeedColor = Color(0xFF2d3436);
     final TextTheme appTextTheme = TextTheme(
       displayLarge: GoogleFonts.exo2(fontSize: 57, fontWeight: FontWeight.bold),
@@ -72,7 +70,6 @@ class KarmannApp extends StatelessWidget {
       labelLarge: GoogleFonts.lato(fontSize: 16, fontWeight: FontWeight.bold),
     );
 
-    // Tema Clar
     final ThemeData lightTheme = ThemeData(
       useMaterial3: false,
       brightness: Brightness.light,
@@ -120,7 +117,6 @@ class KarmannApp extends StatelessWidget {
       ),
     );
 
-    // Tema Fosc
     final ThemeData darkTheme = ThemeData(
       useMaterial3: false,
       brightness: Brightness.dark,
@@ -186,12 +182,12 @@ class KarmannApp extends StatelessWidget {
                 GlobalCupertinoLocalizations.delegate,
               ],
               supportedLocales: const [
-                Locale('ca'), // Català
-                Locale('en'), // Anglès
-                Locale('es'), // Castellà
-                Locale('de'), // Alemany
-                Locale('fr'), // Francès
-                Locale('it'), // Italià
+                Locale('ca'),
+                Locale('en'),
+                Locale('es'),
+                Locale('de'),
+                Locale('fr'),
+                Locale('it'),
               ],
             );
           },
@@ -214,6 +210,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      Provider.of<ModelProvider>(context, listen: false).fetchModels();
+    });
   }
 
   @override
@@ -228,6 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final localeProvider = Provider.of<LocaleProvider>(context);
     final themeProvider = Provider.of<ThemeProvider>(context);
     final l10n = AppLocalizations.of(context)!;
+    final availablePlants = provider.getAvailablePlants(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -242,6 +242,28 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () => themeProvider.toggleTheme(),
             tooltip: 'Canviar tema',
           ),
+          if (availablePlants.isNotEmpty)
+            PopupMenuButton<String>(
+              icon: const Icon(Icons.factory_outlined),
+              tooltip: l10n.filterByPlant,
+              onSelected: (String? plant) {
+                provider.filterByPlant(plant, context);
+              },
+              itemBuilder: (BuildContext context) {
+                return [
+                  PopupMenuItem<String>(
+                    value: null,
+                    child: Text(l10n.allPlants),
+                  ),
+                  ...availablePlants.map((plant) {
+                    return PopupMenuItem<String>(
+                      value: plant,
+                      child: Text(plant),
+                    );
+                  }),
+                ];
+              },
+            ),
           PopupMenuButton<SortType>(
             icon: const Icon(Icons.sort),
             tooltip: 'Ordenar',
@@ -256,6 +278,10 @@ class _HomeScreenState extends State<HomeScreen> {
               PopupMenuItem<SortType>(
                 value: SortType.byYear,
                 child: Text(l10n.sortByYear),
+              ),
+              PopupMenuItem<SortType>(
+                value: SortType.byUnits,
+                child: Text(l10n.sortByUnits),
               ),
               const PopupMenuDivider(),
               PopupMenuItem<SortType>(
@@ -286,23 +312,40 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              controller: _searchController,
-              onChanged: (value) => provider.search(value, context),
-              decoration: InputDecoration(
-                hintText: l10n.searchHint,
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: _searchController.text.isNotEmpty
-                    ? IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: () {
-                          _searchController.clear();
-                          provider.search('', context);
-                        },
-                      )
-                    : null,
-              ),
+            padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+            child: Column(
+              children: [
+                TextField(
+                  controller: _searchController,
+                  onChanged: (value) => provider.search(value, context),
+                  decoration: InputDecoration(
+                    hintText: l10n.searchHint,
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchController.text.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              _searchController.clear();
+                              provider.search('', context);
+                            },
+                          )
+                        : null,
+                  ),
+                ),
+                if (provider.selectedPlant != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 12.0),
+                    child: Chip(
+                      label: Text(
+                        '${l10n.filterActive}: ${provider.selectedPlant}',
+                      ),
+                      onDeleted: () {
+                        provider.filterByPlant(null, context);
+                      },
+                      deleteIcon: const Icon(Icons.close, size: 18),
+                    ),
+                  ),
+              ],
             ),
           ),
           Expanded(
@@ -317,16 +360,19 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
 
                 return GridView.builder(
-                  padding: const EdgeInsets.all(8),
+                  padding: const EdgeInsets.all(16),
                   itemCount: provider.models.length,
                   gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: 400,
-                    childAspectRatio: 4 / 3, // <-- Canvi aquí
-                    mainAxisSpacing: 8,
-                    crossAxisSpacing: 8,
+                    childAspectRatio: 4 / 3,
+                    mainAxisSpacing: 16,
+                    crossAxisSpacing: 16,
                   ),
                   itemBuilder: (context, index) {
                     final model = provider.models[index];
+                    final numberFormat =
+                        NumberFormat.decimalPattern(l10n.localeName);
+
                     return Card(
                       elevation: 2,
                       clipBehavior: Clip.antiAlias,
@@ -335,7 +381,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            Flexible(
+                            Expanded(
+                              flex: 3,
                               child: Hero(
                                 tag: model.getName(context),
                                 child: Image.asset(
@@ -355,29 +402,61 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.all(12.0),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    model.getName(context),
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .titleLarge
-                                        ?.copyWith(fontSize: 18),
-                                    maxLines: 2, // Permet fins a 2 línies
-                                    overflow: TextOverflow.ellipsis,
-                                  ),
-                                  const SizedBox(height: 4),
-                                  Text(
-                                    model.productionYears,
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .bodyMedium
-                                        ?.copyWith(color: Colors.grey[600]),
-                                  ),
-                                ],
+                            Expanded(
+                              flex: 2,
+                              child: Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      model.getName(context),
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .titleLarge
+                                          ?.copyWith(fontSize: 18),
+                                      maxLines: 2,
+                                    ),
+                                    const SizedBox(height: 4),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        Flexible(
+                                          child: Text(
+                                            model.productionYears,
+                                            style: Theme.of(context)
+                                                .textTheme
+                                                .bodyMedium
+                                                ?.copyWith(
+                                                    color: Colors.grey[600]),
+                                          ),
+                                        ),
+                                        Row(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            Icon(Icons.build_sharp,
+                                                size: 16,
+                                                color: Colors.grey[600]),
+                                            const SizedBox(width: 4),
+                                            Text(
+                                              numberFormat
+                                                  .format(model.unitsProduced),
+                                              style: Theme.of(context)
+                                                  .textTheme
+                                                  .bodyMedium
+                                                  ?.copyWith(
+                                                      color:
+                                                          Colors.grey[600]),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ],
@@ -405,6 +484,7 @@ class DetailScreen extends StatelessWidget {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final ColorScheme colorScheme = Theme.of(context).colorScheme;
     final l10n = AppLocalizations.of(context)!;
+    final numberFormat = NumberFormat.decimalPattern(l10n.localeName);
 
     return Scaffold(
       appBar: AppBar(
@@ -425,6 +505,7 @@ class DetailScreen extends StatelessWidget {
         ),
         elevation: 0,
         backgroundColor: Colors.transparent,
+        foregroundColor: Colors.white,
       ),
       extendBodyBehindAppBar: true,
       body: SingleChildScrollView(
@@ -435,11 +516,11 @@ class DetailScreen extends StatelessWidget {
               tag: model.getName(context),
               child: Image.asset(
                 model.imageUrl,
-                height: 300,
+                height: 350,
                 width: double.infinity,
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) => Container(
-                  height: 300,
+                  height: 350,
                   color: Colors.grey[200],
                   child: const Center(
                     child: Icon(
@@ -468,6 +549,7 @@ class DetailScreen extends StatelessWidget {
                     model.productionYears,
                     style: textTheme.titleMedium?.copyWith(
                       color: colorScheme.secondary,
+                      fontSize: 18,
                     ),
                   ),
                   const SizedBox(height: 24),
@@ -503,6 +585,13 @@ class DetailScreen extends StatelessWidget {
                               colorScheme,
                               icon: Icons.design_services,
                             ),
+                          _buildDetailRow(
+                            l10n.unitsProducedLabel,
+                            numberFormat.format(model.unitsProduced),
+                            textTheme,
+                            colorScheme,
+                            icon: Icons.build_sharp,
+                          ),
                           if (model.getEngine(context) != null)
                             _buildDetailRow(
                               l10n.engineLabel,
@@ -519,28 +608,96 @@ class DetailScreen extends StatelessWidget {
                               colorScheme,
                               icon: Icons.speed,
                             ),
+                          if (model.getManufacturingPlant(context) != null)
+                            _buildDetailRow(
+                              l10n.manufacturingPlantLabel,
+                              model.getManufacturingPlant(context)!,
+                              textTheme,
+                              colorScheme,
+                              icon: Icons.factory,
+                            ),
                         ],
                       ),
                     ),
                   ),
                   const SizedBox(height: 24),
+                  if (model.versions.isNotEmpty) ...[
+                    Text(l10n.versionsAndVariantsTitle,
+                        style: textTheme.titleLarge),
+                    for (final version in model.versions)
+                      Card(
+                        margin: const EdgeInsets.only(top: 12, bottom: 12),
+                        clipBehavior: Clip.antiAlias,
+                        child: ExpansionTile(
+                          title: Text(
+                            version.getVersionName(context),
+                            style: textTheme.titleMedium
+                                ?.copyWith(fontWeight: FontWeight.bold),
+                          ),
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset(
+                                    version.imageUrl,
+                                    height: 200,
+                                    width: double.infinity,
+                                    fit: BoxFit.cover,
+                                    errorBuilder:
+                                        (context, error, stackTrace) =>
+                                            Container(
+                                      height: 200,
+                                      color: Colors.grey[200],
+                                      child: const Center(
+                                        child: Icon(
+                                          Icons.broken_image,
+                                          size: 60,
+                                          color: Colors.grey,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 16),
+                                  if (version.productionYears != null)
+                                    Text(
+                                      version.productionYears!,
+                                      style: textTheme.bodyMedium?.copyWith(
+                                        color: colorScheme.secondary,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  const SizedBox(height: 8),
+                                  Text(
+                                    version.getChanges(context),
+                                    style: textTheme.bodyMedium,
+                                    textAlign: TextAlign.justify,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    const SizedBox(height: 24),
+                  ],
                   if (model.relatedModels.isNotEmpty) ...[
                     Text(l10n.relatedModelsTitle, style: textTheme.titleLarge),
                     const SizedBox(height: 16),
                     SizedBox(
-                      height: 100,
+                      height: 150,
                       child: Consumer<ModelProvider>(
                         builder: (context, provider, child) {
-                          final related = provider.getModelsByIds(
-                            model.relatedModels,
-                          );
+                          final related =
+                              provider.getModelsByIds(model.relatedModels);
                           return ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemCount: related.length,
                             itemBuilder: (context, index) {
                               final relatedModel = related[index];
                               return SizedBox(
-                                width: 150,
+                                width: 160,
                                 child: Card(
                                   clipBehavior: Clip.antiAlias,
                                   child: InkWell(
@@ -552,17 +709,16 @@ class DetailScreen extends StatelessWidget {
                                       children: [
                                         Image.asset(
                                           relatedModel.imageUrl,
-                                          height: 60,
-                                          width: 150,
+                                          height: 90,
+                                          width: 160,
                                           fit: BoxFit.cover,
                                         ),
                                         Padding(
-                                          padding: const EdgeInsets.all(4.0),
+                                          padding: const EdgeInsets.all(6.0),
                                           child: Text(
                                             relatedModel.getName(context),
                                             style: textTheme.bodySmall,
-                                            maxLines: 1,
-                                            overflow: TextOverflow.ellipsis,
+                                            maxLines: 2,
                                             textAlign: TextAlign.center,
                                           ),
                                         ),

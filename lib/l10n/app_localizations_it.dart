@@ -12,43 +12,10 @@ class AppLocalizationsIt extends AppLocalizations {
   String get appTitle => 'Modelli Karmann';
 
   @override
-  String get searchHint => 'Cerca per nome o anno...';
-
-  @override
-  String get filterAll => 'Tutti';
-
-  @override
-  String get filterCabriolet => 'Cabriolet';
-
-  @override
-  String get dataSheetTitle => 'Dati Chiave';
-
-  @override
-  String get designerLabel => 'Designer';
-
-  @override
-  String get engineLabel => 'Motore';
-
-  @override
-  String get topSpeedLabel => 'Velocità Massima';
-
-  @override
-  String get versionsTitle => 'Versioni e Modifiche';
+  String get searchHint => 'Cerca modelli...';
 
   @override
   String get noResults => 'Nessun risultato trovato';
-
-  @override
-  String get relatedModelsTitle => 'Modelli Correlati';
-
-  @override
-  String get mainChangesLabel => 'Modifiche Principali';
-
-  @override
-  String get productionDataLabel => 'Dati di Produzione';
-
-  @override
-  String get productionDetailsLabel => 'Dettagli di Produzione';
 
   @override
   String get sortByName => 'Ordina per nome';
@@ -57,5 +24,41 @@ class AppLocalizationsIt extends AppLocalizations {
   String get sortByYear => 'Ordina per anno';
 
   @override
-  String get sortDefault => 'Nessun ordinamento';
+  String get sortByUnits => 'Ordina per unità';
+
+  @override
+  String get sortDefault => 'Predefinito';
+
+  @override
+  String get dataSheetTitle => 'Scheda dati';
+
+  @override
+  String get designerLabel => 'Designer';
+
+  @override
+  String get engineLabel => 'Motore';
+
+  @override
+  String get topSpeedLabel => 'Velocità massima';
+
+  @override
+  String get unitsProducedLabel => 'Unità prodotte';
+
+  @override
+  String get relatedModelsTitle => 'Modelli correlati';
+
+  @override
+  String get versionsAndVariantsTitle => 'Versioni e Varianti';
+
+  @override
+  String get manufacturingPlantLabel => 'Impianto di produzione';
+
+  @override
+  String get filterByPlant => 'Filtra per impianto';
+
+  @override
+  String get allPlants => 'Tutti gli impianti';
+
+  @override
+  String get filterActive => 'Filtro attivo';
 }

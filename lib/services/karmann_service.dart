@@ -27,28 +27,36 @@ class KarmannService {
   }
 
   Future<void> _loadModels() async {
-    try {
-      List<dynamic> allModelsJson = [];
+    List<KarmannModel> loadedModels = [];
 
-      for (int i = 1; i <= 13; i++) {
+    for (int i = 1; i <= 13; i++) {
+      try {
         final jsonString = await rootBundle.loadString(
           'assets/data/db_$i.json',
         );
         final jsonList = json.decode(jsonString) as List;
-        allModelsJson.addAll(jsonList);
+        for (var jsonItem in jsonList) {
+          try {
+            loadedModels.add(KarmannModel.fromJson(jsonItem));
+          } catch (e, s) {
+            developer.log(
+              'Error parsing model from db_$i.json',
+              name: 'KarmannService',
+              error: e,
+              stackTrace: s,
+            );
+          }
+        }
+      } catch (e, s) {
+        developer.log(
+          'Error loading or parsing db_$i.json',
+          name: 'KarmannService',
+          error: e,
+          stackTrace: s,
+        );
       }
-
-      _models =
-          allModelsJson.map((json) => KarmannModel.fromJson(json)).toList();
-    } catch (e, s) {
-      // Handle errors, e.g., file not found, JSON parsing error
-      developer.log(
-        'Error loading models',
-        name: 'KarmannService',
-        error: e,
-        stackTrace: s,
-      );
-      _models = [];
     }
+
+    _models = loadedModels;
   }
 }

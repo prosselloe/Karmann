@@ -2,8 +2,8 @@
   "appTitle": "Karmann Models",
   "searchHint": "Search by name or year...",
   "filterAll": "All",
-  "filterCabriolet": "Cabriolets",
-  "dataSheetTitle": "Key Data",
+  "filterCabriolet": "Convertibles",
+  "dataSheetTitle": "Key Specs",
   "designerLabel": "Designer",
   "engineLabel": "Engine",
   "topSpeedLabel": "Top Speed",
@@ -15,5 +15,6 @@
   "productionDetailsLabel": "Production Details",
   "sortByName": "Sort by name",
   "sortByYear": "Sort by year",
-  "sortDefault": "No sort"
+  "sortByUnits": "Sort by units",
+  "sortDefault": "Default"
 }

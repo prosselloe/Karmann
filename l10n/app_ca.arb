@@ -15,5 +15,6 @@
   "productionDetailsLabel": "Detalls de Producció",
   "sortByName": "Ordena per nom",
   "sortByYear": "Ordena per any",
+  "sortByUnits": "Ordena per unitats",
   "sortDefault": "Sense ordenar"
 }

@@ -109,31 +109,49 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In ca, this message translates to:
-  /// **'Karmann Models'**
+  /// **'Models Karmann'**
   String get appTitle;
 
   /// No description provided for @searchHint.
   ///
   /// In ca, this message translates to:
-  /// **'Cercar per nom o any...'**
+  /// **'Cerca models...'**
   String get searchHint;
 
-  /// No description provided for @filterAll.
+  /// No description provided for @noResults.
   ///
   /// In ca, this message translates to:
-  /// **'Tots'**
-  String get filterAll;
+  /// **'No s\'han trobat resultats'**
+  String get noResults;
 
-  /// No description provided for @filterCabriolet.
+  /// No description provided for @sortByName.
   ///
   /// In ca, this message translates to:
-  /// **'Cabriolets'**
-  String get filterCabriolet;
+  /// **'Ordenar per nom'**
+  String get sortByName;
+
+  /// No description provided for @sortByYear.
+  ///
+  /// In ca, this message translates to:
+  /// **'Ordenar per any'**
+  String get sortByYear;
+
+  /// No description provided for @sortByUnits.
+  ///
+  /// In ca, this message translates to:
+  /// **'Ordenar per unitats'**
+  String get sortByUnits;
+
+  /// No description provided for @sortDefault.
+  ///
+  /// In ca, this message translates to:
+  /// **'Per defecte'**
+  String get sortDefault;
 
   /// No description provided for @dataSheetTitle.
   ///
   /// In ca, this message translates to:
-  /// **'Dades Clau'**
+  /// **'Fitxa tècnica'**
   String get dataSheetTitle;
 
   /// No description provided for @designerLabel.
@@ -151,62 +169,50 @@ abstract class AppLocalizations {
   /// No description provided for @topSpeedLabel.
   ///
   /// In ca, this message translates to:
-  /// **'Velocitat Màxima'**
+  /// **'Velocitat màxima'**
   String get topSpeedLabel;
 
-  /// No description provided for @versionsTitle.
+  /// No description provided for @unitsProducedLabel.
   ///
   /// In ca, this message translates to:
-  /// **'Versions i Canvis'**
-  String get versionsTitle;
-
-  /// No description provided for @noResults.
-  ///
-  /// In ca, this message translates to:
-  /// **'No s\'han trobat resultats'**
-  String get noResults;
+  /// **'Unitats produïdes'**
+  String get unitsProducedLabel;
 
   /// No description provided for @relatedModelsTitle.
   ///
   /// In ca, this message translates to:
-  /// **'Models Relacionats'**
+  /// **'Models relacionats'**
   String get relatedModelsTitle;
 
-  /// No description provided for @mainChangesLabel.
+  /// No description provided for @versionsAndVariantsTitle.
   ///
   /// In ca, this message translates to:
-  /// **'Canvis Principals'**
-  String get mainChangesLabel;
+  /// **'Versions i Variants'**
+  String get versionsAndVariantsTitle;
 
-  /// No description provided for @productionDataLabel.
+  /// No description provided for @manufacturingPlantLabel.
   ///
   /// In ca, this message translates to:
-  /// **'Dades de Producció'**
-  String get productionDataLabel;
+  /// **'Planta de fabricació'**
+  String get manufacturingPlantLabel;
 
-  /// No description provided for @productionDetailsLabel.
+  /// No description provided for @filterByPlant.
   ///
   /// In ca, this message translates to:
-  /// **'Detalls de Producció'**
-  String get productionDetailsLabel;
+  /// **'Filtrar per planta'**
+  String get filterByPlant;
 
-  /// No description provided for @sortByName.
+  /// No description provided for @allPlants.
   ///
   /// In ca, this message translates to:
-  /// **'Ordena per nom'**
-  String get sortByName;
+  /// **'Totes les plantes'**
+  String get allPlants;
 
-  /// No description provided for @sortByYear.
+  /// No description provided for @filterActive.
   ///
   /// In ca, this message translates to:
-  /// **'Ordena per any'**
-  String get sortByYear;
-
-  /// No description provided for @sortDefault.
-  ///
-  /// In ca, this message translates to:
-  /// **'Sense ordenar'**
-  String get sortDefault;
+  /// **'Filtre actiu'**
+  String get filterActive;
 }
 
 class _AppLocalizationsDelegate

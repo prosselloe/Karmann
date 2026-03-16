@@ -12,16 +12,25 @@ class AppLocalizationsDe extends AppLocalizations {
   String get appTitle => 'Karmann Modelle';
 
   @override
-  String get searchHint => 'Suche nach Name oder Jahr...';
+  String get searchHint => 'Modelle suchen...';
 
   @override
-  String get filterAll => 'Alle';
+  String get noResults => 'Keine Ergebnisse gefunden';
 
   @override
-  String get filterCabriolet => 'Cabriolets';
+  String get sortByName => 'Nach Name sortieren';
 
   @override
-  String get dataSheetTitle => 'Schlüsseldaten';
+  String get sortByYear => 'Nach Jahr sortieren';
+
+  @override
+  String get sortByUnits => 'Nach Einheiten sortieren';
+
+  @override
+  String get sortDefault => 'Standard';
+
+  @override
+  String get dataSheetTitle => 'Datenblatt';
 
   @override
   String get designerLabel => 'Designer';
@@ -33,29 +42,23 @@ class AppLocalizationsDe extends AppLocalizations {
   String get topSpeedLabel => 'Höchstgeschwindigkeit';
 
   @override
-  String get versionsTitle => 'Versionen & Änderungen';
-
-  @override
-  String get noResults => 'Keine Ergebnisse gefunden';
+  String get unitsProducedLabel => 'Produzierte Einheiten';
 
   @override
   String get relatedModelsTitle => 'Verwandte Modelle';
 
   @override
-  String get mainChangesLabel => 'Wesentliche Änderungen';
+  String get versionsAndVariantsTitle => 'Versionen und Varianten';
 
   @override
-  String get productionDataLabel => 'Produktionsdaten';
+  String get manufacturingPlantLabel => 'Produktionsstätte';
 
   @override
-  String get productionDetailsLabel => 'Produktionsdetails';
+  String get filterByPlant => 'Nach Werk filtern';
 
   @override
-  String get sortByName => 'Nach Namen sortieren';
+  String get allPlants => 'Alle Werke';
 
   @override
-  String get sortByYear => 'Nach Jahr sortieren';
-
-  @override
-  String get sortDefault => 'Keine Sortierung';
+  String get filterActive => 'Filter aktiv';
 }

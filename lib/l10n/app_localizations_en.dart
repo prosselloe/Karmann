@@ -12,43 +12,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appTitle => 'Karmann Models';
 
   @override
-  String get searchHint => 'Search by name or year...';
-
-  @override
-  String get filterAll => 'All';
-
-  @override
-  String get filterCabriolet => 'Cabriolets';
-
-  @override
-  String get dataSheetTitle => 'Key Data';
-
-  @override
-  String get designerLabel => 'Designer';
-
-  @override
-  String get engineLabel => 'Engine';
-
-  @override
-  String get topSpeedLabel => 'Top Speed';
-
-  @override
-  String get versionsTitle => 'Versions & Changes';
+  String get searchHint => 'Search models...';
 
   @override
   String get noResults => 'No results found';
-
-  @override
-  String get relatedModelsTitle => 'Related Models';
-
-  @override
-  String get mainChangesLabel => 'Main Changes';
-
-  @override
-  String get productionDataLabel => 'Production Data';
-
-  @override
-  String get productionDetailsLabel => 'Production Details';
 
   @override
   String get sortByName => 'Sort by name';
@@ -57,5 +24,41 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sortByYear => 'Sort by year';
 
   @override
-  String get sortDefault => 'No sort';
+  String get sortByUnits => 'Sort by units';
+
+  @override
+  String get sortDefault => 'Default';
+
+  @override
+  String get dataSheetTitle => 'Data Sheet';
+
+  @override
+  String get designerLabel => 'Designer';
+
+  @override
+  String get engineLabel => 'Engine';
+
+  @override
+  String get topSpeedLabel => 'Top speed';
+
+  @override
+  String get unitsProducedLabel => 'Units produced';
+
+  @override
+  String get relatedModelsTitle => 'Related Models';
+
+  @override
+  String get versionsAndVariantsTitle => 'Versions and Variants';
+
+  @override
+  String get manufacturingPlantLabel => 'Manufacturing Plant';
+
+  @override
+  String get filterByPlant => 'Filter by plant';
+
+  @override
+  String get allPlants => 'All plants';
+
+  @override
+  String get filterActive => 'Filter active';
 }

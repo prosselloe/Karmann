@@ -7,13 +7,14 @@
   "designerLabel": "Designer",
   "engineLabel": "Moteur",
   "topSpeedLabel": "Vitesse Maximale",
-  "versionsTitle": "Versions & Modifications",
+  "versionsTitle": "Versions & Changements",
   "noResults": "Aucun résultat trouvé",
-  "relatedModelsTitle": "Modèles Connexes",
+  "relatedModelsTitle": "Modèles Liés",
   "mainChangesLabel": "Changements Principaux",
   "productionDataLabel": "Données de Production",
   "productionDetailsLabel": "Détails de Production",
   "sortByName": "Trier par nom",
   "sortByYear": "Trier par année",
-  "sortDefault": "Pas de tri"
+  "sortByUnits": "Trier par unités",
+  "sortDefault": "Par défaut"
 }

@@ -1,14 +1,34 @@
 import 'package:flutter/material.dart';
 
-// Funció auxiliar per a obtenir la cadena de text localitzada de manera robusta
-String _getLocalizedString(Map<String, String> map, String locale) {
-  return map[locale] ?? map['ca'] ?? map.values.first;
-}
+class Version {
+  final Map<String, String> versionName;
+  final String imageUrl;
+  final String? productionYears;
+  final Map<String, String> changes;
 
-// Versió de la funció per a camps opcionals
-String? _getLocalizedOptionalString(Map<String, String>? map, String locale) {
-  if (map == null) return null;
-  return map[locale] ?? map['ca'] ?? map.values.first;
+  Version({
+    required this.versionName,
+    required this.imageUrl,
+    this.productionYears,
+    required this.changes,
+  });
+
+  factory Version.fromJson(Map<String, dynamic> json) {
+    return Version(
+      versionName: Map<String, String>.from(json['versionName']),
+      imageUrl: json['imageUrl'] as String,
+      productionYears: json['productionYears'] as String?,
+      changes: Map<String, String>.from(json['changes']),
+    );
+  }
+
+  String _getLocalizedString(Map<String, String> map, BuildContext context) {
+    final locale = Localizations.localeOf(context).languageCode;
+    return map[locale] ?? map['ca'] ?? map.values.first;
+  }
+
+  String getVersionName(BuildContext context) => _getLocalizedString(versionName, context);
+  String getChanges(BuildContext context) => _getLocalizedString(changes, context);
 }
 
 class KarmannModel {
@@ -21,8 +41,10 @@ class KarmannModel {
   final String? designer;
   final Map<String, String>? engine;
   final Map<String, String>? topSpeed;
-  final List<ModelVersion> versions;
+  final int unitsProduced;
   final List<int> relatedModels;
+  final List<Version> versions;
+  final Map<String, String>? manufacturingPlant;
 
   KarmannModel({
     required this.id,
@@ -34,11 +56,16 @@ class KarmannModel {
     this.designer,
     this.engine,
     this.topSpeed,
-    required this.versions,
+    required this.unitsProduced,
     required this.relatedModels,
+    this.versions = const [],
+    this.manufacturingPlant,
   });
 
   factory KarmannModel.fromJson(Map<String, dynamic> json) {
+    var versionsList = json['versions'] as List<dynamic>? ?? [];
+    List<Version> versions = versionsList.map((v) => Version.fromJson(v)).toList();
+
     return KarmannModel(
       id: json['id'] as int,
       name: Map<String, String>.from(json['name']),
@@ -53,82 +80,36 @@ class KarmannModel {
       topSpeed: json['topSpeed'] != null
           ? Map<String, String>.from(json['topSpeed'])
           : null,
-      versions: (json['versions'] as List<dynamic>)
-          .map((v) => ModelVersion.fromJson(v as Map<String, dynamic>))
-          .toList(),
+      unitsProduced: json['unitsProduced'] as int,
       relatedModels: (json['relatedModels'] as List<dynamic>)
           .map((e) => e as int)
           .toList(),
-    );
-  }
-
-  String getName(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedString(name, locale);
-  }
-
-  String getDescription(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedString(description, locale);
-  }
-
-  String? getEngine(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedOptionalString(engine, locale);
-  }
-
-  String? getTopSpeed(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedOptionalString(topSpeed, locale);
-  }
-}
-
-class ModelVersion {
-  final Map<String, String> versionName;
-  final String productionYears;
-  final Map<String, String> changes;
-  final Map<String, String>? annualProduction;
-  final Map<String, String>? productionDetails;
-
-  ModelVersion({
-    required this.versionName,
-    required this.productionYears,
-    required this.changes,
-    this.annualProduction,
-    this.productionDetails,
-  });
-
-  factory ModelVersion.fromJson(Map<String, dynamic> json) {
-    return ModelVersion(
-      versionName: Map<String, String>.from(json['versionName']),
-      productionYears: json['productionYears'] as String,
-      changes: Map<String, String>.from(json['changes']),
-      annualProduction: json['annualProduction'] != null
-          ? Map<String, String>.from(json['annualProduction'])
-          : null,
-      productionDetails: json['productionDetails'] != null
-          ? Map<String, String>.from(json['productionDetails'])
+      versions: versions,
+      manufacturingPlant: json['manufacturingPlant'] != null
+          ? Map<String, String>.from(json['manufacturingPlant'])
           : null,
     );
   }
 
-  String getVersionName(BuildContext context) {
+  String _getLocalizedString(Map<String, String> map, BuildContext context) {
     final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedString(versionName, locale);
+    return map[locale] ?? map['ca'] ?? map.values.first;
   }
 
-  String getChanges(BuildContext context) {
+  String? _getLocalizedOptionalString(
+      Map<String, String>? map, BuildContext context) {
+    if (map == null) return null;
     final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedString(changes, locale);
+    return map[locale] ?? map['ca'] ?? map.values.first;
   }
 
-  String? getAnnualProduction(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedOptionalString(annualProduction, locale);
-  }
-
-  String? getProductionDetails(BuildContext context) {
-    final locale = Localizations.localeOf(context).languageCode;
-    return _getLocalizedOptionalString(productionDetails, locale);
-  }
+  String getName(BuildContext context) => _getLocalizedString(name, context);
+  String getDescription(BuildContext context) =>
+      _getLocalizedString(description, context);
+  String? getEngine(BuildContext context) =>
+      _getLocalizedOptionalString(engine, context);
+  String? getTopSpeed(BuildContext context) =>
+      _getLocalizedOptionalString(topSpeed, context);
+  String? getManufacturingPlant(BuildContext context) =>
+      _getLocalizedOptionalString(manufacturingPlant, context);
 }

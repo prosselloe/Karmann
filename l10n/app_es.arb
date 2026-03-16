@@ -1,8 +1,8 @@
 {
-  "appTitle": "Karmann Models",
+  "appTitle": "Modelos Karmann",
   "searchHint": "Buscar por nombre o año...",
   "filterAll": "Todos",
-  "filterCabriolet": "Cabriolets",
+  "filterCabriolet": "Descapotables",
   "dataSheetTitle": "Datos Clave",
   "designerLabel": "Diseñador",
   "engineLabel": "Motor",
@@ -15,5 +15,6 @@
   "productionDetailsLabel": "Detalles de Producción",
   "sortByName": "Ordenar por nombre",
   "sortByYear": "Ordenar por año",
-  "sortDefault": "Sin ordenar"
+  "sortByUnits": "Ordenar por unidades",
+  "sortDefault": "Por defecto"
 }

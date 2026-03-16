@@ -3,7 +3,7 @@
   "searchHint": "Cerca per nome o anno...",
   "filterAll": "Tutti",
   "filterCabriolet": "Cabriolet",
-  "dataSheetTitle": "Dati Chiave",
+  "dataSheetTitle": "Dati Tecnici",
   "designerLabel": "Designer",
   "engineLabel": "Motore",
   "topSpeedLabel": "Velocità Massima",
@@ -15,5 +15,6 @@
   "productionDetailsLabel": "Dettagli di Produzione",
   "sortByName": "Ordina per nome",
   "sortByYear": "Ordina per anno",
-  "sortDefault": "Nessun ordinamento"
+  "sortByUnits": "Ordina per unità",
+  "sortDefault": "Predefinito"
 }

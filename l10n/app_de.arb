@@ -1,8 +1,8 @@
 {
-  "appTitle": "Karmann Modelle",
+  "appTitle": "Karmann-Modelle",
   "searchHint": "Suche nach Name oder Jahr...",
   "filterAll": "Alle",
-  "filterCabriolet": "Cabriolets",
+  "filterCabriolet": "Cabrios",
   "dataSheetTitle": "Schlüsseldaten",
   "designerLabel": "Designer",
   "engineLabel": "Motor",
@@ -10,10 +10,11 @@
   "versionsTitle": "Versionen & Änderungen",
   "noResults": "Keine Ergebnisse gefunden",
   "relatedModelsTitle": "Verwandte Modelle",
-  "mainChangesLabel": "Wesentliche Änderungen",
+  "mainChangesLabel": "Wichtigste Änderungen",
   "productionDataLabel": "Produktionsdaten",
   "productionDetailsLabel": "Produktionsdetails",
-  "sortByName": "Nach Namen sortieren",
+  "sortByName": "Nach Name sortieren",
   "sortByYear": "Nach Jahr sortieren",
-  "sortDefault": "Keine Sortierung"
+  "sortByUnits": "Nach Einheiten sortieren",
+  "sortDefault": "Standard"
 }
