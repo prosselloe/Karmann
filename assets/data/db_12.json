@@ -11,6 +11,14 @@
       "it": "Kia Sportage (Prima Gen)"
     },
     "productionYears": "1995–1998",
+    "manufacturingPlant": {
+        "ca": "Vendas Novas, Portugal",
+        "en": "Vendas Novas, Portugal",
+        "es": "Vendas Novas, Portugal",
+        "de": "Vendas Novas, Portugal",
+        "fr": "Vendas Novas, Portugal",
+        "it": "Vendas Novas, Portogallo"
+    },
     "description": {
       "ca": "Karmann va fabricar la primera generació del Kia Sportage per al mercat europeu, ajudant la marca coreana a establir-se al continent amb el seu nou SUV.",
       "en": "Karmann manufactured the first generation of the Kia Sportage for the European market, helping the Korean brand establish itself on the continent with its new SUV.",
@@ -38,6 +46,7 @@
       "it": "Circa 160 km/h"
     },
     "isCabriolet": false,
+    "unitsProduced": 25984,
     "versions": [
       {
         "versionName": {
@@ -50,20 +59,20 @@
         },
         "productionYears": "1995-1998",
         "changes": {
-          "ca": "La producció a Osnabrück va permetre a Kia evitar aranzels d'importació i adaptar el vehicle als gustos europeus.",
-          "en": "Production in Osnabrück allowed Kia to avoid import tariffs and adapt the vehicle to European tastes.",
-          "es": "La producción en Osnabrück permitió a Kia evitar aranceles de importación y adaptar el vehículo a los gustos europeos.",
-          "de": "Die Produktion in Osnabrück ermöglichte es Kia, Einfuhrzölle zu vermeiden und das Fahrzeug an den europäischen Geschmack anzupassen.",
-          "fr": "La production à Osnabrück a permis à Kia d'éviter les droits de douane à l'importation et d'adapter le véhicule aux goûts européens.",
-          "it": "La produzione a Osnabrück ha permesso a Kia di evitare i dazi di importazione e di adattare il veicolo ai gusti europei."
+          "ca": "La producció a Vendas Novas (Portugal) va permetre a Kia evitar aranzels d'importació i adaptar el vehicle als gustos europeus.",
+          "en": "Production in Vendas Novas (Portugal) allowed Kia to avoid import tariffs and adapt the vehicle to European tastes.",
+          "es": "La producción en Vendas Novas (Portugal) permitió a Kia evitar aranceles de importación y adaptar el vehículo a los gustos europeos.",
+          "de": "Die Produktion in Vendas Novas (Portugal) ermöglichte es Kia, Einfuhrzölle zu vermeiden und das Fahrzeug an den europäischen Geschmack anzupassen.",
+          "fr": "La production à Vendas Novas (Portugal) a permis à Kia d'éviter les droits de douane à l'importation et d'adapter le véhicule aux goûts européens.",
+          "it": "La produzione a Vendas Novas (Portogallo) ha permesso a Kia di evitare i dazi di importazione e di adattare il veicolo ai gusti europei."
         },
         "productionDetails": {
-          "ca": "Es van fabricar 25,984 unitats del Sportage a les instal·lacions de Karmann.",
-          "en": "25,984 units of the Sportage were manufactured at Karmann's facilities.",
-          "es": "Se fabricaron 25,984 unidades del Sportage en las instalaciones de Karmann.",
-          "de": "In den Karmann-Werken wurden 25.984 Einheiten des Sportage hergestellt.",
-          "fr": "25 984 unités du Sportage ont été fabriquées dans les usines de Karmann.",
-          "it": "Nello stabilimento di Karmann sono state prodotte 25.984 unità dello Sportage."
+          "ca": "Es van fabricar aproximadament 30,000 unitats del Sportage a les instal·lacions de Karmann a Portugal.",
+          "en": "Approximately 30,000 units of the Sportage were manufactured at Karmann's facilities in Portugal.",
+          "es": "Se fabricaron aproximadamente 30,000 unidades del Sportage en las instalaciones de Karmann en Portugal.",
+          "de": "In den Karmann-Werken in Portugal wurden etwa 30.000 Einheiten des Sportage hergestellt.",
+          "fr": "Environ 30 000 unités du Sportage ont été fabriquées dans les usines de Karmann au Portugal.",
+          "it": "Nello stabilimento di Karmann in Portogallo sono state prodotte circa 30.000 unità dello Sportage."
         }
       }
     ],
@@ -80,6 +89,14 @@
       "it": "Land Rover Defender (ed. limitata)"
     },
     "productionYears": "1998-2005",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Karmann va produir una sèrie limitada de Land Rover Defender amb sostre de lona desmuntable i altres modificacions especials per al mercat alemany.",
       "en": "Karmann produced a limited series of Land Rover Defenders with a removable canvas roof and other special modifications for the German market.",
@@ -107,6 +124,7 @@
       "it": "Circa 145 km/h"
     },
     "isCabriolet": true,
+    "unitsProduced": 1200,
     "versions": [],
     "relatedModels": [6]
   },
@@ -121,6 +139,14 @@
       "it": "Nissan Micra C+C"
     },
     "productionYears": "2005–2009",
+    "manufacturingPlant": {
+        "ca": "Sunderland, Regne Unit (Muntatge del sostre per Karmann)",
+        "en": "Sunderland, UK (Roof assembly by Karmann)",
+        "es": "Sunderland, Reino Unido (Ensamblaje del techo por Karmann)",
+        "de": "Sunderland, UK (Dachmontage durch Karmann)",
+        "fr": "Sunderland, Royaume-Uni (Assemblage du toit par Karmann)",
+        "it": "Sunderland, Regno Unito (Assemblaggio del tetto da parte di Karmann)"
+    },
     "description": {
       "ca": "Karmann va ser soci en el desenvolupament i la producció del sostre de vidre retràctil d'aquest petit coupé-cabriolet, basat en el popular Nissan Micra. Es fabricava a la planta de Nissan a Sunderland (Regne Unit).",
       "en": "Karmann was a partner in the development and production of the retractable glass roof of this small coupé-cabriolet, based on the popular Nissan Micra. It was manufactured at Nissan's plant in Sunderland (UK).",
@@ -148,6 +174,7 @@
       "it": "Circa 176-190 km/h"
     },
     "isCabriolet": true,
+    "unitsProduced": 51583,
     "versions": [],
     "relatedModels": [34]
   }

@@ -10,6 +10,14 @@
       "it": "Volkswagen SP2"
     },
     "productionYears": "1972–1976",
+    "manufacturingPlant": {
+        "ca": "São Bernardo do Campo, Brasil",
+        "en": "São Bernardo do Campo, Brazil",
+        "es": "São Bernardo do Campo, Brasil",
+        "de": "São Bernardo do Campo, Brasilien",
+        "fr": "São Bernardo do Campo, Brésil",
+        "it": "São Bernardo do Campo, Brasile"
+    },
     "description": {
       "ca": "Un coupé esportiu dissenyat i construït per Volkswagen do Brasil. Encara que no va ser un projecte directe de Karmann a Alemanya, la seva existència va ser possible gràcies a l'experiència de la filial local Karmann-Ghia do Brasil.",
       "en": "A sports coupé designed and built by Volkswagen do Brasil. Although it was not a direct project of Karmann in Germany, its existence was made possible by the experience of the local subsidiary Karmann-Ghia do Brasil.",
@@ -37,8 +45,30 @@
       "it": "Circa 161 km/h"
     },
     "isCabriolet": false,
-    "versions": [],
-    "relatedModels": [1]
+    "versions": [
+      {
+        "versionName": {
+          "ca": "SP2",
+          "en": "SP2",
+          "es": "SP2",
+          "de": "SP2",
+          "fr": "SP2",
+          "it": "SP2"
+        },
+        "imageUrl": "assets/images/vw_sp2.jpg",
+        "productionYears": "1972-1976",
+        "changes": {
+          "ca": "El model principal, sovint criticat per la seva baixa potència (SP significava 'São Paulo', però popularment es deia 'Sem Potência'). Tot i això, el seu disseny és avui molt valorat.",
+          "en": "The main model, often criticized for its low power (SP stood for 'São Paulo', but was popularly called 'Sem Potência' - 'Without Power'). However, its design is highly valued today.",
+          "es": "El modelo principal, a menudo criticado por su baja potencia (SP significaba 'São Paulo', pero popularmente se le llamaba 'Sem Potência' - 'Sin Potencia'). Sin embargo, su diseño es hoy muy valorado.",
+          "de": "Das Hauptmodell, oft für seine geringe Leistung kritisiert (SP stand für 'São Paulo', wurde aber im Volksmund 'Sem Potência' - 'Ohne Kraft' - genannt). Sein Design wird heute jedoch sehr geschätzt.",
+          "fr": "Le modèle principal, souvent critiqué pour sa faible puissance (SP signifiait 'São Paulo', mais était populairement appelé 'Sem Potência' - 'Sans Puissance'). Cependant, son design est aujourd'hui très apprécié.",
+          "it": "Il modello principale, spesso criticato per la sua bassa potenza (SP significava 'San Paolo', ma era popolarmente chiamato 'Sem Potência' - 'Senza Potenza'). Tuttavia, il suo design è oggi molto apprezzato."
+        }
+      }
+    ],
+    "relatedModels": [1],
+    "unitsProduced": 10205
   },
   {
     "id": 8,
@@ -51,10 +81,18 @@
       "it": "DKW Cabriolet"
     },
     "productionYears": "1950–1955",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Karmann va ser el carrosser escollit per Auto Union per a fabricar les versions descapotables de luxe dels seus models DKW de postguerra.",
       "en": "Karmann was the coachbuilder chosen by Auto Union to manufacture the luxury convertible versions of its post-war DKW models.",
-      "es": "Karmann fue el carrocero elegido por Auto Union para fabricar las versiones descapotables de lujo de sus modelos DKW de posguerra.",
+      "es": "Karmann fue el carrocero elegido por Auto Union para fabricar las versiones descapotables de lujo de sus models DKW de posguerra.",
       "de": "Karmann war der von der Auto Union ausgewählte Karosseriebauer für die Herstellung der Luxus-Cabrio-Versionen ihrer Nachkriegs-DKW-Modelle.",
       "fr": "Karmann a été le carrossier choisi par Auto Union pour fabriquer les versions cabriolet de luxe de ses modèles DKW d'après-guerre.",
       "it": "Karmann fu il carrozziere scelto da Auto Union per produrre le versioni cabriolet di lusso dei suoi modelli DKW del dopoguerra."
@@ -88,6 +126,7 @@
           "fr": "Meisterklasse Cabriolet",
           "it": "Meisterklasse Cabriolet"
         },
+        "imageUrl": "assets/images/dkw_meisterklasse_cabriolet.jpg",
         "productionYears": "1950-1952",
         "changes": {
           "ca": "Una versió elegant de 2 places (i ocasional 2+2) del popular sedan de DKW.",
@@ -96,14 +135,6 @@
           "de": "Eine elegante 2-Sitzer- (und gelegentlich 2+2-) Version der beliebten DKW-Limousine.",
           "fr": "Une élégante version 2 places (et occasionnellement 2+2) de la populaire berline DKW.",
           "it": "Un'elegante versione a 2 posti (e occasionalmente 2+2) della popolare berlina DKW."
-        },
-        "productionDetails": {
-          "ca": "Se'n van fabricar 5,010 unitats, un nombre considerable per a un descapotable de l'època.",
-          "en": "5,010 units were manufactured, a considerable number for a convertible of that era.",
-          "es": "Se fabricaron 5,010 unidades, un número considerable para un descapotable de la época.",
-          "de": "Es wurden 5.010 Einheiten hergestellt, eine beachtliche Anzahl für ein Cabriolet dieser Zeit.",
-          "fr": "5 010 unités ont été fabriquées, un nombre considérable pour un cabriolet de cette époque.",
-          "it": "Ne furono prodotte 5.010 unità, un numero considerevole per una cabriolet di quell'epoca."
         }
       },
       {
@@ -115,6 +146,7 @@
           "fr": "F91 Luxuscabriolet",
           "it": "F91 Luxuscabriolet"
         },
+        "imageUrl": "assets/images/dkw_f91_cabriolet.jpg",
         "productionYears": "1953-1955",
         "changes": {
           "ca": "Un descapotable més modern i luxós, basat en el nou xassís F91. Es distingia per la seva qualitat de fabricació.",
@@ -123,18 +155,11 @@
           "de": "Ein moderneres und luxuriöseres Cabriolet, basierend auf dem neuen F91-Fahrgestell. Es zeichnete sich durch seine Verarbeitungsqualität aus.",
           "fr": "Un cabriolet plus moderne et luxueux, basé sur le nouveau châssis F91. Il se distinguait par sa qualité de fabrication.",
           "it": "Una cabriolet più moderna e lussuosa, basata sul nuovo telaio F91. Si distingueva per la qualità costruttiva."
-        },
-        "productionDetails": {
-          "ca": "Molt més exclusiu, amb només 625 unitats produïdes.",
-          "en": "Much more exclusive, with only 625 units produced.",
-          "es": "Mucho más exclusivo, con solo 625 unidades producidas.",
-          "de": "Viel exklusiver, mit nur 625 produzierten Einheiten.",
-          "fr": "Beaucoup plus exclusif, avec seulement 625 unités produites.",
-          "it": "Molto più esclusiva, con solo 625 unità prodotte."
         }
       }
     ],
-    "relatedModels": [5]
+    "relatedModels": [5],
+    "unitsProduced": 5635
   },
   {
     "id": 9,
@@ -147,6 +172,14 @@
       "it": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)"
     },
     "productionYears": "1979–2002",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Karmann va ser el fabricant exclusiu de les versions descapotables del Golf durant diverses generacions. La característica barra antivolcada li va valer el sobrenom de \"cistella de maduixes\".",
       "en": "Karmann was the exclusive manufacturer of the convertible versions of the Golf for several generations. The characteristic roll bar earned it the nickname \"strawberry basket\".",
@@ -174,7 +207,69 @@
       "it": "Circa 150-190 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
-    "relatedModels": [5]
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Golf Cabriolet (Mk1)",
+          "en": "Golf Cabriolet (Mk1)",
+          "es": "Golf Cabriolet (Mk1)",
+          "de": "Golf Cabriolet (Mk1)",
+          "fr": "Golf Cabriolet (Mk1)",
+          "it": "Golf Cabriolet (Mk1)"
+        },
+        "imageUrl": "assets/images/vw_golf_mk1_cabriolet.jpg",
+        "productionYears": "1979–1993",
+        "changes": {
+          "ca": "El model original, famós per la seva barra antivolcada fixa que li va donar el sobrenom de 'cistella de maduixes'. Un èxit de vendes instantani.",
+          "en": "The original model, famous for its fixed roll bar which gave it the nickname 'strawberry basket'. An instant bestseller.",
+          "es": "El modelo original, famoso por su barra antivuelco fija que le dio el apodo de 'cesta de fresas'. Un éxito de ventas instantáneo.",
+          "de": "Das Originalmodell, berühmt für seinen festen Überrollbügel, der ihm den Spitznamen 'Erdbeerkörbchen' einbrachte. Ein sofortiger Bestseller.",
+          "fr": "Le modèle original, célèbre pour son arceau de sécurité fixe qui lui a valu le surnom de 'panier à fraises'. Un best-seller instantané.",
+          "it": "Il modello originale, famoso per la sua barra antiribaltamento fissa che gli è valso il soprannome di 'cestino di fragole'. Un successo di vendite istantaneo."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Golf Cabriolet (Mk3)",
+          "en": "Golf Cabriolet (Mk3)",
+          "es": "Golf Cabriolet (Mk3)",
+          "de": "Golf Cabriolet (Mk3)",
+          "fr": "Golf Cabriolet (Mk3)",
+          "it": "Golf Cabriolet (Mk3)"
+        },
+        "imageUrl": "assets/images/vw_golf_mk3_cabriolet.jpg",
+        "productionYears": "1993–1998",
+        "changes": {
+          "ca": "Basat en la plataforma del Golf Mk3, aquest model va eliminar la barra antivolcada fixa en favor d'un sistema de protecció automàtic ocult, oferint un perfil més net.",
+          "en": "Based on the Golf Mk3 platform, this model eliminated the fixed roll bar in favor of a concealed automatic protection system, offering a cleaner profile.",
+          "es": "Basado en la plataforma del Golf Mk3, este modelo eliminó la barra antivuelco fija en favor de un sistema de protección automático oculto, ofreciendo un perfil más limpio.",
+          "de": "Basierend auf der Golf-Mk3-Plattform eliminierte dieses Modell den festen Überrollbügel zugunsten eines verdeckten automatischen Schutzsystems und bot so ein saubereres Profil.",
+          "fr": "Basé sur la plateforme de la Golf Mk3, ce modèle a éliminé l'arceau de sécurité fixe au profit d'un système de protection automatique dissimulé, offrant un profil plus épuré.",
+          "it": "Basato sulla piattaforma della Golf Mk3, questo modello ha eliminato la barra antiribaltamento fissa a favore di un sistema di protezione automatico a scomparsa, offrendo un profilo più pulito."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Golf Cabriolet (Mk4)",
+          "en": "Golf Cabriolet (Mk4)",
+          "es": "Golf Cabriolet (Mk4)",
+          "de": "Golf Cabriolet (Mk4)",
+          "fr": "Golf Cabriolet (Mk4)",
+          "it": "Golf Cabriolet (Mk4)"
+        },
+        "imageUrl": "assets/images/vw_golf_mk4_cabriolet.jpg",
+        "productionYears": "1998–2002",
+        "changes": {
+          "ca": "Encara que anomenat 'Mk4', era en realitat un redisseny profund del Mk3. Va adoptar els fars, para-xocs i graella del Golf Mk4, modernitzant-ne l'aspecte fins al final de la seva producció.",
+          "en": "Although called 'Mk4', it was actually a deep facelift of the Mk3. It adopted the headlights, bumpers, and grille of the Golf Mk4, modernizing its look until the end of its production.",
+          "es": "Aunque llamado 'Mk4', en realidad era un rediseño profundo del Mk3. Adoptó los faros, parachoques y parrilla del Golf Mk4, modernizando su aspecto hasta el final de su producción.",
+          "de": "Obwohl als 'Mk4' bezeichnet, handelte es sich tatsächlich um ein tiefgreifendes Facelifting des Mk3. Es übernahm die Scheinwerfer, Stoßstangen und den Kühlergrill des Golf Mk4 und modernisierte sein Aussehen bis zum Ende seiner Produktion.",
+          "fr": "Bien qu'appelée 'Mk4', il s'agissait en fait d'un profond restylage de la Mk3. Elle a adopté les phares, les pare-chocs et la calandre de la Golf Mk4, modernisant son apparence jusqu'à la fin de sa production.",
+          "it": "Sebbene chiamata 'Mk4', in realtà era un profondo restyling della Mk3. Adottò i fari, i paraurti e la griglia della Golf Mk4, modernizzandone l'aspetto fino alla fine della sua produzione."
+        }
+      }
+    ],
+    "relatedModels": [5],
+    "unitsProduced": 629000
   }
 ]

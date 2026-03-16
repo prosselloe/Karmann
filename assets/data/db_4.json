@@ -10,6 +10,14 @@
       "it": "Volkswagen Scirocco (Mk1 e Mk2)"
     },
     "productionYears": "1974–1992",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "El successor espiritual del Karmann Ghia, el Scirocco va ser un coupé esportiu dissenyat per Giugiaro i produït per Karmann. Va ser un gran èxit comercial.",
       "en": "The spiritual successor to the Karmann Ghia, the Scirocco was a sports coupé designed by Giugiaro and produced by Karmann. It was a great commercial success.",
@@ -38,7 +46,8 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [1, 9, 11]
+    "relatedModels": [1, 9, 11],
+    "unitsProduced": 795650
   },
   {
     "id": 11,
@@ -51,10 +60,18 @@
       "it": "Volkswagen Corrado"
     },
     "productionYears": "1988–1995",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "El Corrado va ser el successor del Scirocco. Aquest coupé esportiu va ser fabricat íntegrament per Karmann i és conegut pel seu aleró posterior actiu i el seu potent motor VR6.",
       "en": "The Corrado was the successor to the Scirocco. This sports coupé was manufactured entirely by Karmann and is known for its active rear spoiler and its powerful VR6 engine.",
-      "es": "El Corrado fue el sucesor del Scirocco. Este coupé deportivo fue fabricado íntegramente por Karmann y es conocido por su alerón trasero activo y su potente motor VR6.",
+      "es": "El Corrado fue el sucesor del Scirocco. Este coupé deportivo fue fabricado íntegramente por Karmann y es conocido por su aleró posterior activo y su potente motor VR6.",
       "de": "Der Corrado war der Nachfolger des Scirocco. Dieses Sportcoupé wurde komplett von Karmann gefertigt und ist bekannt für seinen aktiven Heckspoiler und seinen leistungsstarken VR6-Motor.",
       "fr": "La Corrado était le successeur du Scirocco. Ce coupé sportif a été entièrement fabriqué par Karmann et est connu pour son aileron arrière actif et son puissant moteur VR6.",
       "it": "La Corrado è stata la succeditrice della Scirocco. Questa coupé sportiva è stata prodotta interamente da Karmann ed è nota per il suo spoiler posteriore attivo e il suo potente motore VR6."
@@ -79,7 +96,8 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [9, 10]
+    "relatedModels": [9, 10],
+    "unitsProduced": 97521
   },
   {
     "id": 12,
@@ -92,10 +110,18 @@
       "it": "Opel Diplomat A e B Coupé"
     },
     "productionYears": "1965–1971",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Karmann va estar involucrat en dues iteracions exclusives del coupé basat en l'Opel Diplomat. Va fabricar una sèrie molt limitada de l'elegant Diplomat A Coupé i, anys més tard, va construir un prototip únic per al Diplomat B, que va influir en dissenys futurs tot i no arribar a la producció.",
       "en": "Karmann was involved in two exclusive iterations of the coupé based on the Opel Diplomat. It manufactured a very limited series of the elegant Diplomat A Coupé and, years later, built a unique prototype for the Diplomat B, which influenced future designs despite not reaching production.",
-      "es": "Karmann estuvo involucrado en dos iteraciones exclusivas del coupé basado en el Opel Diplomat. Fabricó una serie muy limitada del elegante Diplomat A Coupé y, años más tarde, construyó un prototipo único para el Diplomat B, que influyó en diseños futuros a pesar de no llegar a la producción.",
+      "es": "Karmann estuvo involucrado en dos iteraciones exclusivas del coupé basado en el Opel Diplomat. Fabricó una serie muy limitada del elegante Diplomat A Coupé y, anys més tarde, construyó un prototipo único para el Diplomat B, que influyó en diseños futuros a pesar de no llegar a la producción.",
       "de": "Karmann war an zwei exklusiven Iterationen des auf dem Opel Diplomat basierenden Coupés beteiligt. Sie fertigten eine sehr limitierte Serie des eleganten Diplomat A Coupés und bauten Jahre später einen einzigartigen Prototyp für den Diplomat B, der zukünftige Designs beeinflusste, obwohl er nicht in Produktion ging.",
       "fr": "Karmann a été impliqué dans deux itérations exclusives du coupé basé sur l'Opel Diplomat. Elle a fabriqué une série très limitée de l'élégant Coupé Diplomat A et, des années plus tard, a construit un prototip unique pour le Diplomat B, qui a influencé les conceptions futures bien qu'il n'ait pas atteint la production.",
       "it": "Karmann è stata coinvolta in due iterazioni esclusive della coupé basata sulla Opel Diplomat. Ha prodotto una serie molto limitata dell'elegante Diplomat A Coupé e, anni dopo, ha costruito un prototipo unico per la Diplomat B, che ha influenzato i design futuri pur non raggiungendo la produzione."
@@ -159,6 +185,7 @@
         }
       }
     ],
-    "relatedModels": []
+    "relatedModels": [],
+    "unitsProduced": 347
   }
 ]

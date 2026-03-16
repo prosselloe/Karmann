@@ -37,6 +37,7 @@
       "it": "Circa 160-225 km/h"
     },
     "isCabriolet": true,
+    "unitsProduced": 111381,
     "versions": [
       {
         "versionName": {
@@ -136,6 +137,7 @@
       "it": "Circa 209 km/h"
     },
     "isCabriolet": false,
+    "unitsProduced": 45000,
     "versions": [],
     "relatedModels": [31, 37]
   },
@@ -177,6 +179,7 @@
       "it": "Fino a 200 km/h"
     },
     "isCabriolet": false,
+    "unitsProduced": 281,
     "versions": [],
     "relatedModels": []
   }

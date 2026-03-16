@@ -10,6 +10,14 @@
       "it": "Volkswagen Karmann GF Buggy"
     },
     "productionYears": "1971–1974",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "La resposta de Karmann a la febre dels Dune Buggies. Basat en el xassís del Volkswagen Escarabat, el GF (Gute Fahrt) Buggy oferia un disseny propi i una qualitat de construcció superior als kits de l'època.",
       "en": "Karmann's answer to the Dune Buggy craze. Based on the Volkswagen Beetle chassis, the GF (Gute Fahrt) Buggy offered its own design and superior build quality compared to the kits of the era.",
@@ -47,6 +55,7 @@
           "fr": "GF Buggy",
           "it": "GF Buggy"
         },
+        "imageUrl": "assets/images/vw_karmann_gf_buggy.jpg",
         "productionYears": "1971-1974",
         "changes": {
           "ca": "Es venia com un vehicle complet, no un kit. Tenia una carrosseria de plàstic reforçat i estava disponible amb diferents opcions de motorització de l'Escarabat.",
@@ -55,18 +64,11 @@
           "de": "Es wurde als komplettes Fahrzeug verkauft, nicht als Bausatz. Es hatte eine verstärkte Kunststoffkarosserie und war mit verschiedenen Käfer-Motoroptionen erhältlich.",
           "fr": "Il était vendu comme un véhicule complet, pas un kit. Il avait une carrosserie en plastique renforcé et était disponible avec différentes options de moteur de la Coccinelle.",
           "it": "Era venduto come veicolo completo, non un kit. Aveva una carrozzeria in plastica rinforzata ed era disponibile con diverse opzioni di motore del Maggiolino."
-        },
-        "productionDetails": {
-          "ca": "Una alternativa més refinada i segura als buggies tradicionals, amb la garantia d'un fabricant com Karmann.",
-          "en": "A more refined and safer alternative to traditional buggies, with the guarantee of a manufacturer like Karmann.",
-          "es": "Una alternativa más refinada y segura a los buggies tradicionales, con la garantía de un fabricante como Karmann.",
-          "de": "Eine verfeinerte und sicherere Alternative zu herkömmlichen Buggys, mit der Garantie eines Herstellers wie Karmann.",
-          "fr": "Une alternative plus raffinée et plus sûre aux buggies traditionnels, avec la garantie d'un fabricant comme Karmann.",
-          "it": "Un'alternativa più raffinata e sicura ai buggy tradizionali, con la garanzia di un costruttore come Karmann."
         }
       }
     ],
-    "relatedModels": [5]
+    "relatedModels": [5],
+    "unitsProduced": 2500
   },
   {
     "id": 5,
@@ -79,6 +81,14 @@
       "it": "Volkswagen Maggiolino Cabriolet"
     },
     "productionYears": "1949–2009",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Un dels descapotables més populars del món, Karmann va convertir el fiable Volkswagen Escarabat en un descapotable de quatre places que va gaudir d'una producció de més de 30 anys. La seva influència va continuar en les generacions posteriors.",
       "en": "One of the world's most popular convertibles, Karmann turned the reliable Volkswagen Beetle into a four-seater convertible that enjoyed a production run of over 30 years. Its influence continued in later generations.",
@@ -116,22 +126,15 @@
           "fr": "Basé sur le Type 1 (Export)",
           "it": "Basato sul Tipo 1 (Export)"
         },
+        "imageUrl": "assets/images/vw_beetle_cabriolet_classic.jpg",
         "productionYears": "1949–1970",
         "changes": {
           "ca": "Primers models basats en l'Escarabat estàndard. Canvis menors en motors i acabats interiors al llarg dels anys. Finestra posterior ovalada fins al 1957, després rectangular més gran.",
           "en": "Early models based on the standard Beetle. Minor changes to engines and interior finishes over the years. Oval rear window until 1957, then a larger rectangular one.",
-          "es": "Primeros modelos basados en el Escarabajo estándar. Cambios menores en motores y acabados interiores a lo largo de los años. Ventana trasera ovalada hasta 1957, luego rectangular más grande.",
+          "es": "Primeros models basados en el Escarabajo estándar. Cambios menores en motores y acabados interiores a lo largo de los años. Ventana trasera ovalada hasta 1957, luego rectangular más grande.",
           "de": "Frühe Modelle basierend auf dem Standard-Käfer. Geringfügige Änderungen an Motoren und Innenausstattung im Laufe der Jahre. Ovales Heckfenster bis 1957, dann ein größeres rechteckiges.",
           "fr": "Premiers modèles basés sur la Coccinelle standard. Changements mineurs aux moteurs et aux finitions intérieures au fil des ans. Lunette arrière ovale jusqu'en 1957, puis rectangulaire plus grande.",
           "it": "Primi modelli basati sul Maggiolino standard. Modifiche minori a motori e finiture interne nel corso degli anni. Lunotto posteriore ovale fino al 1957, poi uno rettangolare più grande."
-        },
-        "productionDetails": {
-          "ca": "En total, es van fabricar 331,847 unitats de l'Escarabat Cabriolet clàssic.",
-          "en": "In total, 331,847 units of the classic Beetle Cabriolet were manufactured.",
-          "es": "En total, se fabricaron 331.847 unidades del Escarabajo Cabriolet clásico.",
-          "de": "Insgesamt wurden 331.847 Einheiten des klassischen Käfer Cabriolets hergestellt.",
-          "fr": "Au total, 331 847 unités de la Coccinelle Cabriolet classique ont été fabriquées.",
-          "it": "In totale, furono prodotte 331.847 unità del Maggiolino Cabriolet classico."
         }
       },
       {
@@ -143,6 +146,7 @@
           "fr": "Modèle 1302/1303 \"Super Coccinelle\"",
           "it": "Modello 1302/1303 \"Super Maggiolino\""
         },
+        "imageUrl": "assets/images/vw_beetle_cabriolet_super.jpg",
         "productionYears": "1971–1980",
         "changes": {
           "ca": "Introducció de la suspensió davantera MacPherson (model 1302), que va millorar l'espai del maleter. El model 1303 (1973) va afegir un parabrisa corbat i un nou quadre de comandaments.",
@@ -151,14 +155,6 @@
           "de": "Einführung der MacPherson-Federbein-Vorderradaufhängung (Modell 1302), die den Kofferraum vergrößerte. Das Modell 1303 (1973) erhielt eine gewölbte Windschutzscheibe und ein neues Armaturenbrett.",
           "fr": "Introduction de la suspension avant à jambes de force MacPherson (modèle 1302), qui a amélioré l'espace du coffre. Le modèle 1303 (1973) a ajouté un pare-brise incurvé et un nouveau tableau de bord.",
           "it": "Introduzione della sospensione anteriore MacPherson (modello 1302), che aumentò lo spazio del bagagliaio. Il modello 1303 (1973) aggiunse un parabrezza curvo e un nuovo cruscotto."
-        },
-        "annualProduction": {
-          "ca": "Aquests models van constituir una part significativa de la producció total de descapotables.",
-          "en": "These models constituted a significant part of the total convertible production.",
-          "es": "Estos modelos constituyeron una parte significativa de la producción total de descapotables.",
-          "de": "Diese Modelle machten einen erheblichen Teil der gesamten Cabrio-Produktion aus.",
-          "fr": "Ces modèles ont constitué une part importante de la production totale de décapotables.",
-          "it": "Questi modelli costituirono una parte significativa della produzione totale di cabriolet."
         }
       },
       {
@@ -170,6 +166,7 @@
           "fr": "Coccinelle Cabriolet (Moderne)",
           "it": "Maggiolino Cabriolet (Moderno)"
         },
+        "imageUrl": "assets/images/vw_new_beetle_cabrio.jpg",
         "productionYears": "1998-2019",
         "changes": {
           "ca": "Karmann va ser un soci clau en el desenvolupament i la producció dels sistemes de sostre per a les noves generacions del Beetle Cabriolet, mantenint el seu llegat.",
@@ -178,18 +175,11 @@
           "de": "Karmann war ein wichtiger Partner bei der Entwicklung und Produktion der Dachsysteme für die neuen Generationen des Käfer Cabriolets und führte so sein Erbe fort.",
           "fr": "Karmann a été un partenaire clé dans le développement et la production des systèmes de toit pour les nouvelles générations de la Coccinelle Cabriolet, perpétuant ainsi son héritage.",
           "it": "Karmann è stato un partner chiave nello sviluppo e nella produzione dei sistemi del tetto per le nuove generazioni del Maggiolino Cabriolet, mantenendo la sua eredità."
-        },
-        "productionDetails": {
-          "ca": "La producció es va traslladar a les plantes de Volkswagen a Mèxic, però l'enginyeria de Karmann va ser fonamental.",
-          "en": "Production was moved to Volkswagen plants in Mexico, but Karmann's engineering was fundamental.",
-          "es": "La producción se trasladó a las plantas de Volkswagen en México, pero la ingeniería de Karmann fue fundamental.",
-          "de": "Die Produktion wurde in die Volkswagen-Werke in Mexiko verlagert, aber die Ingenieurskunst von Karmann war von grundlegender Bedeutung.",
-          "fr": "La production a été transférée dans les usines Volkswagen au Mexique, mais l'ingénierie de Karmann a été fondamentale.",
-          "it": "La produzione fu trasferita negli stabilimenti Volkswagen in Messico, ma l'ingegneria di Karmann fu fondamentale."
         }
       }
     ],
-    "relatedModels": [1, 4, 38]
+    "relatedModels": [1, 4, 38],
+    "unitsProduced": 331847
   },
   {
     "id": 6,
@@ -202,6 +192,14 @@
       "it": "Volkswagen Transporter T3"
     },
     "productionYears": "1980–1992",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Karmann va aplicar la seva experiència en carrosseries per a crear populars autocaravanes, utilitzant com a base els fiables models de Volkswagen Transporter (T3) i LT.",
       "en": "Karmann applied its bodywork expertise to create popular motorhomes, using the reliable Volkswagen Transporter (T3) and LT models as a base.",
@@ -239,6 +237,7 @@
           "fr": "Karmann Gipsy (Volkswagen T3)",
           "it": "Karmann Gipsy (Volkswagen T3)"
         },
+        "imageUrl": "assets/images/karmann_gipsy_t3.jpg",
         "productionYears": "1980-1992",
         "changes": {
           "ca": "Una autocaravana amb una distintiva carrosseria monocasc de fibra de vidre sobre el xassís del Volkswagen T3, coneguda per la seva durabilitat i disseny intel·ligent.",
@@ -247,14 +246,6 @@
           "de": "Ein Wohnmobil mit einer unverwechselbaren GFK-Monocoque-Karosserie auf dem Volkswagen T3-Fahrgestell, bekannt für seine Langlebigkeit und sein intelligentes Design.",
           "fr": "Un camping-car avec une carrosserie monocoque en fibre de verre distinctive sur le châssis du Volkswagen T3, connu pour sa durabilité et son design intelligent.",
           "it": "Un camper con una distintiva scocca monoscocca in fibra di vetro sul telaio del Volkswagen T3, noto per la sua durata e il suo design intelligente."
-        },
-        "productionDetails": {
-          "ca": "Es van produir 891 unitats del model Gipsy.",
-          "en": "891 units of the Gipsy model were produced.",
-          "es": "Se produjeron 891 unidades del modelo Gipsy.",
-          "de": "Vom Modell Gipsy wurden 891 Einheiten produziert.",
-          "fr": "891 unités du modèle Gipsy ont été produites.",
-          "it": "Sono state prodotte 891 unità del modello Gipsy."
         }
       },
       {
@@ -266,6 +257,7 @@
           "fr": "Karmann sur Volkswagen LT",
           "it": "Karmann su Volkswagen LT"
         },
+        "imageUrl": "assets/images/karmann_lt_camper.jpg",
         "productionYears": "Anys 80-90",
         "changes": {
           "ca": "Karmann també va oferir conversions de major grandària basades en el Volkswagen LT, oferint més espai i comoditats per a viatges llargs.",
@@ -274,17 +266,10 @@
           "de": "Karmann bot auch größere Umbauten auf Basis des Volkswagen LT an, die mehr Platz und Annehmlichkeiten für lange Reisen boten.",
           "fr": "Karmann a également proposé des conversions plus importantes basées sur le Volkswagen LT, offrant plus d'espace et de commodités pour les longs voyages.",
           "it": "Karmann offrì anche conversioni più grandi basate sul Volkswagen LT, offrendo più spazio e comfort per i lunghi viaggi."
-        },
-        "productionDetails": {
-          "ca": "Aquestes conversions van consolidar Karmann com un nom respectat en el món del caravàning.",
-          "en": "These conversions established Karmann as a respected name in the caravanning world.",
-          "es": "Estas conversiones consolidaron a Karmann como un nombre respetado en el mundo del caravaning.",
-          "de": "Diese Umbauten etablierten Karmann als angesehenen Namen in der Caravaning-Welt.",
-          "fr": "Ces conversions ont fait de Karmann un nom respecté dans le monde du caravaning.",
-          "it": "Queste conversioni hanno affermato Karmann come un nome rispettato nel mondo del caravanning."
         }
       }
     ],
-    "relatedModels": [35]
+    "relatedModels": [35],
+    "unitsProduced": 891
   }
 ]

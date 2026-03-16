@@ -38,6 +38,7 @@
       "it": "Circa 110 km/h"
     },
     "isCabriolet": false,
+    "unitsProduced": 800,
     "versions": [],
     "relatedModels": [31, 32]
   },
@@ -79,6 +80,7 @@
       "it": "Circa 200 km/h"
     },
     "isCabriolet": true,
+    "unitsProduced": 3000,
     "versions": [],
     "relatedModels": [5]
   }

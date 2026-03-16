@@ -10,6 +10,14 @@
       "it": "Renault Mégane CC (I & II)"
     },
     "productionYears": "2003–2009",
+    "manufacturingPlant": {
+        "ca": "Douai, França (Sostre de Karmann a Rheine, Alemanya)",
+        "en": "Douai, France (Roof by Karmann in Rheine, Germany)",
+        "es": "Douai, Francia (Techo de Karmann en Rheine, Alemania)",
+        "de": "Douai, Frankreich (Dach von Karmann in Rheine, Deutschland)",
+        "fr": "Douai, France (Toit par Karmann à Rheine, Allemagne)",
+        "it": "Douai, Francia (Tetto di Karmann a Rheine, Germania)"
+    },
     "description": {
       "ca": "Karmann va desenvolupar i produir el complex sistema de sostre de vidre retràctil per al popular Mégane Coupé-Cabriolet. Aquest model va ajudar a democratitzar els descapotables de sostre dur.",
       "en": "Karmann developed and produced the complex retractable glass roof system for the popular Mégane Coupé-Cabriolet. This model helped to democratize hardtop convertibles.",
@@ -38,7 +46,8 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": []
+    "relatedModels": [],
+    "unitsProduced": 170000
   },
   {
     "id": 29,
@@ -51,6 +60,14 @@
       "it": "Spyker C8 Spyder"
     },
     "productionYears": "2000–2009",
+    "manufacturingPlant": {
+        "ca": "Zeewolde, Països Baixos (Carrosseria de Karmann a Osnabrück, Alemanya)",
+        "en": "Zeewolde, Netherlands (Body by Karmann in Osnabrück, Germany)",
+        "es": "Zeewolde, Países Bajos (Carrocería de Karmann en Osnabrück, Alemania)",
+        "de": "Zeewolde, Niederlande (Karosserie von Karmann in Osnabrück, Deutschland)",
+        "fr": "Zeewolde, Pays-Bas (Carrosserie par Karmann à Osnabrück, Allemagne)",
+        "it": "Zeewolde, Paesi Bassi (Carrozzeria di Karmann a Osnabrück, Germania)"
+    },
     "description": {
       "ca": "En els primers anys de Spyker Cars, la producció de les carrosseries d'alumini d'aquest exòtic supercotxe es va subcontractar a Karmann, abans que Spyker traslladés la producció internament.",
       "en": "In the early years of Spyker Cars, the production of the aluminum bodies for this exotic supercar was outsourced to Karmann, before Spyker moved production in-house.",
@@ -79,7 +96,8 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [19]
+    "relatedModels": [19],
+    "unitsProduced": 150
   },
   {
     "id": 30,
@@ -92,6 +110,14 @@
       "it": "Pontiac G6 Convertible"
     },
     "productionYears": "2006–2009",
+    "manufacturingPlant": {
+        "ca": "Lake Orion, Michigan, EUA (Sostre de Karmann a Osnabrück, Alemanya)",
+        "en": "Lake Orion, Michigan, USA (Roof by Karmann in Osnabrück, Germany)",
+        "es": "Lake Orion, Michigan, EE. UU. (Techo de Karmann en Osnabrück, Alemania)",
+        "de": "Lake Orion, Michigan, USA (Dach von Karmann in Osnabrück, Deutschland)",
+        "fr": "Lake Orion, Michigan, États-Unis (Toit par Karmann à Osnabrück, Allemagne)",
+        "it": "Lake Orion, Michigan, USA (Tetto di Karmann a Osnabrück, Germania)"
+    },
     "description": {
       "ca": "Karmann va dissenyar, enginyar i fabricar el complex sostre rígid retràctil de dues peces per al descapotable Pontiac G6. Era un dels sostres d'aquest tipus més grans del mercat en aquell moment.",
       "en": "Karmann designed, engineered, and manufactured the complex two-piece retractable hardtop for the Pontiac G6 convertible. It was one of the largest roofs of its kind on the market at the time.",
@@ -120,6 +146,7 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": []
+    "relatedModels": [],
+    "unitsProduced": 83454
   }
 ]

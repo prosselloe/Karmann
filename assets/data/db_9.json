@@ -10,6 +10,14 @@
       "it": "Triumph TR6"
     },
     "productionYears": "1968–1976",
+    "manufacturingPlant": {
+        "ca": "Coventry, Regne Unit (Carrosseria de Karmann a Osnabrück, Alemanya)",
+        "en": "Coventry, UK (Body by Karmann in Osnabrück, Germany)",
+        "es": "Coventry, Reino Unido (Carrocería de Karmann en Osnabrück, Alemania)",
+        "de": "Coventry, UK (Karosserie von Karmann in Osnabrück, Deutschland)",
+        "fr": "Coventry, Royaume-Uni (Carrosserie par Karmann à Osnabrück, Allemagne)",
+        "it": "Coventry, Regno Unito (Carrozzeria di Karmann a Osnabrück, Germania)"
+    },
     "description": {
       "ca": "El TR6 va ser un roadster britànic clàssic. Karmann va ser responsable del redisseny de la carrosseria, donant-li un aspecte més modern i masculí que el seu predecessor, el TR5.",
       "en": "The TR6 was a classic British roadster. Karmann was responsible for redesigning the bodywork, giving it a more modern and masculine look than its predecessor, the TR5.",
@@ -38,7 +46,8 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [26]
+    "relatedModels": [26],
+    "unitsProduced": 91850
   },
   {
     "id": 26,
@@ -51,6 +60,14 @@
       "it": "Jaguar E-Type (hardtop)"
     },
     "productionYears": "1961-1964",
+    "manufacturingPlant": {
+        "ca": "Coventry, Regne Unit (Sostres durs de Karmann a Osnabrück, Alemanya)",
+        "en": "Coventry, UK (Hardtops by Karmann in Osnabrück, Germany)",
+        "es": "Coventry, Reino Unido (Techos duros de Karmann en Osnabrück, Alemania)",
+        "de": "Coventry, UK (Hardtops von Karmann in Osnabrück, Deutschland)",
+        "fr": "Coventry, Royaume-Uni (Hard-tops par Karmann à Osnabrück, Allemagne)",
+        "it": "Coventry, Regno Unito (Hardtop di Karmann a Osnabrück, Germania)"
+    },
     "description": {
       "ca": "Karmann va fabricar sostres durs opcionals per a l'icònic Jaguar E-Type, oferint una alternativa a la capota de lona per als models roadster.",
       "en": "Karmann manufactured optional hardtops for the iconic Jaguar E-Type, offering an alternative to the canvas top for the roadster models.",
@@ -79,7 +96,8 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [25, 27]
+    "relatedModels": [25, 27],
+    "unitsProduced": "N/A"
   },
   {
     "id": 27,
@@ -92,6 +110,14 @@
       "it": "Jaguar XK8/XKR (X100) Convertibile"
     },
     "productionYears": "1996–2006",
+    "manufacturingPlant": {
+        "ca": "Coventry, Regne Unit (Carrosseria i sostre de Karmann a Osnabrück, Alemanya)",
+        "en": "Coventry, UK (Body and roof by Karmann in Osnabrück, Germany)",
+        "es": "Coventry, Reino Unido (Carrocería y techo de Karmann en Osnabrück, Alemania)",
+        "de": "Coventry, UK (Karosserie und Dach von Karmann in Osnabrück, Deutschland)",
+        "fr": "Coventry, Royaume-Uni (Carrosserie et toit par Karmann à Osnabrück, Allemagne)",
+        "it": "Coventry, Regno Unito (Carrozzeria e tetto di Karmann a Osnabrück, Germania)"
+    },
     "description": {
       "ca": "Karmann va contribuir significativament en el desenvolupament i la producció de la carrosseria i el sistema de sostre del descapotable XK8, el successor espiritual de l'E-Type.",
       "en": "Karmann contributed significantly to the development and production of the bodywork and roof system of the XK8 convertible, the spiritual successor to the E-Type.",
@@ -120,6 +146,7 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [26]
+    "relatedModels": [26],
+    "unitsProduced": 90063
   }
 ]

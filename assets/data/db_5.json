@@ -10,6 +10,14 @@
       "it": "Porsche 356"
     },
     "productionYears": "1951–1962",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "La relació entre Porsche i Karmann va començar aquí. Per satisfer la demanda, Porsche va encarregar a Karmann la producció de carrosseries per al seu icònic 356. Karmann va fabricar milers de Coupés i Cabriolets, ajudant a consolidar Porsche com una marca global.",
       "en": "The relationship between Porsche and Karmann began here. To meet demand, Porsche commissioned Karmann to produce bodies for its iconic 356. Karmann manufactured thousands of Coupés and Cabriolets, helping to establish Porsche as a global brand.",
@@ -51,7 +59,7 @@
         "changes": {
           "ca": "Karmann va construir carrosseries Coupé i Cabriolet que eren pràcticament idèntiques a les construïdes per Porsche i Reutter. Aquests primers models són identificats per detalls com el parabrisa dividit o corbat.",
           "en": "Karmann built Coupé and Cabriolet bodies that were virtually identical to those built by Porsche and Reutter. These early models are identified by details such as the split or curved windshield.",
-          "es": "Karmann construyó carrocerías Coupé y Cabriolet que eran prácticamente idénticas a las construidas por Porsche y Reutter. Estos primeros modelos se identifican por detalles como el parabrisas dividido o curvo.",
+          "es": "Karmann construyó carrocerías Coupé y Cabriolet que eran prácticamente idénticas a las construidas por Porsche y Reutter. Estos primeros models se identifican por detalles como el parabrisas dividido o curvo.",
           "de": "Karmann baute Coupé- und Cabriolet-Karosserien, die praktisch identisch mit denen von Porsche und Reutter waren. Diese frühen Modelle sind an Details wie der geteilten oder gebogenen Windschutzscheibe zu erkennen.",
           "fr": "Karmann a construit des carrosseries de Coupé et de Cabriolet qui étaient pratiquement identiques à celles construites par Porsche et Reutter. Ces premiers modèles sont identifiables par des détails tels que le pare-brise divisé ou incurvé.",
           "it": "Karmann costruì carrozzerie Coupé e Cabriolet praticamente identiche a quelle costruite da Porsche e Reutter. Questi primi modelli sono identificati da dettagli come il parabrezza diviso o curvo."
@@ -93,7 +101,8 @@
         }
       }
     ],
-    "relatedModels": [5, 14, 15]
+    "relatedModels": [5, 14, 15],
+    "unitsProduced": 12000
   },
   {
     "id": 14,
@@ -106,6 +115,14 @@
       "it": "Porsche 911"
     },
     "productionYears": "1966–1971",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Per fer front a la demanda del seu nou cotxe insígnia, Porsche va encarregar a Karmann la producció d'un nombre significatiu de carrosseries completes per al 911.",
       "en": "To meet the demand for its new flagship car, Porsche commissioned Karmann to produce a significant number of complete bodies for the 911.",
@@ -162,7 +179,8 @@
         }
       }
     ],
-    "relatedModels": [13, 15]
+    "relatedModels": [13, 15],
+    "unitsProduced": 7400
   },
   {
     "id": 15,
@@ -175,6 +193,14 @@
       "it": "Porsche 912"
     },
     "productionYears": "1966–1969",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "La versió de 4 cilindres del 911. Karmann va ser un productor clau, fabricant la gran majoria de les carrosseries del 912 per satisfer la forta demanda.",
       "en": "The 4-cylinder version of the 911. Karmann was a key producer, manufacturing the vast majority of the 912 bodies to meet strong demand.",
@@ -231,6 +257,7 @@
         }
       }
     ],
-    "relatedModels": [13, 14, 16]
+    "relatedModels": [13, 14, 16],
+    "unitsProduced": 30000
   }
 ]

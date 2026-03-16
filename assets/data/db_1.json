@@ -10,6 +10,14 @@
       "it": "Volkswagen Karmann Ghia Tipo 14"
     },
     "productionYears": "1955–1974",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "El model més icònic. Combinava la fiabilitat mecànica del Volkswagen Escarabat amb una carrosseria elegant dissenyada per la Carrozzeria Ghia i construïda a mà per Karmann, convertint-se en un clàssic de culte. Es van produir més de 445.000 unitats entre coupé i descapotable.",
       "en": "The most iconic model. It combined the mechanical reliability of the Volkswagen Beetle with an elegant body designed by Carrozzeria Ghia and hand-built by Karmann, becoming a cult classic. Over 445,000 units were produced between coupé and convertible.",
@@ -37,8 +45,48 @@
       "it": "Circa 140 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
-    "relatedModels": [2, 3, 5]
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Coupé (1955-1974)",
+          "en": "Coupé (1955-1974)",
+          "es": "Coupé (1955-1974)",
+          "de": "Coupé (1955-1974)",
+          "fr": "Coupé (1955-1974)",
+          "it": "Coupé (1955-1974)"
+        },
+        "imageUrl": "assets/images/vw_karmann_ghia_type_14_coupe.jpg",
+        "changes": {
+          "ca": "La versió original i més comuna, un elegant coupé 2+2 que va captivar el món amb les seves línies fluides i la seva qualitat de construcció.",
+          "en": "The original and most common version, an elegant 2+2 coupé that captivated the world with its flowing lines and build quality.",
+          "es": "La versión original y más común, un elegante coupé 2+2 que cautivó al mundo con sus líneas fluidas y su calidad de construcción.",
+          "de": "Die ursprüngliche und häufigste Version, ein elegantes 2+2 Coupé, das die Welt mit seinen fließenden Linien und seiner Verarbeitungsqualität faszinierte.",
+          "fr": "La version originale et la plus courante, un élégant coupé 2+2 qui a captivé le monde avec ses lignes fluides et sa qualité de construction.",
+          "it": "La versione originale e più comune, un'elegante coupé 2+2 che ha affascinato il mondo con le sue linee fluide e la sua qualità costruttiva."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Cabriolet (1957-1974)",
+          "en": "Cabriolet (1957-1974)",
+          "es": "Cabriolet (1957-1974)",
+          "de": "Cabriolet (1957-1974)",
+          "fr": "Cabriolet (1957-1974)",
+          "it": "Cabriolet (1957-1974)"
+        },
+        "imageUrl": "assets/images/vw_karmann_ghia_type_14_cabriolet.jpg",
+        "changes": {
+          "ca": "Llançat dos anys després, el descapotable oferia una experiència a l'aire llibre sense perdre l'elegància. La seva capota de lona, meticulosament construïda per Karmann, era famosa per la seva qualitat i aïllament.",
+          "en": "Launched two years later, the convertible offered an open-air experience without losing its elegance. Its canvas top, meticulously built by Karmann, was famous for its quality and insulation.",
+          "es": "Lanzado dos años después, el descapotable ofrecía una experiencia al aire libre sin perder la elegancia. Su capota de lona, meticulosamente construida por Karmann, era famosa por su calidad y aislamiento.",
+          "de": "Zwei Jahre später auf den Markt gebracht, bot das Cabrio ein Open-Air-Erlebnis, ohne an Eleganz zu verlieren. Sein von Karmann sorgfältig gefertigtes Stoffverdeck war berühmt für seine Qualität und Isolierung.",
+          "fr": "Lancé deux ans plus tard, le cabriolet offrait une expérience en plein air sans perdre son élégance. Sa capote en toile, méticuleusement construite par Karmann, était réputée pour sa qualité et son isolation.",
+          "it": "Lanciata due anni dopo, la decappottabile offriva un'esperienza all'aria aperta senza perdere la sua eleganza. La sua capote in tela, meticolosamente costruita da Karmann, era famosa per la sua qualità e isolamento."
+        }
+      }
+    ],
+    "relatedModels": [2, 3, 5],
+    "unitsProduced": 445000
   },
   {
     "id": 2,
@@ -51,6 +99,14 @@
       "it": "Volkswagen Karmann Ghia Tipo 34"
     },
     "productionYears": "1961–1969",
+    "manufacturingPlant": {
+        "ca": "Osnabrück, Alemanya",
+        "en": "Osnabrück, Germany",
+        "es": "Osnabrück, Alemania",
+        "de": "Osnabrück, Deutschland",
+        "fr": "Osnabrück, Allemagne",
+        "it": "Osnabrück, Germania"
+    },
     "description": {
       "ca": "Conegut com a 'Razor Edge' o 'Grosser Karmann', presentava línies més rectes i modernes, basat en la plataforma del Volkswagen Tipus 3 (1600 cc). Era més ràpid i espaiós que el Tipus 14, però el seu alt preu va limitar-ne la producció a 42.505 unitats.",
       "en": "Known as 'Razor Edge' or 'Grosser Karmann', it featured straighter, more modern lines, based on the Volkswagen Type 3 (1600 cc) platform. It was faster and more spacious than the Type 14, but its high price limited production to 42,505 units.",
@@ -78,8 +134,29 @@
       "it": "Circa 150 km/h"
     },
     "isCabriolet": false,
-    "versions": [],
-    "relatedModels": [1, 3]
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Coupé \"Razor Edge\"",
+          "en": "\"Razor Edge\" Coupé",
+          "es": "Coupé \"Razor Edge\"",
+          "de": "\"Razor Edge\" Coupé",
+          "fr": "Coupé \"Razor Edge\"",
+          "it": "Coupé \"Razor Edge\""
+        },
+        "imageUrl": "assets/images/vw_karmann_ghia_type_34.jpg",
+        "changes": {
+          "ca": "El model principal, conegut pel seu disseny angular i distintiu, que li va valer el sobrenom de \"fulla d'afaitar\". Es basava en la plataforma més avançada del VW Tipus 3.",
+          "en": "The main model, known for its angular and distinctive design, which earned it the nickname \"razor edge\". It was based on the more advanced VW Type 3 platform.",
+          "es": "El modelo principal, conocido por su diseño angular y distintivo, que le valió el apodo de \"hoja de afeitar\". Se basaba en la plataforma más avanzada del VW Tipo 3.",
+          "de": "Das Hauptmodell, bekannt für sein kantiges und unverwechselbares Design, das ihm den Spitznamen \"Rasierklinge\" einbrachte. Es basierte auf der fortschrittlicheren VW Typ 3 Plattform.",
+          "fr": "Le modèle principal, connu pour son design angulaire et distinctif, qui lui a valu le surnom de \"tranchant de rasoir\". Il était basé sur la plateforme plus avancée de la VW Type 3.",
+          "it": "Il modello principale, noto per il suo design spigoloso e distintivo, che gli è valso il soprannome di \"lama di rasoio\". Era basato sulla piattaforma più avanzata della VW Tipo 3."
+        }
+      }
+    ],
+    "relatedModels": [1, 3],
+    "unitsProduced": 42505
   },
   {
     "id": 3,
@@ -92,6 +169,14 @@
       "it": "Volkswagen Karmann Ghia TC"
     },
     "productionYears": "1970–1976",
+    "manufacturingPlant": {
+        "ca": "São Bernardo do Campo, Brasil",
+        "en": "São Bernardo do Campo, Brazil",
+        "es": "São Bernardo do Campo, Brasil",
+        "de": "São Bernardo do Campo, Brasilien",
+        "fr": "São Bernardo do Campo, Brésil",
+        "it": "São Bernardo do Campo, Brasile"
+    },
     "description": {
       "ca": "Dissenyat per Ghia i produït al Brasil, aquest cupè (Touring Coupé) oferia una estètica més moderna i esportiva, exclusiva per al mercat sud-americà. Es van produir 18.119 unitats.",
       "en": "Designed by Ghia and produced in Brazil, this coupé (Touring Coupé) offered a more modern and sporty aesthetic, exclusive to the South American market. 18,119 units were produced.",
@@ -119,7 +204,28 @@
       "it": "Circa 145 km/h"
     },
     "isCabriolet": false,
-    "versions": [],
-    "relatedModels": [1, 2]
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Touring Coupé (Brasil)",
+          "en": "Touring Coupé (Brazil)",
+          "es": "Touring Coupé (Brasil)",
+          "de": "Touring Coupé (Brasilien)",
+          "fr": "Touring Coupé (Brésil)",
+          "it": "Touring Coupé (Brasile)"
+        },
+        "imageUrl": "assets/images/vw_karmann_ghia_tc.jpg",
+        "changes": {
+          "ca": "Una versió fastback 2+2 dissenyada per Giugiaro, exclusiva per al mercat brasiler. Tenia un aspecte més modern i aerodinàmic que el Tipus 14, amb una gran porta posterior de vidre.",
+          "en": "A 2+2 fastback version designed by Giugiaro, exclusive to the Brazilian market. It had a more modern and aerodynamic look than the Type 14, with a large rear glass hatch.",
+          "es": "Una versión fastback 2+2 diseñada por Giugiaro, exclusiva para el mercado brasileño. Tenía un aspecto más moderno y aerodinámico que el Tipo 14, con un gran portón trasero de cristal.",
+          "de": "Eine von Giugiaro entworfene 2+2-Fastback-Version, exklusiv für den brasilianischen Markt. Sie hatte ein moderneres und aerodynamischeres Aussehen als der Typ 14, mit einer großen hinteren Glasluke.",
+          "fr": "Une version fastback 2+2 conçue par Giugiaro, exclusive au marché brésilien. Elle avait un look plus moderne et aérodynamique que la Type 14, avec un grand hayon en verre à l'arrière.",
+          "it": "Una versione fastback 2+2 disegnata da Giugiaro, esclusiva per il mercato brasiliano. Aveva un aspetto più moderno e aerodinamico rispetto alla Tipo 14, con un grande portellone posteriore in vetro."
+        }
+      }
+    ],
+    "relatedModels": [1, 2],
+    "unitsProduced": 18119
   }
 ]
