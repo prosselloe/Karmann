@@ -6,108 +6,83 @@
 
 L'objectiu de l'aplicació és oferir als entusiastes de l'automoció una eina visualment atractiva i rica en informació per a explorar la contribució de Karmann a la història de l'automòbil, amb un enfocament especial en models icònics de marques com Porsche i Volkswagen.
 
-## 2. Estat Actual i Funcionalitats Implementades (Versió Inicial)
+## 2. Estat Actual i Funcionalitats Implementades
 
-Aquesta secció documenta l'estat de l'aplicació després de la fase inicial de desenvolupament i les correccions posteriors.
+Aquesta secció documenta l'estat de l'aplicació, incloent-hi totes les funcionalitats implementades fins a la data.
 
 ### 2.1. Estructura i Arquitectura
 
 - **Framework:** Flutter 3.x
 - **Gestió de l'Estat:** `ChangeNotifierProvider` per a la gestió del tema i `FutureProvider` juntament amb un `ValueNotifier` per a la càrrega de dades i la gestió de la llista de models.
-- **Servei de Dades:** Un servei local (`KarmannService`) simula una crida a una API i proporciona una llista estàtica de models. Les dades estan completes i inclouen identificadors únics (`id`) per a cada model.
+- **Servei de Dades:** Un servei local (`KarmannService`) carrega les dades des de fitxers JSON locals. El servei ha estat refactoritzat per a ser robust davant d'errors en fitxers individuals.
 - **Estructura del Projecte:** Organitzada per funcionalitats (`models`, `services`, `providers`, `screens`).
-- **Internacionalització (i18n):** Suport complet per a 6 idiomes (català, espanyol, anglès, alemany, francès, italià) mitjançant el paquet `flutter_localizations` i fitxers `.arb`. L'aplicació és capaç de canviar d'idioma en temps d'execució.
+- **Internacionalització (i18n):** Suport complet per a 6 idiomes (català, espanyol, anglès, alemany, francès, italià) mitjançant el paquet `flutter_localizations` i fitxers `.arb`.
 
 ### 2.2. Característiques d'Usuari
 
 - **Pantalla Principal (Llista de Models):**
-  - **Visualització en Graella:** Mostra els cotxes en un `GridView` responsiu que s'adapta a diferents mides de pantalla.
-  - **Targeta de Model:** Cada cotxe es presenta en una targeta (`Card`) que mostra una imatge, el nom del model i els anys de producció.
-  - **Càrrega Asíncrona:** Mostra un indicador de progrés (`CircularProgressIndicator`) mentre es carreguen les dades dels models.
+  - **Visualització en Graella:** Mostra els cotxes en un `GridView` responsiu.
+  - **Targeta de Model:** Presenta cada cotxe amb una imatge, nom i anys de producció.
+  - **Càrrega Asíncrona i Robusta:** Mostra un indicador de progrés durant la càrrega i és capaç de carregar dades parcials si alguns fitxers contenen errors.
 
 - **Funcionalitats de la Barra d'Aplicació (AppBar):**
-  - **Cerca Dinàmica:** Un camp de text permet a l'usuari filtrar la llista de models per nom o per any de producció en temps real.
-  - **Filtre per Tipus:** Un menú desplegable (`PopupMenuButton`) permet filtrar els resultats per a mostrar "Tots" els models o només els "Cabriolets".
-  - **Ordenació:** Un segon menú desplegable permet ordenar la llista de models per:
-    - **Nom** (alfabèticament, A-Z).
-    - **Any** (del més antic al més nou).
-    - **Per defecte** (segons l'`id` del model).
-  - **Canvi d'Idioma:** Un tercer menú desplegable mostra banderes dels idiomes disponibles i permet a l'usuari canviar la llengua de l'aplicació a l'instant.
+  - **Cerca Dinàmica:** Filtra la llista per nom o any en temps real.
+  - **Filtre per Tipus:** Permet filtrar per "Tots" o "Cabriolets".
+  - **Ordenació:** Ordena els models per nom, any, unitats produïdes o per defecte.
+  - **Canvi d'Idioma:** Permet canviar la llengua de l'aplicació a l'instant.
 
 - **Pantalla de Detalls del Model:**
-  - **Navegació:** En fer clic a una targeta de la llista, l'usuari navega a una pantalla de detall específica per a aquell model.
-  - **Informació Completa:** La pantalla de detalls mostra:
-    - Una imatge destacada del vehicle.
-    - El nom complet.
-    - Els anys de producció.
-    - Una descripció detallada.
-    - Una secció de "Dades Clau" amb informació sobre el dissenyador, el motor i la velocitat màxima.
-    - Una secció de "Models Relacionats" amb enllaços per a navegar directament a altres cotxes de la col·lecció.
-  - **Localització:** Tota la informació textual (descripcions, etiquetes, dades tècniques) es mostra en l'idioma seleccionat per l'usuari.
+  - **Navegació:** S'hi accedeix en fer clic a una targeta de la llista.
+  - **Informació Completa:** Mostra una imatge destacada, nom, anys, descripció i dades tècniques.
+  - **Secció de Dades Clau:** Informació sobre dissenyador, motor i velocitat màxima.
+  - **Secció de Models Relacionats:** Enllaços per a navegar a altres cotxes.
+  - **Secció de Versions (Avançat):** Mostra un panell desplegable (`ExpansionPanelList`) amb les diferents versions del model, cadascuna amb la seva pròpia imatge, nom, anys i descripció de canvis.
+  - **Localització:** Tota la informació textual es mostra en l'idioma seleccionat.
 
-### 2.3. Codi i Qualitat
+## 3. Disseny i Experiència d'Usuari (UI/UX)
 
-- **Anàlisi de Codi:** El projecte està lliure d'errors crítics. Només queden dos avisos menors de l'analitzador de Dart (`use_build_context_synchronously` i `unused_import`) que seran resolts en futures iteracions.
-- **Tests:** S'ha creat una prova de widget bàsica (`widget_test.dart`) que verifica la correcta càrrega de l'aplicació i la visualització de la llista de models.
-- **Dependències:** El `pubspec.yaml` està net i només inclou les dependències necessàries (`provider`, `flutter_localizations`, `intl`).
+Aquest apartat detalla les millores visuals i d'interacció aplicades.
 
-## 3. Pròxims Passos: Millora de la Interfície d'Usuari
+- **Paleta de Colors i Tipografia:** S'ha implementat una paleta de colors elegant i s'ha integrat `google_fonts`.
+- **Redisseny de Components:** Les targetes tenen ombres subtils i cantonades arrodonides.
+- **Animacions i Transicions:** S'ha implementat una **Hero Animation** per a una transició fluida entre pantalles.
 
-L'aplicació és funcionalment completa, però la seva interfície d'usuari és bàsica i es basa en els components estàndard de Material. El següent gran objectiu és transformar l'aplicació en una experiència visualment impactant, moderna i polida.
+## 4. Últims Canvis: Sistema Avançat de Versions i Millores de Robustesa
 
-### Pla d'Acció:
+Aquesta secció descriu les últimes funcionalitats implementades i les millores estructurals.
 
-1.  **Revisió i Aplicació d'una Paleta de Colors Atractiva:**
-    - Seleccionar una paleta de colors moderna i elegant que evoqui la sensació clàssica i "premium" dels cotxes Karmann.
-    - Implementar la paleta de colors a tota l'aplicació (AppBar, fons, targetes, text, icones) utilitzant un `ThemeData` centralitzat.
+### 4.1. Pla d'Acció Executat
 
-2.  **Millora de la Tipografia:**
-    - Integrar el paquet `google_fonts` per a utilitzar una tipografia més personalitzada i llegible que la de per defecte.
-    - Establir una jerarquia visual clara mitjançant diferents mides i pesos de font per a títols, subtítols i cos de text.
+1.  **Reestructuració del Model de Dades (`karmann_model.dart`):**
+    - S'ha eliminat l'antiga propietat `variants` (`List<String>`).
+    - S'ha introduït una nova classe `Version` per a encapsular dades detallades de cada variant:
+        - `versionName`: Nom localitzat de la versió (Mapa `String, String`).
+        - `imageUrl`: URL de la imatge específica de la versió.
+        - `productionYears`: Anys de producció (opcional).
+        - `changes`: Descripció localitzada dels canvis (Mapa `String, String`).
+    - S'ha afegit la propietat `versions` (`List<Version>`) a la classe `KarmannModel`, fent-la opcional al constructor per garantir la retrocompatibilitat durant la càrrega.
 
-3.  **Redisseny de la Targeta de Model:**
-    - Afegir ombres subtils (`BoxShadow`) per a donar una sensació de profunditat i fer que les targetes "flotin" sobre el fons.
-    - Arrodonir les cantonades de les imatges i les targetes (`borderRadius`) per a un aspecte més suau.
-    - Afegir un efecte visual (p. ex., un canvi d'ombra o una lleugera animació) quan l'usuari passa el cursor per sobre o pressiona una targeta.
+2.  **Millora de la Robustesa en la Càrrega de Dades (`karmann_service.dart`):**
+    - S'ha refactoritzat el mètode `_loadModels` per a gestionar errors de manera individual per cada fitxer JSON.
+    - El bloc `try-catch` s'ha mogut a l'interior del bucle de lectura de fitxers (`for`).
+    - Si un fitxer (`db_*.json`) falla en carregar-se o processar-se, es registra l'error mitjançant `developer.log` però l'aplicació continua carregant la resta de fitxers, evitant que la llista de models quedi buida per un error aïllat.
 
-4.  **Polit de la Pantalla de Detalls:**
-    - Estructurar la informació de manera més clara, possiblement utilitzant targetes o seccions visualment diferenciades.
-    - Fer que la imatge principal sigui més prominent i atractiva.
-    - Millorar l'estil dels enllaços a "Models Relacionats" per a que semblin botons o xips interactius.
+3.  **Actualització de la Interfície d'Usuari (Pantalla de Detalls):**
+    - La secció "Versions i Variants" ara utilitza un `ExpansionPanelList` per a mostrar les noves dades estructurades. Cada panell mostra:
+        - **Capçalera:** El nom de la versió i els seus anys de producció.
+        - **Contingut (expandit):** Una imatge de la versió i una descripció detallada dels canvis.
 
-5.  **Animacions i Transicions:**
-    - Afegir animacions d'entrada subtils per als elements de la llista a mesura que apareixen.
-    - Implementar una "Hero Animation" a la imatge del cotxe durant la transició entre la pantalla de llista i la de detalls, creant una experiència de navegació més fluida i professional.
+4.  **Actualització dels Fitxers de Dades (`db_*.json`):**
+    - S'està actualitzant tots els fitxers de dades per a substituir l'antic camp `variants` (si existeix) pel nou camp estructurat `versions`. Si un model no té versions, el camp s'omet.
 
----
+## 5. Correccions Finals de Disseny
 
-## 4. Notes Tècniques de Compilació
+Aquesta secció detalla els ajustos finals realitzats per a resoldre problemes específics de la interfície d'usuari.
 
-### 4.1. Configuració de ProGuard/R8 per a Versions de Release
+1.  **Ajust de la Proporció de les Targetes (Pantalla Principal):**
+    - **Problema:** Les targetes de la graella principal es mostraven quadrades, desaprofitant l'espai horitzontal.
+    - **Solució:** S'ha modificat la propietat `childAspectRatio` del `GridView.builder` de `1.0` a `4 / 3`. Aquest canvi assegura que les targetes siguin rectangulars (més amples que altes), millorant la composició visual i l'aprofitament de l'espai.
 
-Quan es genera una versió de *release* de l'aplicació per a Android (per exemple, per a la Play Store), el sistema de compilació utilitza una eina anomenada R8 per optimitzar i reduir la mida del codi. Aquest procés inclou:
-
-1.  **Ofuscació (*Minification*):** Canvia els noms de les classes, mètodes i camps per uns de més curts per estalviar espai.
-2.  **Reducció (*Shrinking*):** Analitza el codi i elimina les classes i mètodes que creu que no s'utilitzen.
-
-**El Problema:**
-
-De vegades, R8 pot ser massa agressiu i eliminar codi que és necessari per a l'aplicació, especialment quan s'accedeix a aquest codi de manera indirecta (*reflection*), una tècnica comuna en *plugins* de Flutter. Això pot causar *crashes* inesperats en la versió de *release* que no apareixen mai durant el desenvolupament (mode *debug*).
-
-**La Solució:**
-
-Per evitar aquest problema, s'ha configurat el projecte per utilitzar regles de ProGuard específiques per a Flutter. Aquestes regles s'han afegit al fitxer `android/app/proguard-rules.pro` i indiquen a R8 que ha de conservar intactes certes classes i mètodes essencials del motor de Flutter i els seus *plugins*.
-
-Aquesta configuració s'activa al fitxer `android/app/build.gradle` amb les línies:
-
-'''groovy
-buildTypes {
-    release {
-        // ...
-        minifyEnabled true
-        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-    }
-}
-'''
-
-Aquesta configuració és **crucial** per garantir l'estabilitat de l'aplicació en dispositius reals un cop publicada a la Play Store.
+2.  **Reducció de l'Espaiat (Pantalla de Detall):**
+    - **Problema:** Existia una distància vertical excessiva entre el títol "Versions i Variants" i la llista de targetes desplegables.
+    - **Solució Definitiva:** Després de diversos intents fallits amb `SizedBox` i la reestructuració de la llista, la solució final i robusta ha estat afegir un marge superior a cada targeta de versió. S'ha aplicat `margin: const EdgeInsets.only(top: 12, bottom: 12)` directament al `Card` dins del bucle que genera les versions. Aquest mètode assegura un control precís de l'espaiat, independentment del comportament d'altres widgets.
