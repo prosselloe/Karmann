@@ -56,6 +56,7 @@
           "it": "356 'Pre-A' e 356 A Coupé/Cabriolet"
         },
         "productionYears": "1951–1959",
+        "imageUrl": "assets/images/porsche_356_pre_a.jpg",
         "changes": {
           "ca": "Karmann va construir carrosseries Coupé i Cabriolet que eren pràcticament idèntiques a les construïdes per Porsche i Reutter. Aquests primers models són identificats per detalls com el parabrisa dividit o corbat.",
           "en": "Karmann built Coupé and Cabriolet bodies that were virtually identical to those built by Porsche and Reutter. These early models are identified by details such as the split or curved windshield.",
@@ -83,12 +84,13 @@
           "it": "356 B Hardtop Coupé (Notchback)"
         },
         "productionYears": "1961–1962",
+        "imageUrl": "assets/images/porsche_356_b_hardtop.jpg",
         "changes": {
           "ca": "Karmann va dissenyar una versió única del 356 B coneguda com a \"Hardtop\" o \"Notchback\". Era essencialment un Cabriolet amb un sostre dur d'acer soldat, donant-li un perfil diferent al del Coupé normal.",
           "en": "Karmann designed a unique version of the 356 B known as the \"Hardtop\" or \"Notchback\". It was essentially a Cabriolet with a welded steel hardtop, giving it a different profile from the normal Coupé.",
           "es": "Karmann diseñó una versión única del 356 B conocida como \"Hardtop\" o \"Notchback\". Era esencialmente un Cabriolet con un techo duro de acero soldado, lo que le daba un perfil diferente al del Coupé normal.",
           "de": "Karmann entwarf eine einzigartige Version des 356 B, bekannt als \"Hardtop\" oder \"Notchback\". Es war im Wesentlichen ein Cabriolet mit einem geschweißten Stahl-Hardtop, das ihm ein anderes Profil als das normale Coupé verlieh.",
-          "fr": "Karmann a conçu une version unique de la 356 B connue sous le nom de \"Hardtop\" ou \"Notchback\". Il s'agissait essentiellement d'un Cabriolet avec un toit rigide en acier soudé, lui donnant un profil différent de celui du Coupé normal.",
+          "fr": "Karmann a conçu une version unique de la 356 B connue sous le nom de \"Hardtop\" ou \"Notchback\". Il s'agissait essentiellement d'un Cabriolet avec un toit rigide en acier soudé, lui donnant un profil different de celui du Coupé normal.",
           "it": "Karmann progettò una versione unica della 356 B nota come \"Hardtop\" o \"Notchback\". Era essenzialmente una Cabriolet con un tetto rigido in acciaio saldato, che le conferiva un profilo diverso rispetto alla normale Coupé."
         },
         "annualProduction": {
@@ -150,35 +152,7 @@
       "it": "Circa 210 km/h (911 T)"
     },
     "isCabriolet": false,
-    "versions": [
-      {
-        "versionName": {
-          "ca": "911 Coupé (SWB/LWB)",
-          "en": "911 Coupé (SWB/LWB)",
-          "es": "911 Coupé (SWB/LWB)",
-          "de": "911 Coupé (SWB/LWB)",
-          "fr": "911 Coupé (SWB/LWB)",
-          "it": "911 Coupé (SWB/LWB)"
-        },
-        "productionYears": "1966-1971",
-        "changes": {
-          "ca": "Karmann va construir carrosseries tant per als models de batalla curta (fins al 1968) com per als de batalla llarga (a partir de 1969).",
-          "en": "Karmann built bodies for both the short-wheelbase (until 1968) and long-wheelbase (from 1969) models.",
-          "es": "Karmann construyó carrocerías tanto para los modelos de batalla corta (hasta 1968) como para los de batalla larga (a partir de 1969).",
-          "de": "Karmann baute Karosserien sowohl für die Modelle mit kurzem Radstand (bis 1968) als auch für die mit langem Radstand (ab 1969).",
-          "fr": "Karmann a construit des carrosseries pour les modèles à empattement court (jusqu'en 1968) et à empattement long (à partir de 1969).",
-          "it": "Karmann costruì scocche sia per i modelli a passo corto (fino al 1968) che per quelli a passo lungo (dal 1969)."
-        },
-        "annualProduction": {
-          "ca": "Es calcula que Karmann va produir unes 7,400 carrosseries de 911, que van ser crucials per a l'expansió inicial de Porsche.",
-          "en": "It is estimated that Karmann produced about 7,400 911 bodies, which were crucial for Porsche's initial expansion.",
-          "es": "Se estima que Karmann produjo unas 7,400 carrocerías de 911, que fueron cruciales para la expansión inicial de Porsche.",
-          "de": "Es wird geschätzt, dass Karmann etwa 7.400 911-Karosserien produzierte, die für die anfängliche Expansion von Porsche entscheidend waren.",
-          "fr": "On estime que Karmann a produit environ 7 400 carrosseries de 911, qui ont été cruciales pour l'expansion initiale de Porsche.",
-          "it": "Si stima che Karmann abbia prodotto circa 7.400 scocche della 911, che furono cruciali per l'espansione iniziale di Porsche."
-        }
-      }
-    ],
+    "versions": [],
     "relatedModels": [13, 15],
     "unitsProduced": 7400
   },
@@ -228,35 +202,7 @@
       "it": "Circa 185 km/h"
     },
     "isCabriolet": false,
-    "versions": [
-      {
-        "versionName": {
-          "ca": "912 Coupé",
-          "en": "912 Coupé",
-          "es": "912 Coupé",
-          "de": "912 Coupé",
-          "fr": "912 Coupé",
-          "it": "912 Coupé"
-        },
-        "productionYears": "1966-1969",
-        "changes": {
-          "ca": "Carrosseria pràcticament idèntica a la del 911, però amb un interior més senzill i un motor de 4 cilindres derivat del 356 SC.",
-          "en": "Body practically identical to the 911, but with a simpler interior and a 4-cylinder engine derived from the 356 SC.",
-          "es": "Carrocería prácticamente idéntica a la del 911, pero con un interior más sencillo y un motor de 4 cilindros derivado del 356 SC.",
-          "de": "Karosserie praktisch identisch mit dem 911, aber mit einem einfacheren Innenraum und einem 4-Zylinder-Motor, der vom 356 SC abgeleitet ist.",
-          "fr": "Carrosserie pratiquement identique à celle de la 911, mais avec un intérieur plus simple et un moteur 4 cylindres dérivé de la 356 SC.",
-          "it": "Scocca praticamente identica alla 911, ma con interni più semplici e un motore a 4 cilindri derivato dalla 356 SC."
-        },
-        "annualProduction": {
-          "ca": "Karmann va produir la carrosseria de gairebé 30,000 dels aproximadament 32,000 coupés 912 construïts.",
-          "en": "Karmann produced the body for nearly 30,000 of the approximately 32,000 912 coupés built.",
-          "es": "Karmann produjo la carrocería de casi 30,000 de los aproximadamente 32,000 coupés 912 construidos.",
-          "de": "Karmann produzierte die Karosserie für fast 30.000 der rund 32.000 gebauten 912-Coupés.",
-          "fr": "Karmann a produit la carrosserie de près de 30 000 des quelque 32 000 coupés 912 construits.",
-          "it": "Karmann ha prodotto la scocca per quasi 30.000 delle circa 32.000 coupé 912 costruite."
-        }
-      }
-    ],
+    "versions": [],
     "relatedModels": [13, 14, 16],
     "unitsProduced": 30000
   }

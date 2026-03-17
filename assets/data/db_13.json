@@ -1,4 +1,3 @@
-
 [
   {
     "id": 37,
@@ -37,10 +36,13 @@
       "fr": "Env. 110 km/h",
       "it": "Circa 110 km/h"
     },
-    "isCabriolet": false,
+    "isCabriolet": true,
     "unitsProduced": 800,
     "versions": [],
-    "relatedModels": [31, 32]
+    "relatedModels": [
+      31,
+      32
+    ]
   },
   {
     "id": 38,
@@ -82,6 +84,8 @@
     "isCabriolet": true,
     "unitsProduced": 3000,
     "versions": [],
-    "relatedModels": [5]
+    "relatedModels": [
+      5
+    ]
   }
 ]

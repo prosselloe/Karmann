@@ -11,12 +11,12 @@
     },
     "productionYears": "1969–1972",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "Una col·laboració entre Volkswagen i Porsche. Mentre que el 914/4 tenia un motor Volkswagen, el 914/6 estava equipat amb un motor Porsche de 6 cilindres. Karmann va fabricar les carrosseries completes.",
@@ -29,12 +29,12 @@
     "imageUrl": "assets/images/porsche_914.jpg",
     "designer": "Ferdinand Alexander Porsche",
     "engine": {
-      "ca": "Bòxer de 6 cilindres",
-      "en": "6-cylinder boxer",
-      "es": "Bóxer de 6 cilindros",
-      "de": "6-Zylinder-Boxermotor",
-      "fr": "6 cylindres à plat (Boxer)",
-      "it": "Boxer a 6 cilindri"
+      "ca": "Bòxer de 4 i 6 cilindres",
+      "en": "4 and 6-cylinder boxer",
+      "es": "Bóxer de 4 y 6 cilindros",
+      "de": "4- und 6-Zylinder-Boxermotor",
+      "fr": "4 et 6 cylindres à plat (Boxer)",
+      "it": "Boxer a 4 e 6 cilindri"
     },
     "topSpeed": {
       "ca": "Aprox. 207 km/h",
@@ -46,27 +46,30 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [14, 15],
+    "relatedModels": [
+      14,
+      15
+    ],
     "unitsProduced": 118978
   },
   {
     "id": 17,
     "name": {
-      "ca": "Porsche 968 Coupé & Cabriolet",
-      "en": "Porsche 968 Coupé & Cabriolet",
-      "es": "Porsche 968 Coupé & Cabriolet",
-      "de": "Porsche 968 Coupé & Cabriolet",
-      "fr": "Porsche 968 Coupé & Cabriolet",
-      "it": "Porsche 968 Coupé & Cabriolet"
+      "ca": "Porsche 968",
+      "en": "Porsche 968",
+      "es": "Porsche 968",
+      "de": "Porsche 968",
+      "fr": "Porsche 968",
+      "it": "Porsche 968"
     },
     "productionYears": "1992–1995",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "El 968 va ser l'evolució final de la línia de models amb motor davanter de Porsche. Karmann va rebre l'encàrrec de produir les carrosseries pintades per a les versions Coupé i Cabriolet.",
@@ -95,8 +98,52 @@
       "it": "Circa 252 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
-    "relatedModels": [14, 16],
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Coupé",
+          "en": "Coupé",
+          "es": "Coupé",
+          "de": "Coupé",
+          "fr": "Coupé",
+          "it": "Coupé"
+        },
+        "productionYears": "1992–1995",
+        "imageUrl": "assets/images/porsche_968_coupe.jpg",
+        "changes": {
+          "ca": "La versió de sostre dur del 968, amb una gran finestra posterior de vidre.",
+          "en": "The hardtop version of the 968, with a large rear glass window.",
+          "es": "La versión de techo duro del 968, con una gran ventana trasera de cristal.",
+          "de": "Die Hardtop-Version des 968, mit einer großen Glasheckscheibe.",
+          "fr": "La version à toit rigide de la 968, avec une grande lunette arrière en verre.",
+          "it": "La versione con tetto rigido della 968, con un ampio lunotto posteriore in vetro."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Cabriolet",
+          "en": "Cabriolet",
+          "es": "Cabriolet",
+          "de": "Cabriolet",
+          "fr": "Cabriolet",
+          "it": "Cabriolet"
+        },
+        "productionYears": "1992–1995",
+        "imageUrl": "assets/images/porsche_968_cabriolet.jpg",
+        "changes": {
+          "ca": "La versió descapotable, amb un sostre de lona elèctric.",
+          "en": "The convertible version, with an electric canvas roof.",
+          "es": "La versión descapotable, con un techo de lona eléctrico.",
+          "de": "Die Cabrio-Version mit elektrischem Stoffverdeck.",
+          "fr": "La version cabriolet, avec un toit en toile électrique.",
+          "it": "La versione convertibile, con tetto in tela elettrico."
+        }
+      }
+    ],
+    "relatedModels": [
+      14,
+      16
+    ],
     "unitsProduced": 12776
   },
   {
@@ -111,12 +158,12 @@
     },
     "productionYears": "1991–2000",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "Audi va confiar en Karmann per a la producció del seu primer descapotable des de la dècada de 1950. Karmann va construir les carrosseries i va realitzar el muntatge final.",
@@ -147,7 +194,9 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [19],
+    "relatedModels": [
+      19
+    ],
     "unitsProduced": 71510
   }
 ]

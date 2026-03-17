@@ -1,132 +1,53 @@
-
 [
-  {
-    "id": 34,
-    "name": {
-      "ca": "Kia Sportage (Primera Gen)",
-      "en": "Kia Sportage (First Gen)",
-      "es": "Kia Sportage (Primera Gen)",
-      "de": "Kia Sportage (Erste Gen)",
-      "fr": "Kia Sportage (Première Gén)",
-      "it": "Kia Sportage (Prima Gen)"
-    },
-    "productionYears": "1995–1998",
-    "manufacturingPlant": {
-        "ca": "Vendas Novas, Portugal",
-        "en": "Vendas Novas, Portugal",
-        "es": "Vendas Novas, Portugal",
-        "de": "Vendas Novas, Portugal",
-        "fr": "Vendas Novas, Portugal",
-        "it": "Vendas Novas, Portogallo"
-    },
-    "description": {
-      "ca": "Karmann va fabricar la primera generació del Kia Sportage per al mercat europeu, ajudant la marca coreana a establir-se al continent amb el seu nou SUV.",
-      "en": "Karmann manufactured the first generation of the Kia Sportage for the European market, helping the Korean brand establish itself on the continent with its new SUV.",
-      "es": "Karmann fabricó la primera generación del Kia Sportage para el mercado europeo, ayudando a la marca coreana a establecerse en el continente con su nuevo SUV.",
-      "de": "Karmann fertigte die erste Generation des Kia Sportage für den europäischen Markt und half der koreanischen Marke, sich mit ihrem neuen SUV auf dem Kontinent zu etablieren.",
-      "fr": "Karmann a fabriqué la première génération du Kia Sportage pour le marché européen, aidant la marque coréenne à s'établir sur le continent avec son nouveau SUV.",
-      "it": "Karmann ha prodotto la prima generazione della Kia Sportage per il mercato europeo, aiutando il marchio coreano a stabilirsi nel continente con il suo nuovo SUV."
-    },
-    "imageUrl": "assets/images/kia_sportage.jpg",
-    "designer": "Kia Motors",
-    "engine": {
-      "ca": "2.0L 4 cilindres (gasolina i dièsel)",
-      "en": "2.0L 4-cylinder (petrol and diesel)",
-      "es": "2.0L 4 cilindros (gasolina y diésel)",
-      "de": "2.0L 4-Zylinder (Benzin und Diesel)",
-      "fr": "2.0L 4 cylindres (essence et diesel)",
-      "it": "2.0L 4 cilindri (benzina e diesel)"
-    },
-    "topSpeed": {
-      "ca": "Aprox. 160 km/h",
-      "en": "Approx. 160 km/h",
-      "es": "Aprox. 160 km/h",
-      "de": "ca. 160 km/h",
-      "fr": "Env. 160 km/h",
-      "it": "Circa 160 km/h"
-    },
-    "isCabriolet": false,
-    "unitsProduced": 25984,
-    "versions": [
-      {
-        "versionName": {
-          "ca": "Producció Europea",
-          "en": "European Production",
-          "es": "Producción Europea",
-          "de": "Europäische Produktion",
-          "fr": "Production Européenne",
-          "it": "Produzione Europea"
-        },
-        "productionYears": "1995-1998",
-        "changes": {
-          "ca": "La producció a Vendas Novas (Portugal) va permetre a Kia evitar aranzels d'importació i adaptar el vehicle als gustos europeus.",
-          "en": "Production in Vendas Novas (Portugal) allowed Kia to avoid import tariffs and adapt the vehicle to European tastes.",
-          "es": "La producción en Vendas Novas (Portugal) permitió a Kia evitar aranceles de importación y adaptar el vehículo a los gustos europeos.",
-          "de": "Die Produktion in Vendas Novas (Portugal) ermöglichte es Kia, Einfuhrzölle zu vermeiden und das Fahrzeug an den europäischen Geschmack anzupassen.",
-          "fr": "La production à Vendas Novas (Portugal) a permis à Kia d'éviter les droits de douane à l'importation et d'adapter le véhicule aux goûts européens.",
-          "it": "La produzione a Vendas Novas (Portogallo) ha permesso a Kia di evitare i dazi di importazione e di adattare il veicolo ai gusti europei."
-        },
-        "productionDetails": {
-          "ca": "Es van fabricar aproximadament 30,000 unitats del Sportage a les instal·lacions de Karmann a Portugal.",
-          "en": "Approximately 30,000 units of the Sportage were manufactured at Karmann's facilities in Portugal.",
-          "es": "Se fabricaron aproximadamente 30,000 unidades del Sportage en las instalaciones de Karmann en Portugal.",
-          "de": "In den Karmann-Werken in Portugal wurden etwa 30.000 Einheiten des Sportage hergestellt.",
-          "fr": "Environ 30 000 unités du Sportage ont été fabriquées dans les usines de Karmann au Portugal.",
-          "it": "Nello stabilimento di Karmann in Portogallo sono state prodotte circa 30.000 unità dello Sportage."
-        }
-      }
-    ],
-    "relatedModels": [36]
-  },
   {
     "id": 35,
     "name": {
-      "ca": "Land Rover Defender (ed. limitada)",
-      "en": "Land Rover Defender (limited ed.)",
-      "es": "Land Rover Defender (ed. limitada)",
-      "de": "Land Rover Defender (limitierte Aufl.)",
-      "fr": "Land Rover Defender (éd. limitée)",
-      "it": "Land Rover Defender (ed. limitata)"
+      "ca": "Land Rover Defender (edició limitada)",
+      "en": "Land Rover Defender (limited edition)",
+      "es": "Land Rover Defender (edición limitada)",
+      "de": "Land Rover Defender (limitierte Auflage)",
+      "fr": "Land Rover Defender (édition limitée)",
+      "it": "Land Rover Defender (edizione limitata)"
     },
-    "productionYears": "1998-2005",
+    "productionYears": "2002",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Solihull, Regne Unit (Modificacions de Karmann)",
+      "en": "Solihull, UK (Modifications by Karmann)",
+      "es": "Solihull, Reino Unido (Modificaciones de Karmann)",
+      "de": "Solihull, UK (Modifikationen von Karmann)",
+      "fr": "Solihull, Royaume-Uni (Modifications par Karmann)",
+      "it": "Solihull, Regno Unito (Modifiche di Karmann)"
     },
     "description": {
-      "ca": "Karmann va produir una sèrie limitada de Land Rover Defender amb sostre de lona desmuntable i altres modificacions especials per al mercat alemany.",
-      "en": "Karmann produced a limited series of Land Rover Defenders with a removable canvas roof and other special modifications for the German market.",
-      "es": "Karmann produjo una serie limitada de Land Rover Defenders con techo de lona desmontable y otras modificaciones especiales para el mercado alemán.",
-      "de": "Karmann produzierte eine limitierte Serie von Land Rover Defender mit abnehmbarem Stoffdach und anderen speziellen Modifikationen für den deutschen Markt.",
-      "fr": "Karmann a produit une série limitée de Land Rover Defender avec un toit en toile amovible et d'autres modifications spéciales pour le marché allemand.",
-      "it": "Karmann ha prodotto una serie limitata di Land Rover Defender con tetto in tela rimovibile e altre modifiche speciali per il mercato tedesco."
+      "ca": "Karmann va col·laborar amb Land Rover per crear una edició especial i limitada del Defender. Aquesta versió comptava amb una capota de lona elèctrica i altres detalls de luxe, transformant el robust tot-terreny en un vehicle d'oci exclusiu.",
+      "en": "Karmann collaborated with Land Rover to create a special, limited edition of the Defender. This version featured an electric canvas top and other luxury details, transforming the rugged off-roader into an exclusive leisure vehicle.",
+      "es": "Karmann colaboró con Land Rover para crear una edición especial y limitada del Defender. Esta versión contaba con una capota de lona eléctrica y otros detalles de lujo, transformando el robusto todoterreno en un vehículo de ocio exclusivo.",
+      "de": "Karmann arbeitete mit Land Rover zusammen, um eine spezielle, limitierte Auflage des Defenders zu schaffen. Diese Version verfügte über ein elektrisches Stoffverdeck und andere luxuriöse Details und verwandelte den robusten Geländewagen in ein exklusives Freizeitfahrzeug.",
+      "fr": "Karmann a collaboré avec Land Rover pour créer une édition spéciale et limitée du Defender. Cette version comportait une capote en toile électrique et d'autres détails de luxe, transformant le tout-terrain robuste en un véhicule de loisirs exclusif.",
+      "it": "Karmann ha collaborato con Land Rover per creare un'edizione speciale e limitata del Defender. Questa versione presentava una capote in tela elettrica e altri dettagli di lusso, trasformando il robusto fuoristrada in un esclusivo veicolo per il tempo libero."
     },
-    "imageUrl": "assets/images/land_rover_defender.jpg",
-    "designer": "Land Rover",
+    "imageUrl": "assets/images/land_rover_defender_karmann.jpg",
+    "designer": "Land Rover (cotxe), Karmann (modificacions)",
     "engine": {
-      "ca": "Dièsel de 4 cilindres",
-      "en": "4-cylinder Diesel",
-      "es": "Diésel de 4 cilindros",
-      "de": "4-Zylinder-Dieselmotor",
-      "fr": "Diesel 4 cylindres",
-      "it": "Diesel a 4 cilindri"
+      "ca": "5 cilindres en línia dièsel",
+      "en": "Inline 5-cylinder diesel",
+      "es": "5 cilindros en línea diésel",
+      "de": "5-Zylinder-Reihen-Dieselmotor",
+      "fr": "5 cylindres en ligne diesel",
+      "it": "5 cilindri in linea diesel"
     },
     "topSpeed": {
-      "ca": "Aprox. 145 km/h",
-      "en": "Approx. 145 km/h",
-      "es": "Aprox. 145 km/h",
-      "de": "ca. 145 km/h",
-      "fr": "Env. 145 km/h",
-      "it": "Circa 145 km/h"
+      "ca": "Aprox. 130 km/h",
+      "en": "Approx. 130 km/h",
+      "es": "Aprox. 130 km/h",
+      "de": "ca. 130 km/h",
+      "fr": "Env. 130 km/h",
+      "it": "Circa 130 km/h"
     },
     "isCabriolet": true,
-    "unitsProduced": 1200,
     "versions": [],
-    "relatedModels": [6]
+    "relatedModels": [],
+    "unitsProduced": 100
   },
   {
     "id": 36,
@@ -140,23 +61,23 @@
     },
     "productionYears": "2005–2009",
     "manufacturingPlant": {
-        "ca": "Sunderland, Regne Unit (Muntatge del sostre per Karmann)",
-        "en": "Sunderland, UK (Roof assembly by Karmann)",
-        "es": "Sunderland, Reino Unido (Ensamblaje del techo por Karmann)",
-        "de": "Sunderland, UK (Dachmontage durch Karmann)",
-        "fr": "Sunderland, Royaume-Uni (Assemblage du toit par Karmann)",
-        "it": "Sunderland, Regno Unito (Assemblaggio del tetto da parte di Karmann)"
+      "ca": "Washington, Regne Unit (Sostre de Karmann)",
+      "en": "Washington, UK (Roof by Karmann)",
+      "es": "Washington, Reino Unido (Techo de Karmann)",
+      "de": "Washington, UK (Dach von Karmann)",
+      "fr": "Washington, Royaume-Uni (Toit par Karmann)",
+      "it": "Washington, Regno Unito (Tetto di Karmann)"
     },
     "description": {
-      "ca": "Karmann va ser soci en el desenvolupament i la producció del sostre de vidre retràctil d'aquest petit coupé-cabriolet, basat en el popular Nissan Micra. Es fabricava a la planta de Nissan a Sunderland (Regne Unit).",
-      "en": "Karmann was a partner in the development and production of the retractable glass roof of this small coupé-cabriolet, based on the popular Nissan Micra. It was manufactured at Nissan's plant in Sunderland (UK).",
-      "es": "Karmann fue socio en el desarrollo y la producción del techo de cristal retráctil de este pequeño coupé-cabriolet, basado en el popular Nissan Micra. Se fabricaba en la planta de Nissan en Sunderland (Reino Unido).",
-      "de": "Karmann war Partner bei der Entwicklung und Produktion des versenkbaren Glasdachs dieses kleinen Coupé-Cabriolets auf Basis des beliebten Nissan Micra. Es wurde im Nissan-Werk in Sunderland (Großbritannien) hergestellt.",
-      "fr": "Karmann a été partenaire dans le développement et la production du toit en verre rétractable de ce petit coupé-cabriolet, basé sur la populaire Nissan Micra. Il était fabriqué à l'usine Nissan de Sunderland (Royaume-Uni).",
-      "it": "Karmann è stata partner nello sviluppo e nella produzione del tetto in vetro retrattile di questa piccola coupé-cabriolet, basata sulla popolare Nissan Micra. Veniva prodotta nello stabilimento Nissan di Sunderland (Regno Unito)."
+      "ca": "Similar al seu treball amb Renault, Karmann va dissenyar i subministrar el sistema de sostre de vidre retràctil per al Nissan Micra C+C. Aquest model va portar el concepte de coupé-cabriolet al segment dels cotxes petits.",
+      "en": "Similar to its work with Renault, Karmann designed and supplied the retractable glass roof system for the Nissan Micra C+C. This model brought the coupé-cabriolet concept to the small car segment.",
+      "es": "Similar a su trabajo con Renault, Karmann diseñó y suministró el sistema de techo de cristal retráctil para el Nissan Micra C+C. Este modelo llevó el concepto de coupé-cabriolet al segmento de los coches pequeños.",
+      "de": "Ähnlich wie bei seiner Arbeit mit Renault entwarf und lieferte Karmann das versenkbare Glasdachsystem für den Nissan Micra C+C. Dieses Modell brachte das Coupé-Cabriolet-Konzept in das Kleinwagensegment.",
+      "fr": "Similaire à son travail avec Renault, Karmann a conçu et fourni le système de toit en verre rétractable pour la Nissan Micra C+C. Ce modèle a introduit le concept de coupé-cabriolet dans le segment des petites voitures.",
+      "it": "Similmente al suo lavoro con Renault, Karmann ha progettato e fornito il sistema di tetto in vetro retrattile per la Nissan Micra C+C. Questo modello ha portato il concetto di coupé-cabriolet nel segmento delle auto piccole."
     },
     "imageUrl": "assets/images/nissan_micra_c_c.jpg",
-    "designer": "Nissan",
+    "designer": "Nissan (cotxe), Karmann (sostre)",
     "engine": {
       "ca": "4 cilindres en línia",
       "en": "Inline 4-cylinder",
@@ -166,16 +87,116 @@
       "it": "4 cilindri in linea"
     },
     "topSpeed": {
-      "ca": "Aprox. 176-190 km/h",
-      "en": "Approx. 176-190 km/h",
-      "es": "Aprox. 176-190 km/h",
-      "de": "ca. 176-190 km/h",
-      "fr": "Env. 176-190 km/h",
-      "it": "Circa 176-190 km/h"
+      "ca": "Aprox. 176-191 km/h",
+      "en": "Approx. 176-191 km/h",
+      "es": "Aprox. 176-191 km/h",
+      "de": "ca. 176-191 km/h",
+      "fr": "Env. 176-191 km/h",
+      "it": "Circa 176-191 km/h"
     },
     "isCabriolet": true,
-    "unitsProduced": 51583,
     "versions": [],
-    "relatedModels": [34]
+    "relatedModels": [],
+    "unitsProduced": 65000
+  },
+  {
+    "id": 37,
+    "name": {
+      "ca": "Ford Eifel Roadster",
+      "en": "Ford Eifel Roadster",
+      "es": "Ford Eifel Roadster",
+      "de": "Ford Eifel Roadster",
+      "fr": "Ford Eifel Roadster",
+      "it": "Ford Eifel Roadster"
+    },
+    "productionYears": "1937–1939",
+    "manufacturingPlant": {
+      "ca": "Colònia, Alemanya (Carrosseries de Karmann)",
+      "en": "Cologne, Germany (Bodies by Karmann)",
+      "es": "Colonia, Alemania (Carrocerías de Karmann)",
+      "de": "Köln, Deutschland (Karosserien von Karmann)",
+      "fr": "Cologne, Allemagne (Carrosseries par Karmann)",
+      "it": "Colonia, Germania (Carrozzerie di Karmann)"
+    },
+    "description": {
+      "ca": "En els seus primers anys, Karmann va construir carrosseries especials per a diversos fabricants. Per al Ford Eifel, van oferir una elegant carrosseria de roadster de dues places que es distingia clarament de les versions estàndard de Ford.",
+      "en": "In its early years, Karmann built special bodies for various manufacturers. For the Ford Eifel, they offered an elegant two-seater roadster body that was clearly distinct from the standard Ford versions.",
+      "es": "En sus primeros años, Karmann construyó carrocerías especiales para varios fabricantes. Para el Ford Eifel, ofrecieron una elegante carrocería de roadster de dos plazas que se distinguía claramente de las versiones estándar de Ford.",
+      "de": "In seinen frühen Jahren baute Karmann Spezialkarosserien für verschiedene Hersteller. Für den Ford Eifel boten sie eine elegante zweisitzige Roadster-Karosserie an, die sich deutlich von den Standard-Ford-Versionen unterschied.",
+      "fr": "Dans ses premières années, Karmann a construit des carrosseries spéciales pour divers constructeurs. Pour la Ford Eifel, ils ont proposé une élégante carrosserie de roadster à deux places qui se distinguait nettement des versions standard de Ford.",
+      "it": "Nei suoi primi anni, Karmann costruì carrozzerie speciali per vari produttori. Per la Ford Eifel, offrirono un'elegante carrozzeria roadster a due posti che si distingueva nettamente dalle versioni standard della Ford."
+    },
+    "imageUrl": "assets/images/ford_eifel_roadster.jpg",
+    "designer": "Karmann",
+    "engine": {
+      "ca": "4 cilindres en línia",
+      "en": "Inline 4-cylinder",
+      "es": "4 cilindros en línea",
+      "de": "4-Zylinder-Reihenmotor",
+      "fr": "4 cylindres en ligne",
+      "it": "4 cilindri in linea"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 100 km/h",
+      "en": "Approx. 100 km/h",
+      "es": "Aprox. 100 km/h",
+      "de": "ca. 100 km/h",
+      "fr": "Env. 100 km/h",
+      "it": "Circa 100 km/h"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [],
+      "unitsProduced": 350
+  },
+  {
+    "id": 38,
+    "name": {
+      "ca": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "en": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "es": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "de": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "fr": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "it": "Volkswagen Beetle Cabriolet Karmann Edition"
+    },
+    "productionYears": "2014–2015",
+    "manufacturingPlant": {
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
+    },
+    "description": {
+      "ca": "Per commemorar el 65è aniversari de la col·laboració entre VW i Karmann en el Beetle Cabriolet original de 1949, Volkswagen va llançar una edició especial anomenada \"Karmann\". Aquesta edició presentava detalls estètics únics, com ara llantes exclusives, seients d'Alcàntara, un volant de cuir i el logotip de Karmann.",
+      "en": "To commemorate the 65th anniversary of the collaboration between VW and Karmann on the original 1949 Beetle Cabriolet, Volkswagen released a special edition called \"Karmann\". This edition featured unique aesthetic details, such as exclusive rims, Alcantara seats, a leather steering wheel, and the Karmann logo.",
+      "es": "Para conmemorar el 65º aniversario de la colaboración entre VW y Karmann en el Beetle Cabriolet original de 1949, Volkswagen lanzó una edición especial llamada \"Karmann\". Esta edición presentaba detalles estéticos únicos, como llantas exclusivas, asientos de Alcantara, un volante de cuero y el logotipo de Karmann.",
+      "de": "Zum 65. Jahrestag der Zusammenarbeit zwischen VW und Karmann am ursprünglichen Käfer Cabriolet von 1949 veröffentlichte Volkswagen eine Sonderedition namens \"Karmann\". Diese Edition zeichnete sich durch einzigartige ästhetische Details wie exklusive Felgen, Alcantara-Sitze, ein Lederlenkrad und das Karmann-Logo aus.",
+      "fr": "Pour commémorer le 65e anniversaire de la collaboration entre VW et Karmann sur le cabriolet Coccinelle original de 1949, Volkswagen a lancé une édition spéciale appelée \"Karmann\". Cette édition présentait des détails esthétiques uniques, tels que des jantes exclusives, des sièges en Alcantara, un volant en cuir et le logo Karmann.",
+      "it": "Per commemorare il 65° anniversario della collaborazione tra VW e Karmann sulla Beetle Cabriolet originale del 1949, Volkswagen ha rilasciato un'edizione speciale chiamata \"Karmann\". Questa edizione presentava dettagli estetici unici, come cerchi esclusivi, sedili in Alcantara, un volante in pelle e il logo Karmann."
+    },
+    "imageUrl": "assets/images/vw_beetle_karmann_edition.jpg",
+    "designer": "Volkswagen",
+    "engine": {
+      "ca": "Varis (depenent del mercat)",
+      "en": "Various (depending on market)",
+      "es": "Varios (dependiendo del mercado)",
+      "de": "Verschiedene (je nach Markt)",
+      "fr": "Divers (selon le marché)",
+      "it": "Vari (a seconda del mercato)"
+    },
+    "topSpeed": {
+      "ca": "N/A",
+      "en": "N/A",
+      "es": "N/A",
+      "de": "N/A",
+      "fr": "N/A",
+      "it": "N/A"
+    },
+    "isCabriolet": true,
+    "versions": [],
+    "relatedModels": [1, 2, 4, 5],
+    "unitsProduced": 3000
   }
 ]

@@ -11,12 +11,12 @@
     },
     "productionYears": "1996–2004",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "A més de la seva planta a Bremen, Mercedes va subcontractar part de la producció del popular roadster SLK a Karmann per satisfer l'alta demanda. Karmann va muntar vehicles complets.",
@@ -46,27 +46,29 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [23],
+    "relatedModels": [
+      23
+    ],
     "unitsProduced": 114200
   },
   {
     "id": 23,
     "name": {
-      "ca": "Mercedes-Benz CLK (A208/C208)",
-      "en": "Mercedes-Benz CLK (A208/C208)",
-      "es": "Mercedes-Benz CLK (A208/C208)",
-      "de": "Mercedes-Benz CLK (A208/C208)",
-      "fr": "Mercedes-Benz CLK (A208/C208)",
-      "it": "Mercedes-Benz CLK (A208/C208)"
+      "ca": "Mercedes-Benz CLK",
+      "en": "Mercedes-Benz CLK",
+      "es": "Mercedes-Benz CLK",
+      "de": "Mercedes-Benz CLK",
+      "fr": "Mercedes-Benz CLK",
+      "it": "Mercedes-Benz CLK"
     },
     "productionYears": "1997–2003",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "Karmann va ser el soci de producció de Mercedes-Benz per a les versions Coupé i Cabriolet del primer CLK, basat en la plataforma del Classe C. La seva experiència en la fabricació de descapotables va ser clau.",
@@ -95,8 +97,51 @@
       "it": "Circa 208-250 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
-    "relatedModels": [22],
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Coupé (C208)",
+          "en": "Coupé (C208)",
+          "es": "Coupé (C208)",
+          "de": "Coupé (C208)",
+          "fr": "Coupé (C208)",
+          "it": "Coupé (C208)"
+        },
+        "productionYears": "1997–2002",
+        "imageUrl": "assets/images/mercedes_benz_clk_coupe.jpg",
+        "changes": {
+          "ca": "Versió de sostre dur del CLK.",
+          "en": "Hardtop version of the CLK.",
+          "es": "Versión de techo duro del CLK.",
+          "de": "Hardtop-Version des CLK.",
+          "fr": "Version à toit rigide du CLK.",
+          "it": "Versione con tetto rigido della CLK."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Cabriolet (A208)",
+          "en": "Cabriolet (A208)",
+          "es": "Cabriolet (A208)",
+          "de": "Cabriolet (A208)",
+          "fr": "Cabriolet (A208)",
+          "it": "Cabriolet (A208)"
+        },
+        "productionYears": "1998–2003",
+        "imageUrl": "assets/images/mercedes_benz_clk_cabriolet.jpg",
+        "changes": {
+          "ca": "Versió descapotable amb sostre de lona.",
+          "en": "Convertible version with a canvas roof.",
+          "es": "Versión descapotable con techo de lona.",
+          "de": "Cabrio-Version mit Stoffverdeck.",
+          "fr": "Version cabriolet avec un toit en toile.",
+          "it": "Versione convertibile con tetto in tela."
+        }
+      }
+    ],
+    "relatedModels": [
+      22
+    ],
     "unitsProduced": 348000
   },
   {
@@ -111,12 +156,12 @@
     },
     "productionYears": "2003–2007",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "El Crossfire, tant en versió Coupé com Roadster, va ser muntat per Karmann a Alemanya. Compartia la seva plataforma i molts components amb el Mercedes-Benz SLK (R170).",
@@ -145,8 +190,51 @@
       "it": "Circa 240-250 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
-    "relatedModels": [22],
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Coupé",
+          "en": "Coupé",
+          "es": "Coupé",
+          "de": "Coupé",
+          "fr": "Coupé",
+          "it": "Coupé"
+        },
+        "productionYears": "2003–2007",
+        "imageUrl": "assets/images/chrysler_crossfire_coupe.jpg",
+        "changes": {
+          "ca": "Versió de sostre dur amb una distintiva part posterior \"boat-tail\".",
+          "en": "Hardtop version with a distinctive \"boat-tail\" rear.",
+          "es": "Versión de techo duro con una distintiva parte trasera \"boat-tail\".",
+          "de": "Hardtop-Version mit einem markanten \"Boat-Tail\"-Heck.",
+          "fr": "Version à toit rigide avec un arrière distinctif en \"queue de bateau\".",
+          "it": "Versione con tetto rigido e un distintivo posteriore a \"coda di barca\"."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Roadster",
+          "en": "Roadster",
+          "es": "Roadster",
+          "de": "Roadster",
+          "fr": "Roadster",
+          "it": "Roadster"
+        },
+        "productionYears": "2004–2007",
+        "imageUrl": "assets/images/chrysler_crossfire_roadster.jpg",
+        "changes": {
+          "ca": "Versió descapotable amb sostre de lona elèctric.",
+          "en": "Convertible version with an electric canvas roof.",
+          "es": "Versión descapotable con techo de lona eléctrico.",
+          "de": "Cabrio-Version mit elektrischem Stoffverdeck.",
+          "fr": "Version cabriolet avec un toit en toile électrique.",
+          "it": "Versione convertibile con tetto in tela elettrico."
+        }
+      }
+    ],
+    "relatedModels": [
+      22
+    ],
     "unitsProduced": 76014
   }
 ]

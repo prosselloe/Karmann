@@ -2,21 +2,21 @@
   {
     "id": 10,
     "name": {
-      "ca": "Volkswagen Scirocco (Mk1 i Mk2)",
-      "en": "Volkswagen Scirocco (Mk1 & Mk2)",
-      "es": "Volkswagen Scirocco (Mk1 y Mk2)",
-      "de": "Volkswagen Scirocco (Mk1 & Mk2)",
-      "fr": "Volkswagen Scirocco (Mk1 & Mk2)",
-      "it": "Volkswagen Scirocco (Mk1 e Mk2)"
+      "ca": "Volkswagen Scirocco",
+      "en": "Volkswagen Scirocco",
+      "es": "Volkswagen Scirocco",
+      "de": "Volkswagen Scirocco",
+      "fr": "Volkswagen Scirocco",
+      "it": "Volkswagen Scirocco"
     },
     "productionYears": "1974–1992",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "El successor espiritual del Karmann Ghia, el Scirocco va ser un coupé esportiu dissenyat per Giugiaro i produït per Karmann. Va ser un gran èxit comercial.",
@@ -45,8 +45,53 @@
       "it": "Fino a 200 km/h"
     },
     "isCabriolet": false,
-    "versions": [],
-    "relatedModels": [1, 9, 11],
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Mk1",
+          "en": "Mk1",
+          "es": "Mk1",
+          "de": "Mk1",
+          "fr": "Mk1",
+          "it": "Mk1"
+        },
+        "productionYears": "1974–1981",
+        "imageUrl": "assets/images/vw_scirocco_mk1.jpg",
+        "changes": {
+          "ca": "Primera generació del Scirocco, dissenyat per Giugiaro. Un coupé esportiu basat en la plataforma del Volkswagen Golf.",
+          "en": "First generation of the Scirocco, designed by Giugiaro. A sports coupé based on the Volkswagen Golf platform.",
+          "es": "Primera generación del Scirocco, diseñado por Giugiaro. Un coupé deportivo basado en la plataforma del Volkswagen Golf.",
+          "de": "Erste Generation des Scirocco, entworfen von Giugiaro. Ein Sportcoupé auf Basis der Volkswagen Golf-Plattform.",
+          "fr": "Première génération du Scirocco, conçue par Giugiaro. Un coupé sportif basé sur la plateforme de la Volkswagen Golf.",
+          "it": "Prima generazione dello Scirocco, disegnata da Giugiaro. Una coupé sportiva basata sulla piattaforma della Volkswagen Golf."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Mk2",
+          "en": "Mk2",
+          "es": "Mk2",
+          "de": "Mk2",
+          "fr": "Mk2",
+          "it": "Mk2"
+        },
+        "productionYears": "1981–1992",
+        "imageUrl": "assets/images/vw_scirocco_mk2.jpg",
+        "changes": {
+          "ca": "Segona generació, redissenyada per Volkswagen. Va mantenir la mateixa plataforma però amb una carrosseria més aerodinàmica i moderna.",
+          "en": "Second generation, redesigned by Volkswagen. It kept the same platform but with a more aerodynamic and modern body.",
+          "es": "Segunda generación, rediseñada por Volkswagen. Mantuvo la misma plataforma pero con una carrocería más aerodinámica y moderna.",
+          "de": "Zweite Generation, neu gestaltet von Volkswagen. Sie behielt dieselbe Plattform bei, hatte aber eine aerodynamischere und modernere Karosserie.",
+          "fr": "Deuxième génération, redessinée par Volkswagen. Elle a conservé la même plateforme mais avec une carrosserie plus aérodynamique et moderne.",
+          "it": "Seconda generazione, ridisegnata da Volkswagen. Mantenne la stessa piattaforma ma con una carrozzeria più aerodinamica e moderna."
+        }
+      }
+    ],
+    "relatedModels": [
+      1,
+      9,
+      11
+    ],
     "unitsProduced": 795650
   },
   {
@@ -61,17 +106,17 @@
     },
     "productionYears": "1988–1995",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "El Corrado va ser el successor del Scirocco. Aquest coupé esportiu va ser fabricat íntegrament per Karmann i és conegut pel seu aleró posterior actiu i el seu potent motor VR6.",
       "en": "The Corrado was the successor to the Scirocco. This sports coupé was manufactured entirely by Karmann and is known for its active rear spoiler and its powerful VR6 engine.",
-      "es": "El Corrado fue el sucesor del Scirocco. Este coupé deportivo fue fabricado íntegramente por Karmann y es conocido por su aleró posterior activo y su potente motor VR6.",
+      "es": "El Corrado fue el sucesor del Scirocco. Este coupé deportivo fue fabricado íntegramente por Karmann y es conocido por su alerón posterior activo y su potente motor VR6.",
       "de": "Der Corrado war der Nachfolger des Scirocco. Dieses Sportcoupé wurde komplett von Karmann gefertigt und ist bekannt für seinen aktiven Heckspoiler und seinen leistungsstarken VR6-Motor.",
       "fr": "La Corrado était le successeur du Scirocco. Ce coupé sportif a été entièrement fabriqué par Karmann et est connu pour son aileron arrière actif et son puissant moteur VR6.",
       "it": "La Corrado è stata la succeditrice della Scirocco. Questa coupé sportiva è stata prodotta interamente da Karmann ed è nota per il suo spoiler posteriore attivo e il suo potente motore VR6."
@@ -96,7 +141,10 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [9, 10],
+    "relatedModels": [
+      9,
+      10
+    ],
     "unitsProduced": 97521
   },
   {
@@ -111,12 +159,12 @@
     },
     "productionYears": "1965–1971",
     "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
+      "ca": "Osnabrück, Alemanya",
+      "en": "Osnabrück, Germany",
+      "es": "Osnabrück, Alemania",
+      "de": "Osnabrück, Deutschland",
+      "fr": "Osnabrück, Allemagne",
+      "it": "Osnabrück, Germania"
     },
     "description": {
       "ca": "Karmann va estar involucrat en dues iteracions exclusives del coupé basat en l'Opel Diplomat. Va fabricar una sèrie molt limitada de l'elegant Diplomat A Coupé i, anys més tard, va construir un prototip únic per al Diplomat B, que va influir en dissenys futurs tot i no arribar a la producció.",
@@ -156,6 +204,7 @@
           "it": "Opel Diplomat A Coupé"
         },
         "productionYears": "1965–1967",
+        "imageUrl": "assets/images/opel_diplomat_a_coupe.jpg",
         "changes": {
           "ca": "Karmann va fabricar una producció molt exclusiva i limitada (347 unitats) d'un coupé de luxe basat en la berlina Diplomat A. Aquests cotxes es van muntar a mà i estaven equipats amb un motor V8 de Chevrolet.",
           "en": "Karmann manufactured a very exclusive and limited production run (347 units) of a luxury coupé based on the Diplomat A sedan. These cars were hand-assembled and equipped with a Chevrolet V8 engine.",
@@ -175,6 +224,7 @@
           "it": "Opel Diplomat B Coupé (Prototipo)"
         },
         "productionYears": "1971",
+        "imageUrl": "assets/images/opel_diplomat_b_coupe.jpg",
         "changes": {
           "ca": "Karmann va construir un prototip d'un elegant coupé basat en la berlina Opel Diplomat B. Tot i que va rebre bones crítiques, el projecte mai va arribar a la producció en sèrie, però va influir en dissenys futurs.",
           "en": "Karmann built a prototype of an elegant coupé based on the Opel Diplomat B sedan. Although it received good reviews, the project never reached series production, but it influenced future designs.",

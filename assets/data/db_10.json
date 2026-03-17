@@ -2,21 +2,21 @@
   {
     "id": 28,
     "name": {
-      "ca": "Renault Mégane CC (I & II)",
-      "en": "Renault Mégane CC (I & II)",
-      "es": "Renault Mégane CC (I & II)",
-      "de": "Renault Mégane CC (I & II)",
-      "fr": "Renault Mégane CC (I & II)",
-      "it": "Renault Mégane CC (I & II)"
+      "ca": "Renault Mégane CC",
+      "en": "Renault Mégane CC",
+      "es": "Renault Mégane CC",
+      "de": "Renault Mégane CC",
+      "fr": "Renault Mégane CC",
+      "it": "Renault Mégane CC"
     },
     "productionYears": "2003–2009",
     "manufacturingPlant": {
-        "ca": "Douai, França (Sostre de Karmann a Rheine, Alemanya)",
-        "en": "Douai, France (Roof by Karmann in Rheine, Germany)",
-        "es": "Douai, Francia (Techo de Karmann en Rheine, Alemania)",
-        "de": "Douai, Frankreich (Dach von Karmann in Rheine, Deutschland)",
-        "fr": "Douai, France (Toit par Karmann à Rheine, Allemagne)",
-        "it": "Douai, Francia (Tetto di Karmann a Rheine, Germania)"
+      "ca": "Douai, França (Sostre de Karmann a Rheine, Alemanya)",
+      "en": "Douai, France (Roof by Karmann in Rheine, Germany)",
+      "es": "Douai, Francia (Techo de Karmann en Rheine, Alemania)",
+      "de": "Douai, Frankreich (Dach von Karmann in Rheine, Deutschland)",
+      "fr": "Douai, France (Toit par Karmann à Rheine, Allemagne)",
+      "it": "Douai, Francia (Tetto di Karmann a Rheine, Germania)"
     },
     "description": {
       "ca": "Karmann va desenvolupar i produir el complex sistema de sostre de vidre retràctil per al popular Mégane Coupé-Cabriolet. Aquest model va ajudar a democratitzar els descapotables de sostre dur.",
@@ -45,7 +45,48 @@
       "it": "Circa 195-225 km/h"
     },
     "isCabriolet": true,
-    "versions": [],
+    "versions": [
+      {
+        "versionName": {
+          "ca": "Primera Generació",
+          "en": "First Generation",
+          "es": "Primera Generación",
+          "de": "Erste Generation",
+          "fr": "Première génération",
+          "it": "Prima Generazione"
+        },
+        "imageUrl": "assets/images/renault_megane_cc_primera_generacio.jpg",
+        "productionYears": "1997–2003",
+        "changes": {
+          "ca": "Basat en el Mégane I, Karmann va produir la versió cabriolet amb sostre de lona.",
+          "en": "Based on the Mégane I, Karmann produced the convertible version with a canvas roof.",
+          "es": "Basado en el Mégane I, Karmann produjo la versión cabriolet con techo de lona.",
+          "de": "Basierend auf dem Mégane I produzierte Karmann die Cabrio-Version mit Stoffverdeck.",
+          "fr": "Basé sur la Mégane I, Karmann a produit la version cabriolet avec un toit en toile.",
+          "it": "Basata sulla Mégane I, Karmann ha prodotto la versione cabriolet con tetto in tela."
+        }
+      },
+      {
+        "versionName": {
+          "ca": "Segona Generació (CC)",
+          "en": "Second Generation (CC)",
+          "es": "Segunda Generación (CC)",
+          "de": "Zweite Generation (CC)",
+          "fr": "Deuxième génération (CC)",
+          "it": "Seconda Generazione (CC)"
+        },
+        "imageUrl": "assets/images/renault_megane_cc_segona_generacio_cc.jpg",
+        "productionYears": "2003–2009",
+        "changes": {
+          "ca": "Innovador sostre de vidre retràctil dissenyat i fabricat per Karmann. Aquesta versió va popularitzar el concepte de Coupé-Cabriolet.",
+          "en": "Innovative retractable glass roof designed and manufactured by Karmann. This version popularized the Coupé-Cabriolet concept.",
+          "es": "Innovador techo de cristal retráctil diseñado y fabricado por Karmann. Esta versión popularizó el concepto de Coupé-Cabriolet.",
+          "de": "Innovatives versenkbares Glasdach, entworfen und hergestellt von Karmann. Diese Version machte das Coupé-Cabriolet-Konzept populär.",
+          "fr": "Toit en verre rétractable innovant conçu et fabriqué par Karmann. Cette version a popularisé le concept de Coupé-Cabriolet.",
+          "it": "Innovativo tetto in vetro retrattile progettato e prodotto da Karmann. Questa versione ha reso popolare il concetto di Coupé-Cabriolet."
+        }
+      }
+    ],
     "relatedModels": [],
     "unitsProduced": 170000
   },
@@ -61,12 +102,12 @@
     },
     "productionYears": "2000–2009",
     "manufacturingPlant": {
-        "ca": "Zeewolde, Països Baixos (Carrosseria de Karmann a Osnabrück, Alemanya)",
-        "en": "Zeewolde, Netherlands (Body by Karmann in Osnabrück, Germany)",
-        "es": "Zeewolde, Países Bajos (Carrocería de Karmann en Osnabrück, Alemania)",
-        "de": "Zeewolde, Niederlande (Karosserie von Karmann in Osnabrück, Deutschland)",
-        "fr": "Zeewolde, Pays-Bas (Carrosserie par Karmann à Osnabrück, Allemagne)",
-        "it": "Zeewolde, Paesi Bassi (Carrozzeria di Karmann a Osnabrück, Germania)"
+      "ca": "Zeewolde, Països Baixos (Carrosseria de Karmann a Osnabrück, Alemanya)",
+      "en": "Zeewolde, Netherlands (Body by Karmann in Osnabrück, Germany)",
+      "es": "Zeewolde, Países Bajos (Carrocería de Karmann en Osnabrück, Alemania)",
+      "de": "Zeewolde, Niederlande (Karosserie von Karmann in Osnabrück, Deutschland)",
+      "fr": "Zeewolde, Pays-Bas (Carrosserie par Karmann à Osnabrück, Allemagne)",
+      "it": "Zeewolde, Paesi Bassi (Carrozzeria di Karmann a Osnabrück, Germania)"
     },
     "description": {
       "ca": "En els primers anys de Spyker Cars, la producció de les carrosseries d'alumini d'aquest exòtic supercotxe es va subcontractar a Karmann, abans que Spyker traslladés la producció internament.",
@@ -96,7 +137,9 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [19],
+    "relatedModels": [
+      19
+    ],
     "unitsProduced": 150
   },
   {
@@ -111,12 +154,12 @@
     },
     "productionYears": "2006–2009",
     "manufacturingPlant": {
-        "ca": "Lake Orion, Michigan, EUA (Sostre de Karmann a Osnabrück, Alemanya)",
-        "en": "Lake Orion, Michigan, USA (Roof by Karmann in Osnabrück, Germany)",
-        "es": "Lake Orion, Michigan, EE. UU. (Techo de Karmann en Osnabrück, Alemania)",
-        "de": "Lake Orion, Michigan, USA (Dach von Karmann in Osnabrück, Deutschland)",
-        "fr": "Lake Orion, Michigan, États-Unis (Toit par Karmann à Osnabrück, Allemagne)",
-        "it": "Lake Orion, Michigan, USA (Tetto di Karmann a Osnabrück, Germania)"
+      "ca": "Lake Orion, Michigan, EUA (Sostre de Karmann a Osnabrück, Alemanya)",
+      "en": "Lake Orion, Michigan, USA (Roof by Karmann in Osnabrück, Germany)",
+      "es": "Lake Orion, Michigan, EE. UU. (Techo de Karmann en Osnabrück, Alemania)",
+      "de": "Lake Orion, Michigan, USA (Dach von Karmann in Osnabrück, Deutschland)",
+      "fr": "Lake Orion, Michigan, États-Unis (Toit par Karmann à Osnabrück, Allemagne)",
+      "it": "Lake Orion, Michigan, USA (Tetto di Karmann a Osnabrück, Germania)"
     },
     "description": {
       "ca": "Karmann va dissenyar, enginyar i fabricar el complex sostre rígid retràctil de dues peces per al descapotable Pontiac G6. Era un dels sostres d'aquest tipus més grans del mercat en aquell moment.",
