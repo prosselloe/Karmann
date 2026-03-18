@@ -1,4 +1,4 @@
-<img src="assets/images/logo.png" alt="Logo Karmann" width="529" height="85" />
+<img src="assets/other/karmann_logo.png" alt="Logo Karmann" width="529" height="85" />
 
 # Visor de la Col·lecció Karmann
 
@@ -20,6 +20,8 @@ Des de coupés elegants fins a alguns dels cabriolets més populars de la histò
     *   **Selecció Visual:** Filtra la col·lecció seleccionant una planta directament des d'un menú desplegable o fent clic en un marcador del mapa.
     *   **Filtre Dinàmic:** Canvia entre plantes directament al mapa sense haver de netejar el filtre anterior.
 *   **Vistes Detallades:** Toca qualsevol model per accedir a una pantalla completa amb imatges d'alta resolució, descripcions detallades, fitxa tècnica i variants del model.
+
+<img src="assets/other/karmann_ghia_logo.jpg" alt="Logo Karmann Ghia" width="529" height="85" />
 
 ## Models Significatius Destacats
 
