@@ -44,7 +44,7 @@ class KarmannModel {
   final int unitsProduced;
   final List<int> relatedModels;
   final List<Version> versions;
-  final Map<String, String>? manufacturingPlant;
+  final String? manufacturingPlant;
 
   KarmannModel({
     required this.id,
@@ -85,9 +85,7 @@ class KarmannModel {
           .map((e) => e as int)
           .toList(),
       versions: versions,
-      manufacturingPlant: json['manufacturingPlant'] != null
-          ? Map<String, String>.from(json['manufacturingPlant'])
-          : null,
+      manufacturingPlant: json['manufacturingPlant'] as String?,
     );
   }
 
@@ -110,6 +108,5 @@ class KarmannModel {
       _getLocalizedOptionalString(engine, context);
   String? getTopSpeed(BuildContext context) =>
       _getLocalizedOptionalString(topSpeed, context);
-  String? getManufacturingPlant(BuildContext context) =>
-      _getLocalizedOptionalString(manufacturingPlant, context);
+  String? getManufacturingPlant(BuildContext context) => manufacturingPlant;
 }

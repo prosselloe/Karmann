@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:karmann/models/karmann_model.dart';
+import 'package:karmann/models/plant.dart';
 import 'package:karmann/services/karmann_service.dart';
 
 enum SortType { none, byName, byYear, byUnits }
@@ -7,46 +8,56 @@ enum SortType { none, byName, byYear, byUnits }
 class ModelProvider with ChangeNotifier {
   final KarmannService _karmannService = KarmannService();
   List<KarmannModel> _models = [];
+  List<Plant> _plants = [];
   List<KarmannModel> _filteredModels = [];
   bool _isLoading = false;
   SortType _sortType = SortType.none;
   String? _selectedPlant;
 
   List<KarmannModel> get models => _filteredModels;
+  List<KarmannModel> get allModels => _models;
+  List<Plant> get plants => _plants;
   bool get isLoading => _isLoading;
   SortType get sortType => _sortType;
   String? get selectedPlant => _selectedPlant;
 
   ModelProvider() {
-    fetchModels();
+    fetchData();
   }
 
-  Future<void> fetchModels() async {
+  Future<void> fetchModels() => fetchData();
+
+  Future<void> fetchData() async {
     _isLoading = true;
     notifyListeners();
 
     _models = await _karmannService.getModels();
+    _plants = await _karmannService.getPlants();
     _filteredModels = List.from(_models);
-    // Ensure default sort by ID is applied on initial load
     sort(SortType.none, context: null, notify: false);
 
     _isLoading = false;
     notifyListeners();
   }
 
-  List<String> getAvailablePlants(BuildContext context) {
-    final plants = _models
+  List<Plant> getAvailablePlants(BuildContext context) {
+    final availablePlantNames = _models
         .map((model) => model.getManufacturingPlant(context))
-        .whereType<String>() // Filters out nulls and ensures a List<String>
-        .toSet()
+        .whereType<String>()
+        .toSet();
+
+    final availablePlants = _plants
+        .where((plant) => availablePlantNames.contains(plant.name))
         .toList();
-    plants.sort();
-    return plants;
+
+    availablePlants.sort((a, b) => a.name.compareTo(b.name));
+
+    return availablePlants;
   }
 
   void filterByPlant(String? plant, BuildContext context) {
     _selectedPlant = plant;
-    search('', context); // Clear previous search and apply plant filter
+    search('', context);
   }
 
   List<KarmannModel> getModelsByIds(List<int> ids) {
@@ -65,7 +76,6 @@ class ModelProvider with ChangeNotifier {
   void search(String query, BuildContext context) {
     List<KarmannModel> tempModels = List.from(_models);
 
-    // Filter by plant first
     if (_selectedPlant != null && _selectedPlant!.isNotEmpty) {
       tempModels = tempModels.where((model) {
         final plantName = model.getManufacturingPlant(context);
@@ -73,7 +83,6 @@ class ModelProvider with ChangeNotifier {
       }).toList();
     }
 
-    // Then, filter by search query
     if (query.isNotEmpty) {
       final lowerCaseQuery = query.toLowerCase();
       final searchYear = int.tryParse(query);

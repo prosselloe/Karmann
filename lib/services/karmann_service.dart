@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:developer' as developer;
 import 'package:flutter/services.dart';
 import 'package:karmann/models/karmann_model.dart';
+import 'package:karmann/models/plant.dart';
 
 class KarmannService {
   static final KarmannService _instance = KarmannService._internal();
@@ -9,12 +10,36 @@ class KarmannService {
   KarmannService._internal();
 
   List<KarmannModel>? _models;
+  List<Plant>? _plants;
 
   Future<List<KarmannModel>> getModels() async {
     if (_models == null) {
       await _loadModels();
     }
     return _models ?? [];
+  }
+
+  Future<List<Plant>> getPlants() async {
+    if (_plants == null) {
+      await _loadPlants();
+    }
+    return _plants ?? [];
+  }
+
+  Future<void> _loadPlants() async {
+    try {
+      final jsonString = await rootBundle.loadString('assets/data/plants.json');
+      final jsonList = json.decode(jsonString) as List;
+      _plants = jsonList.map((json) => Plant.fromJson(json)).toList();
+    } catch (e, s) {
+      developer.log(
+        'Error loading or parsing plants.json',
+        name: 'KarmannService',
+        error: e,
+        stackTrace: s,
+      );
+      _plants = [];
+    }
   }
 
   Future<KarmannModel?> getModelById(int id) async {

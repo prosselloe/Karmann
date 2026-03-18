@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -9,6 +8,7 @@ import 'package:karmann/providers/locale_provider.dart';
 import 'package:karmann/models/karmann_model.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:karmann/l10n/app_localizations.dart';
+import 'package:karmann/widgets/plant_map.dart';
 
 class ThemeProvider with ChangeNotifier {
   ThemeMode _themeMode = ThemeMode.system;
@@ -206,13 +206,26 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final _searchController = TextEditingController();
+  bool _imagesPrecached = false;
+  bool _isMapVisible = false;
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      Provider.of<ModelProvider>(context, listen: false).fetchModels();
-    });
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final provider = Provider.of<ModelProvider>(context, listen: false);
+
+    if (!_imagesPrecached && provider.allModels.isNotEmpty) {
+      _precacheImages(provider.allModels);
+      _imagesPrecached = true;
+    }
+  }
+
+  Future<void> _precacheImages(List<KarmannModel> models) async {
+    for (final model in models) {
+      if (mounted) {
+        await precacheImage(AssetImage(model.imageUrl), context);
+      }
+    }
   }
 
   @override
@@ -246,8 +259,27 @@ class _HomeScreenState extends State<HomeScreen> {
             PopupMenuButton<String>(
               icon: const Icon(Icons.factory_outlined),
               tooltip: l10n.filterByPlant,
-              onSelected: (String? plant) {
-                provider.filterByPlant(plant, context);
+              onOpened: () {
+                if (mounted) {
+                  setState(() {
+                    _isMapVisible = true;
+                  });
+                }
+              },
+              onCanceled: () {
+                if (provider.selectedPlant == null) {
+                  setState(() {
+                    _isMapVisible = false;
+                  });
+                }
+              },
+              onSelected: (String? plantName) {
+                provider.filterByPlant(plantName, context);
+                if (plantName == null) {
+                  setState(() {
+                    _isMapVisible = false;
+                  });
+                }
               },
               itemBuilder: (BuildContext context) {
                 return [
@@ -257,8 +289,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   ...availablePlants.map((plant) {
                     return PopupMenuItem<String>(
-                      value: plant,
-                      child: Text(plant),
+                      value: plant.name,
+                      child: Row(
+                        children: [
+                          Text(plant.flag),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(plant.name, overflow: TextOverflow.ellipsis),
+                          ),
+                        ],
+                      ),
                     );
                   }),
                 ];
@@ -341,12 +381,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       onDeleted: () {
                         provider.filterByPlant(null, context);
+                        setState(() {
+                          _isMapVisible = false;
+                        });
                       },
                       deleteIcon: const Icon(Icons.close, size: 18),
                     ),
                   ),
               ],
             ),
+          ),
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 300),
+            height: _isMapVisible ? 250 : 0,
+            child: _isMapVisible ? const PlantMap() : const SizedBox.shrink(),
           ),
           Expanded(
             child: Consumer<ModelProvider>(
@@ -364,7 +412,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemCount: provider.models.length,
                   gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: 400,
-                    childAspectRatio: 4 / 3,
+                    childAspectRatio: 4 / 3.5,
                     mainAxisSpacing: 16,
                     crossAxisSpacing: 16,
                   ),

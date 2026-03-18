@@ -1,7 +1,7 @@
 name: karmann
 description: "Karmann Models"
 publish_to: 'none'
-version: 1.0.0+11
+version: 1.0.0+12
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
@@ -16,6 +16,8 @@ dependencies:
   google_fonts: ^6.2.1
   go_router: ^14.1.0
   path_provider: any # Deixem que Flutter gestioni la versió
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
 
 dev_dependencies:
   flutter_test:
