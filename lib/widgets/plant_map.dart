@@ -15,6 +15,7 @@ class PlantMap extends StatefulWidget {
 
 class _PlantMapState extends State<PlantMap> {
   Future<List<dynamic>>? _plants;
+  final MapController _mapController = MapController();
 
   @override
   void initState() {
@@ -43,7 +44,27 @@ class _PlantMapState extends State<PlantMap> {
         final plants = snapshot.data!;
         final modelProvider = Provider.of<ModelProvider>(context);
 
+        // Center map on selected plant
+        if (modelProvider.selectedPlant != null) {
+          final selectedPlantData = plants.firstWhere(
+            (p) => p['name'] == modelProvider.selectedPlant,
+            orElse: () => null,
+          );
+          if (selectedPlantData != null) {
+            final coords = LatLng(
+              selectedPlantData['coordinates']['latitude'],
+              selectedPlantData['coordinates']['longitude'],
+            );
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              if (mounted) {
+                _mapController.move(coords, 10.0);
+              }
+            });
+          }
+        }
+
         return FlutterMap(
+          mapController: _mapController,
           options: const MapOptions(
             initialCenter: LatLng(51.509865, -0.118092),
             initialZoom: 4.0,
@@ -52,9 +73,11 @@ class _PlantMapState extends State<PlantMap> {
             TileLayer(
               urlTemplate: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
               subdomains: const ['a', 'b', 'c'],
+              userAgentPackageName: 'dev.prosselloe.karmann',
             ),
             MarkerLayer(
               markers: plants.map((plant) {
+                final isSelected = modelProvider.selectedPlant == plant['name'];
                 return Marker(
                   width: 80.0,
                   height: 80.0,
@@ -65,9 +88,9 @@ class _PlantMapState extends State<PlantMap> {
                     },
                     child: Tooltip(
                       message: plant['name'],
-                      child: const Icon(
+                      child: Icon(
                         Icons.location_on,
-                        color: Colors.red,
+                        color: isSelected ? Colors.cyan : Colors.red,
                         size: 40.0,
                       ),
                     ),
