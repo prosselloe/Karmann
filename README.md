@@ -43,3 +43,16 @@ Aquesta col·lecció no només mostra la bellesa i l'enginyeria d'aquests vehicl
 ## Més informació
 
 https://prosselloe.wordpress.com/?p=15608
+
+<table>
+<tbody>
+<tr>
+<td><img src="assets/other/karmann_models_mobile_1.png" alt="" width="529" height="1146" /></a></td>
+<td><img src="assets/other/karmann_models_mobile_3.png" alt="" width="529" height="1146" /></a></td>
+</tr>
+<tr>
+<td><img src="assets/other/karmann_models_mobile_2.png" alt="" width="529" height="1146" /></a></td>
+<td><img src="assets/other/karmann_models_mobile_4.png" alt="" width="529" height="1146" /></a></td>
+</tr>
+</tbody>
+</table>
