@@ -10,14 +10,7 @@
       "it": "Volkswagen Karmann GF Buggy"
     },
     "productionYears": "1971–1974",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "La resposta de Karmann a la febre dels Dune Buggies. Basat en el xassís del Volkswagen Escarabat, el GF (Gute Fahrt) Buggy oferia un disseny propi i una qualitat de construcció superior als kits de l'època.",
       "en": "Karmann's answer to the Dune Buggy craze. Based on the Volkswagen Beetle chassis, the GF (Gute Fahrt) Buggy offered its own design and superior build quality compared to the kits of the era.",
@@ -26,7 +19,7 @@
       "fr": "La réponse de Karmann à la folie des Dune Buggies. Basé sur le châssis de la Volkswagen Coccinelle, le buggy GF (Gute Fahrt) offrait son propre design et une qualité de construction supérieure aux kits de l'époque.",
       "it": "La risposta di Karmann alla febbre dei Dune Buggy. Basato sul telaio del Maggiolino Volkswagen, il Buggy GF (Gute Fahrt) offriva un design proprio e una qualità costruttiva superiore ai kit dell'epoca."
     },
-    "imageUrl": "assets/images/vw_karmann_gf_buggy.jpg",
+    "imageUrl": "assets/images/vw_karmann_buggy.jpg",
     "designer": "Karmann",
     "engine": {
       "ca": "Bòxer de 4 cilindres",
@@ -81,14 +74,7 @@
       "it": "Volkswagen Maggiolino Cabriolet"
     },
     "productionYears": "1949–2009",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Un dels descapotables més populars del món, Karmann va convertir el fiable Volkswagen Escarabat en un descapotable de quatre places que va gaudir d'una producció de més de 30 anys. La seva influència va continuar en les generacions posteriors.",
       "en": "One of the world's most popular convertibles, Karmann turned the reliable Volkswagen Beetle into a four-seater convertible that enjoyed a production run of over 30 years. Its influence continued in later generations.",
@@ -178,7 +164,7 @@
         }
       }
     ],
-    "relatedModels": [1, 4, 38],
+    "relatedModels": [1, 4, 39],
     "unitsProduced": 331847
   },
   {
@@ -192,18 +178,11 @@
       "it": "Volkswagen Transporter T3"
     },
     "productionYears": "1980–1992",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Karmann va aplicar la seva experiència en carrosseries per a crear populars autocaravanes, utilitzant com a base els fiables models de Volkswagen Transporter (T3) i LT.",
       "en": "Karmann applied its bodywork expertise to create popular motorhomes, using the reliable Volkswagen Transporter (T3) and LT models as a base.",
-      "es": "Karmann aplicó su experiencia en carrocerías para crear populares autocaravanas, utilizando como base los fiables modelos de Volkswagen Transporter (T3) y LT.",
+      "es": "Karmann aplicó su experiencia en carrocerías para crear populares autocaravanas, utilizando como base los fiables models de Volkswagen Transporter (T3) y LT.",
       "de": "Karmann nutzte seine Karosseriebau-Expertise, um beliebte Wohnmobile zu schaffen, die auf den zuverlässigen Modellen Volkswagen Transporter (T3) und LT basierten.",
       "fr": "Karmann a appliqué son expertise en carrosserie pour créer des camping-cars populaires, en utilisant comme base les fiables modèles Volkswagen Transporter (T3) et LT.",
       "it": "Karmann ha applicato la sua esperienza nella carrozzeria per creare popolari camper, utilizzando come base i fidati modelli Volkswagen Transporter (T3) e LT."
@@ -252,7 +231,7 @@
         "versionName": {
           "ca": "Karmann sobre Volkswagen LT",
           "en": "Karmann on Volkswagen LT",
-          "es": "Karmann sobre Volkswagen LT",
+          "es": "Karmann on Volkswagen LT",
           "de": "Karmann auf Volkswagen LT",
           "fr": "Karmann sur Volkswagen LT",
           "it": "Karmann su Volkswagen LT"

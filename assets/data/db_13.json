@@ -10,6 +10,7 @@
       "it": "Ford Eifel Roadster"
     },
     "productionYears": "1939",
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El 1939, Karmann va construir aproximadament 800 unitats d'una versió roadster de dues places del popular Ford Eifel. Aquest model destacava per les seves línies esportives i va ser una de les primeres grans col·laboracions de Karmann amb Ford, demostrant la seva habilitat per a crear carrosseries especials atractives sobre xassissos de producció.",
       "en": "In 1939, Karmann built approximately 800 units of a two-seater roadster version of the popular Ford Eifel. This model stood out for its sporty lines and was one of Karmann's first major collaborations with Ford, showcasing their ability to create attractive special bodies on production chassis.",
@@ -36,16 +37,56 @@
       "fr": "Env. 110 km/h",
       "it": "Circa 110 km/h"
     },
-    "isCabriolet": true,
+    "isCabriolet": false,
     "unitsProduced": 800,
     "versions": [],
-    "relatedModels": [
-      31,
-      32
-    ]
+    "relatedModels": [31, 32]
   },
   {
     "id": 38,
+    "name": {
+      "ca": "Ford Mustang Convertible (V)",
+      "en": "Ford Mustang Convertible (V)",
+      "es": "Ford Mustang Convertible (V)",
+      "de": "Ford Mustang Cabrio (V)",
+      "fr": "Ford Mustang Cabriolet (V)",
+      "it": "Ford Mustang Convertible (V)"
+    },
+    "productionYears": "2005–2009",
+    "manufacturingPlant": "Plymouth, US",
+    "description": {
+      "ca": "Per a la cinquena generació del Mustang, Karmann va ser un soci clau en l'enginyeria i la producció del sistema de sostre descapotable. Aquesta col·laboració va assegurar que el sostre de lona del Mustang no només fos funcional i durador, sinó que també mantingués el perfil clàssic que defineix aquest icònic 'pony car'.",
+      "en": "For the fifth generation of the Mustang, Karmann was a key partner in the engineering and production of the convertible roof system. This collaboration ensured that the Mustang's soft top was not only functional and durable, but also maintained the classic profile that defines this iconic pony car.",
+      "es": "Para la quinta generación del Mustang, Karmann fue un socio clave en la ingeniería y producción del sistema de techo descapotable. Esta colaboración aseguró que la capota de lona del Mustang no solo fuera funcional y duradera, sino que también mantuviera el perfil clásico que define a este icónico 'pony car'.",
+      "de": "Für die fünfte Generation des Mustang war Karmann ein wichtiger Partner bei der Entwicklung und Produktion des Cabriodachsystems. Diese Zusammenarbeit stellte sicher, dass das Stoffverdeck des Mustang nicht nur funktional und langlebig war, sondern auch das klassische Profil beibehielt, das dieses ikonische Pony-Car ausmacht.",
+      "fr": "Pour la cinquième génération de la Mustang, Karmann a été un partenaire clé dans l'ingénierie et la production du système de toit décapotable. Cette collaboration a permis de s'assurer que la capote en toile de la Mustang soit non seulement fonctionnelle et durable, mais qu'elle conserve également le profil classique qui définit cette 'pony car' emblématique.",
+      "it": "Per la quinta generazione della Mustang, Karmann è stato un partner chiave nell'ingegneria e nella produzione del sistema del tetto convertibile. Questa collaborazione ha assicurato che la capote in tela della Mustang non solo fosse funzionale e resistente, ma mantenesse anche il profilo classico che definisce questa iconica 'pony car'."
+    },
+    "imageUrl": "assets/images/ford_mustang_convertible.jpg",
+    "designer": "Sid Ramnarace",
+    "engine": {
+      "ca": "V6 o V8",
+      "en": "V6 or V8",
+      "es": "V6 o V8",
+      "de": "V6 oder V8",
+      "fr": "V6 ou V8",
+      "it": "V6 o V8"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 180-240 km/h",
+      "en": "Approx. 180-240 km/h",
+      "es": "Aprox. 180-240 km/h",
+      "de": "ca. 180-240 km/h",
+      "fr": "Env. 180-240 km/h",
+      "it": "Circa 180-240 km/h"
+    },
+    "isCabriolet": true,
+    "unitsProduced": 50000,
+    "versions": [],
+    "relatedModels": [30, 36]
+  },
+  {
+    "id": 39,
     "name": {
       "ca": "Volkswagen Beetle Cabriolet Karmann Edition",
       "en": "Volkswagen Beetle Cabriolet Karmann Edition",
@@ -55,6 +96,7 @@
       "it": "Volkswagen Beetle Cabriolet Karmann Edition"
     },
     "productionYears": "2015-2019",
+    "manufacturingPlant": "Puebla, MX",
     "description": {
       "ca": "Basat en el Beetle modern, aquesta edició especial ret homenatge a la llarga història de Karmann en la producció dels descapotables de Volkswagen. Igual que altres 'Karmann Edition', incloïa detalls exclusius com tapisseria d'Alcantara, logotips 'Karmann', llantes distintives i equipament superior, fusionant el disseny retro del Beetle amb un toc de luxe i exclusivitat.",
       "en": "Based on the modern Beetle, this special edition pays tribute to Karmann's long history of producing Volkswagen convertibles. Like other 'Karmann Edition' models, it included exclusive details such as Alcantara upholstery, 'Karmann' logos, distinctive wheels, and superior equipment, merging the Beetle's retro design with a touch of luxury and exclusivity.",
@@ -84,8 +126,6 @@
     "isCabriolet": true,
     "unitsProduced": 3000,
     "versions": [],
-    "relatedModels": [
-      5
-    ]
+    "relatedModels": [5]
   }
 ]

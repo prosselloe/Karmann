@@ -10,14 +10,7 @@
       "it": "Porsche 356"
     },
     "productionYears": "1951–1962",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "La relació entre Porsche i Karmann va començar aquí. Per satisfer la demanda, Porsche va encarregar a Karmann la producció de carrosseries per al seu icònic 356. Karmann va fabricar milers de Coupés i Cabriolets, ajudant a consolidar Porsche com una marca global.",
       "en": "The relationship between Porsche and Karmann began here. To meet demand, Porsche commissioned Karmann to produce bodies for its iconic 356. Karmann manufactured thousands of Coupés and Cabriolets, helping to establish Porsche as a global brand.",
@@ -117,14 +110,7 @@
       "it": "Porsche 911"
     },
     "productionYears": "1966–1971",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Per fer front a la demanda del seu nou cotxe insígnia, Porsche va encarregar a Karmann la producció d'un nombre significatiu de carrosseries completes per al 911.",
       "en": "To meet the demand for its new flagship car, Porsche commissioned Karmann to produce a significant number of complete bodies for the 911.",
@@ -167,14 +153,7 @@
       "it": "Porsche 912"
     },
     "productionYears": "1966–1969",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "La versió de 4 cilindres del 911. Karmann va ser un productor clau, fabricant la gran majoria de les carrosseries del 912 per satisfer la forta demanda.",
       "en": "The 4-cylinder version of the 911. Karmann was a key producer, manufacturing the vast majority of the 912 bodies to meet strong demand.",

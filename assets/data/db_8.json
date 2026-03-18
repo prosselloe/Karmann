@@ -2,22 +2,15 @@
   {
     "id": 22,
     "name": {
-      "ca": "Mercedes-Benz SLK (R170)",
-      "en": "Mercedes-Benz SLK (R170)",
-      "es": "Mercedes-Benz SLK (R170)",
-      "de": "Mercedes-Benz SLK (R170)",
-      "fr": "Mercedes-Benz SLK (R170)",
-      "it": "Mercedes-Benz SLK (R170)"
+      "ca": "Mercedes-Benz SLK",
+      "en": "Mercedes-Benz SLK",
+      "es": "Mercedes-Benz SLK",
+      "de": "Mercedes-Benz SLK",
+      "fr": "Mercedes-Benz SLK",
+      "it": "Mercedes-Benz SLK"
     },
     "productionYears": "1996–2004",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "A més de la seva planta a Bremen, Mercedes va subcontractar part de la producció del popular roadster SLK a Karmann per satisfer l'alta demanda. Karmann va muntar vehicles complets.",
       "en": "In addition to its plant in Bremen, Mercedes outsourced part of the production of the popular SLK roadster to Karmann to meet high demand. Karmann assembled complete vehicles.",
@@ -46,9 +39,7 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [
-      23
-    ],
+    "relatedModels": [23],
     "unitsProduced": 114200
   },
   {
@@ -62,14 +53,7 @@
       "it": "Mercedes-Benz CLK"
     },
     "productionYears": "1997–2003",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Karmann va ser el soci de producció de Mercedes-Benz per a les versions Coupé i Cabriolet del primer CLK, basat en la plataforma del Classe C. La seva experiència en la fabricació de descapotables va ser clau.",
       "en": "Karmann was Mercedes-Benz's production partner for the Coupé and Cabriolet versions of the first CLK, based on the C-Class platform. Their experience in manufacturing convertibles was key.",
@@ -139,9 +123,7 @@
         }
       }
     ],
-    "relatedModels": [
-      22
-    ],
+    "relatedModels": [22],
     "unitsProduced": 348000
   },
   {
@@ -155,14 +137,7 @@
       "it": "Chrysler Crossfire"
     },
     "productionYears": "2003–2007",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El Crossfire, tant en versió Coupé com Roadster, va ser muntat per Karmann a Alemanya. Compartia la seva plataforma i molts components amb el Mercedes-Benz SLK (R170).",
       "en": "The Crossfire, in both Coupé and Roadster versions, was assembled by Karmann in Germany. It shared its platform and many components with the Mercedes-Benz SLK (R170).",
@@ -232,9 +207,7 @@
         }
       }
     ],
-    "relatedModels": [
-      22
-    ],
+    "relatedModels": [22],
     "unitsProduced": 76014
   }
 ]

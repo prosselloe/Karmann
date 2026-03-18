@@ -10,14 +10,7 @@
       "it": "Volkswagen Scirocco"
     },
     "productionYears": "1974–1992",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El successor espiritual del Karmann Ghia, el Scirocco va ser un coupé esportiu dissenyat per Giugiaro i produït per Karmann. Va ser un gran èxit comercial.",
       "en": "The spiritual successor to the Karmann Ghia, the Scirocco was a sports coupé designed by Giugiaro and produced by Karmann. It was a great commercial success.",
@@ -87,11 +80,7 @@
         }
       }
     ],
-    "relatedModels": [
-      1,
-      9,
-      11
-    ],
+    "relatedModels": [1, 9, 11],
     "unitsProduced": 795650
   },
   {
@@ -105,14 +94,7 @@
       "it": "Volkswagen Corrado"
     },
     "productionYears": "1988–1995",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El Corrado va ser el successor del Scirocco. Aquest coupé esportiu va ser fabricat íntegrament per Karmann i és conegut pel seu aleró posterior actiu i el seu potent motor VR6.",
       "en": "The Corrado was the successor to the Scirocco. This sports coupé was manufactured entirely by Karmann and is known for its active rear spoiler and its powerful VR6 engine.",
@@ -141,10 +123,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [
-      9,
-      10
-    ],
+    "relatedModels": [9, 10],
     "unitsProduced": 97521
   },
   {
@@ -158,14 +137,7 @@
       "it": "Opel Diplomat A e B Coupé"
     },
     "productionYears": "1965–1971",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Karmann va estar involucrat en dues iteracions exclusives del coupé basat en l'Opel Diplomat. Va fabricar una sèrie molt limitada de l'elegant Diplomat A Coupé i, anys més tard, va construir un prototip únic per al Diplomat B, que va influir en dissenys futurs tot i no arribar a la producció.",
       "en": "Karmann was involved in two exclusive iterations of the coupé based on the Opel Diplomat. It manufactured a very limited series of the elegant Diplomat A Coupé and, years later, built a unique prototype for the Diplomat B, which influenced future designs despite not reaching production.",
@@ -235,7 +207,7 @@
         }
       }
     ],
-    "relatedModels": [],
+    "relatedModels": [33],
     "unitsProduced": 347
   }
 ]

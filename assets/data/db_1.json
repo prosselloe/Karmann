@@ -10,14 +10,7 @@
       "it": "Volkswagen Karmann Ghia Tipo 14"
     },
     "productionYears": "1955–1974",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El model més icònic. Combinava la fiabilitat mecànica del Volkswagen Escarabat amb una carrosseria elegant dissenyada per la Carrozzeria Ghia i construïda a mà per Karmann, convertint-se en un clàssic de culte. Es van produir més de 445.000 unitats entre coupé i descapotable.",
       "en": "The most iconic model. It combined the mechanical reliability of the Volkswagen Beetle with an elegant body designed by Carrozzeria Ghia and hand-built by Karmann, becoming a cult classic. Over 445,000 units were produced between coupé and convertible.",
@@ -99,14 +92,7 @@
       "it": "Volkswagen Karmann Ghia Tipo 34"
     },
     "productionYears": "1961–1969",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Conegut com a 'Razor Edge' o 'Grosser Karmann', presentava línies més rectes i modernes, basat en la plataforma del Volkswagen Tipus 3 (1600 cc). Era més ràpid i espaiós que el Tipus 14, però el seu alt preu va limitar-ne la producció a 42.505 unitats.",
       "en": "Known as 'Razor Edge' or 'Grosser Karmann', it featured straighter, more modern lines, based on the Volkswagen Type 3 (1600 cc) platform. It was faster and more spacious than the Type 14, but its high price limited production to 42,505 units.",
@@ -144,7 +130,7 @@
           "fr": "Coupé \"Razor Edge\"",
           "it": "Coupé \"Razor Edge\""
         },
-        "imageUrl": "assets/images/vw_karmann_ghia_type_34.jpg",
+        "imageUrl": "assets/images/vw_karmann_ghia_razor_edge.jpg",
         "changes": {
           "ca": "El model principal, conegut pel seu disseny angular i distintiu, que li va valer el sobrenom de \"fulla d'afaitar\". Es basava en la plataforma més avançada del VW Tipus 3.",
           "en": "The main model, known for its angular and distinctive design, which earned it the nickname \"razor edge\". It was based on the more advanced VW Type 3 platform.",
@@ -169,14 +155,7 @@
       "it": "Volkswagen Karmann Ghia TC"
     },
     "productionYears": "1970–1976",
-    "manufacturingPlant": {
-        "ca": "São Bernardo do Campo, Brasil",
-        "en": "São Bernardo do Campo, Brazil",
-        "es": "São Bernardo do Campo, Brasil",
-        "de": "São Bernardo do Campo, Brasilien",
-        "fr": "São Bernardo do Campo, Brésil",
-        "it": "São Bernardo do Campo, Brasile"
-    },
+    "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": {
       "ca": "Dissenyat per Ghia i produït al Brasil, aquest cupè (Touring Coupé) oferia una estètica més moderna i esportiva, exclusiva per al mercat sud-americà. Es van produir 18.119 unitats.",
       "en": "Designed by Ghia and produced in Brazil, this coupé (Touring Coupé) offered a more modern and sporty aesthetic, exclusive to the South American market. 18,119 units were produced.",
@@ -185,7 +164,7 @@
       "fr": "Conçu par Ghia et produit au Brésil, ce coupé (Touring Coupé) offrait une esthétique plus moderne et sportive, exclusive au marché sud-américain. 18 119 unités ont été produites.",
       "it": "Progettata da Ghia e prodotta in Brasile, questa coupé (Touring Coupé) offriva un'estetica più moderna e sportiva, esclusiva per il mercato sudamericano. Furono prodotte 18.119 unità."
     },
-    "imageUrl": "assets/images/vw_karmann_ghia_tc.jpg",
+    "imageUrl": "assets/images/vw_karmann_ghia_tc_1970.jpg",
     "designer": "Giorgetto Giugiaro (Carrozzeria Ghia)",
     "engine": {
       "ca": "Bòxer de 4 cilindres, 1.6L",

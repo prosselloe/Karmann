@@ -2,22 +2,15 @@
   {
     "id": 31,
     "name": {
-      "ca": "Ford Escort RS Cosworth",
-      "en": "Ford Escort RS Cosworth",
-      "es": "Ford Escort RS Cosworth",
-      "de": "Ford Escort RS Cosworth",
-      "fr": "Ford Escort RS Cosworth",
-      "it": "Ford Escort RS Cosworth"
+      "ca": "Ford Escort Cabriolet i Cosworth",
+      "en": "Ford Escort Convertible and Cosworth",
+      "es": "Ford Escort Cabriolet y Cosworth",
+      "de": "Ford Escort Cabrio und Cosworth",
+      "fr": "Ford Escort Cabriolet et Cosworth",
+      "it": "Ford Escort Cabriolet e Cosworth"
     },
     "productionYears": "1992–1996",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Un cotxe llegendari d'homologació per a ral·lis. Karmann va ser l'encarregat de muntar el Ford Escort RS Cosworth, una tasca complexa que incloïa adaptar la carrosseria de l'Escort a la plataforma i el tren de rodatge del Sierra Cosworth 4x4. El seu icònic aleró posterior de \"cua de balena\" el fa inconfusible.",
       "en": "A legendary rally homologation car. Karmann was commissioned to assemble the Ford Escort RS Cosworth, a complex task that included adapting the Escort body to the Sierra Cosworth 4x4 platform and running gear. Its iconic \"whale tail\" rear spoiler makes it unmistakable.",
@@ -26,7 +19,7 @@
       "fr": "Une voiture d'homologation de rallye légendaire. Karmann a été chargé d'assembler la Ford Escort RS Cosworth, une tâche complexe qui comprenait l'adaptation de la carrosserie de l'Escort à la plate-forme et au train roulant de la Sierra Cosworth 4x4. Son aileron arrière emblématique en \"queue de baleine\" la rend reconnaissable entre toutes.",
       "it": "Una leggendaria auto da omologazione per i rally. Karmann fu incaricata di assemblare la Ford Escort RS Cosworth, un compito complesso che includeva l'adattamento della carrozzeria dell'Escort alla piattaforma e alla meccanica della Sierra Cosworth 4x4. Il suo iconico alettone posteriore a \"coda di balena\" la rende inconfondibile."
     },
-    "imageUrl": "assets/images/ford_escort_rs_cosworth.jpg",
+    "imageUrl": "assets/images/ford_escort_cabriolet.jpg",
     "designer": "Frank Stephenson",
     "engine": {
       "ca": "4 cilindres en línia turbo",
@@ -80,35 +73,28 @@
         "changes": {
           "ca": "Equipats amb un turbocompressor Garrett T25 més petit per reduir el \"turbo lag\" i millorar la conducció en el dia a dia, tot i que amb un potencial de preparació lleugerament menor.",
           "en": "Equipped with a smaller Garrett T25 turbocharger to reduce \"turbo lag\" and improve day-to-day driving, although with slightly less tuning potential.",
-          "es": "Equipados con un turbocompresor Garrett T25 más pequeño para reducir el \"turbo lag\" y mejorar la conducción en el día a día, aunque con un potencial de preparación ligeramente menor.",
+          "es": "Equipados con un turbocompresor Garrett T25 més pequeño para reducir el \"turbo lag\" y mejorar la conducción en el día a dia, aunque con un potencial de preparación ligeramente menor.",
           "de": "Ausgestattet mit einem kleineren Garrett-T25-Turbolader, um das \"Turboloch\" zu reduzieren und das Fahren im Alltag zu verbessern, wenn auch mit etwas geringerem Tuning-Potenzial.",
           "fr": "Équipés d'un turbocompresseur Garrett T25 plus petit pour réduire le \"temps de réponse du turbo\" et améliorer la conduite au quotidien, bien qu'avec un potentiel de préparation légèrement inférieur.",
           "it": "Dotate di un turbocompressore Garrett T25 più piccolo per ridurre il \"turbo lag\" e migliorare la guida quotidiana, sebbene con un potenziale di elaborazione leggermente inferiore."
         }
       }
     ],
-    "relatedModels": [],
+    "relatedModels": [32],
     "unitsProduced": 7145
   },
   {
     "id": 32,
     "name": {
-      "ca": "Ford Merkur XR4Ti",
-      "en": "Ford Merkur XR4Ti",
-      "es": "Ford Merkur XR4Ti",
-      "de": "Ford Merkur XR4Ti",
-      "fr": "Ford Merkur XR4Ti",
-      "it": "Ford Merkur XR4Ti"
+      "ca": "Ford Sierra XR4i / Merkur XR4Ti",
+      "en": "Ford Sierra XR4i / Merkur XR4Ti",
+      "es": "Ford Sierra XR4i / Merkur XR4Ti",
+      "de": "Ford Sierra XR4i / Merkur XR4Ti",
+      "fr": "Ford Sierra XR4i / Merkur XR4Ti",
+      "it": "Ford Sierra XR4i / Merkur XR4Ti"
     },
     "productionYears": "1985–1989",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "La versió per al mercat nord-americà del Ford Sierra XR4i va ser construïda íntegrament per Karmann. Aquest coupé amb motor turbo es venia sota la marca Merkur a través de concessionaris Lincoln-Mercury.",
       "en": "The North American market version of the Ford Sierra XR4i was built entirely by Karmann. This turbocharged coupé was sold under the Merkur brand through Lincoln-Mercury dealerships.",
@@ -117,7 +103,7 @@
       "fr": "La version pour le marché nord-américain de la Ford Sierra XR4i a été entièrement construite par Karmann. Ce coupé turbocompressé était vendu sous la marque Merkur par les concessionnaires Lincoln-Mercury.",
       "it": "La versione per il mercato nordamericano della Ford Sierra XR4i è stata costruita interamente da Karmann. Questa coupé turbo era venduta con il marchio Merkur attraverso le concessionarie Lincoln-Mercury."
     },
-    "imageUrl": "assets/images/ford_merkur_xr4ti.jpg",
+    "imageUrl": "assets/images/ford_sierra.jpg",
     "designer": "Uwe Bahnsen, Patrick le Quément",
     "engine": {
       "ca": "4 cilindres en línia turbo",
@@ -137,35 +123,28 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [],
+    "relatedModels": [31],
     "unitsProduced": 42464
   },
   {
     "id": 33,
     "name": {
-      "ca": "AMC Javelin",
-      "en": "AMC Javelin",
-      "es": "AMC Javelin",
-      "de": "AMC Javelin",
-      "fr": "AMC Javelin",
-      "it": "AMC Javelin"
+      "ca": "AMC Javelin (79-K)",
+      "en": "AMC Javelin (79-K)",
+      "es": "AMC Javelin (79-K)",
+      "de": "AMC Javelin (79-K)",
+      "fr": "AMC Javelin (79-K)",
+      "it": "AMC Javelin (79-K)"
     },
-    "productionYears": "1969–1970",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "productionYears": "1968",
+    "manufacturingPlant": "Rheine, DE",
     "description": {
-      "ca": "Karmann va muntar el \"pony car\" americà Javelin per al mercat europeu. Els cotxes arribaven com a kits desmuntats (CKD) i Karmann els assemblava, adaptant-los a les normatives europees.",
-      "en": "Karmann assembled the American \"pony car\" Javelin for the European market. The cars arrived as knock-down kits (CKD) and Karmann assembled them, adapting them to European regulations.",
-      "es": "Karmann ensambló el \"pony car\" estadounidense Javelin para el mercado europeo. Los coches llegaban como kits desmontados (CKD) y Karmann los ensamblaba, adaptándolos a las normativas europeas.",
-      "de": "Karmann montierte das amerikanische \"Pony Car\" Javelin für den europäischen Markt. Die Autos kamen als zerlegte Bausätze (CKD) an, und Karmann montierte sie und passte sie an die europäischen Vorschriften an.",
-      "fr": "Karmann a assemblé la \"pony car\" américaine Javelin pour le marché européen. Les voitures arrivaient en kits démontés (CKD) et Karmann les assemblait, en les adaptant aux réglementations européennes.",
-      "it": "Karmann ha assemblato la \"pony car\" americana Javelin per il mercato europeo. Le auto arrivavano come kit smontati (CKD) e Karmann le assemblava, adattandole alle normative europee."
+      "ca": "Karmann va muntar la versió europea 79-K del 'pony car' americà Javelin a la seva planta de Rheine. Els cotxes arribaven com a kits desmuntats (CKD) des dels EUA i Karmann els assemblava, realitzant modificacions finals per complir amb les normatives europees, conegudes com a 'TÜV'.",
+      "en": "Karmann assembled the 79-K European version of the American 'pony car' Javelin at its Rheine plant. The cars arrived as knock-down kits (CKD) from the USA and Karmann assembled them, making final modifications to comply with European regulations, known as 'TÜV'.",
+      "es": "Karmann ensambló la versión europea 79-K del 'pony car' estadounidense Javelin en su planta de Rheine. Los coches llegaban como kits desmontados (CKD) desde EE. UU. y Karmann los ensamblaba, realizando modificaciones finales para cumplir con las normativas europeas, conocidas como 'TÜV'.",
+      "de": "Karmann montierte die europäische Version 79-K des amerikanischen 'Pony Cars' Javelin in seinem Werk in Rheine. Die Autos kamen als zerlegte Bausätze (CKD) aus den USA an, und Karmann montierte sie und nahm letzte Anpassungen vor, um den europäischen Vorschriften, bekannt als 'TÜV', zu entsprechen.",
+      "fr": "Karmann a assemblé la version européenne 79-K de la 'pony car' américaine Javelin dans son usine de Rheine. Les voitures arrivaient en kits démontés (CKD) des États-Unis et Karmann les assemblait, effectuant les modifications finales pour se conformer aux réglementations européennes, connues sous le nom de 'TÜV'.",
+      "it": "Karmann ha assemblato la versione europea 79-K della 'pony car' americana Javelin nel suo stabilimento di Rheine. Le auto arrivavano come kit smontati (CKD) dagli Stati Uniti e Karmann le assemblava, apportando le modifiche finali per conformarsi alle normative europee, note come 'TÜV'."
     },
     "imageUrl": "assets/images/amc_javelin.jpg",
     "designer": "Dick Teague",
@@ -187,57 +166,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [],
+    "relatedModels": [12],
     "unitsProduced": 281
-  },
-  {
-    "id": 34,
-    "name": {
-      "ca": "Kia Sportage (Primera Generació)",
-      "en": "Kia Sportage (First Generation)",
-      "es": "Kia Sportage (Primera Generación)",
-      "de": "Kia Sportage (Erste Generation)",
-      "fr": "Kia Sportage (Première génération)",
-      "it": "Kia Sportage (Prima Generazione)"
-    },
-    "productionYears": "1995–1998",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
-    "description": {
-      "ca": "Karmann va produir la primera generació del SUV compacte de Kia per al mercat europeu. Això incloïa tant la versió de 5 portes com una variant única de 3 portes amb sostre de lona.",
-      "en": "Karmann produced the first generation of Kia's compact SUV for the European market. This included both the 5-door version and a unique 3-door variant with a canvas roof.",
-      "es": "Karmann produjo la primera generación del SUV compacto de Kia para el mercado europeo. Esto incluía tanto la versión de 5 puertas como una variante única de 3 puertas con techo de lona.",
-      "de": "Karmann produzierte die erste Generation von Kias Kompakt-SUV für den europäischen Markt. Dies umfasste sowohl die 5-türige Version als auch eine einzigartige 3-türige Variante mit Stoffdach.",
-      "fr": "Karmann a produit la première génération du SUV compact de Kia pour le marché européen. Cela comprenait à la fois la version 5 portes et une variante unique 3 portes avec un toit en toile.",
-      "it": "Karmann ha prodotto la prima generazione del SUV compatto di Kia per il mercato europeo. Ciò includeva sia la versione a 5 porte che una variante unica a 3 porte con tetto in tela."
-    },
-    "imageUrl": "assets/images/kia_sportage.jpg",
-    "designer": "Kia Motors",
-    "engine": {
-      "ca": "4 cilindres en línia",
-      "en": "Inline 4-cylinder",
-      "es": "4 cilindros en línea",
-      "de": "4-Zylinder-Reihenmotor",
-      "fr": "4 cylindres en ligne",
-      "it": "4 cilindri in linea"
-    },
-    "topSpeed": {
-      "ca": "Aprox. 170 km/h",
-      "en": "Approx. 170 km/h",
-      "es": "Aprox. 170 km/h",
-      "de": "ca. 170 km/h",
-      "fr": "Env. 170 km/h",
-      "it": "Circa 170 km/h"
-    },
-    "isCabriolet": false,
-    "versions": [],
-    "relatedModels": [],
-    "unitsProduced": 49950
   }
 ]

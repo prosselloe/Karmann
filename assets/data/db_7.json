@@ -10,14 +10,7 @@
       "it": "Audi A4/S4/RS4 Cabriolet"
     },
     "productionYears": "2002–2009",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Karmann va fabricar les carrosseries i els sistemes de sostre per a la popular gamma de descapotables de l'Audi A4, incloent-hi les versions d'alt rendiment S4 i RS4.",
       "en": "Karmann manufactured the bodies and roof systems for the popular Audi A4 convertible range, including the high-performance S4 and RS4 versions.",
@@ -46,9 +39,7 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [
-      18
-    ],
+    "relatedModels": [18],
     "unitsProduced": 184814
   },
   {
@@ -62,18 +53,11 @@
       "it": "BMW 2000 C/CS"
     },
     "productionYears": "1965–1969",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Aquest elegant coupé va ser construït íntegrament per Karmann per a BMW, ajudant a establir la reputació de la marca en el segment de coupés de luxe.",
       "en": "This elegant coupé was built entirely by Karmann for BMW, helping to establish the brand's reputation in the luxury coupé segment.",
-      "es": "Este elegante coupé fue construido íntegramente por Karmann para BMW, ayudando a establecer la reputación de la marca en el segmento de coupés de luxe.",
+      "es": "Este elegante coupé fue construido íntegrament por Karmann para BMW, ayudando a establecer la reputación de la marca en el segmento de coupés de luxe.",
       "de": "Dieses elegante Coupé wurde komplett von Karmann für BMW gebaut und trug dazu bei, den Ruf der Marke im Luxus-Coupé-Segment zu begründen.",
       "fr": "Cet élégant coupé a été entièrement construit par Karmann pour BMW, contribuant à établir la réputation de la marque dans le segment des coupés de luxe.",
       "it": "Questa elegante coupé è stata costruita interamente da Karmann per la BMW, contribuendo a consolidare la reputazione del marchio nel segmento delle coupé di lusso."
@@ -98,9 +82,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [
-      21
-    ],
+    "relatedModels": [21],
     "unitsProduced": 13691
   },
   {
@@ -114,14 +96,7 @@
       "it": "BMW Serie 6 Coupé (E24)"
     },
     "productionYears": "1976–1989",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Inicialment, Karmann va fabricar les carrosseries del BMW Sèrie 6, també conegut com a \"Tauró\". Després de 1977, la producció es va traslladar completament a les plantes de BMW, però la contribució inicial de Karmann va ser clau per llançar aquest icònic coupé de luxe.",
       "en": "Initially, Karmann manufactured the bodies for the BMW 6 Series, also known as the \"Shark\". After 1977, production was moved entirely to BMW plants, but Karmann's initial contribution was key to launching this iconic luxury coupé.",
@@ -150,9 +125,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [
-      20
-    ],
+    "relatedModels": [20],
     "unitsProduced": 86216
   }
 ]

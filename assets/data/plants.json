@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Osnabrück, DE",
+    "flag": "🇩🇪",
+    "coordinates": {
+      "latitude": 52.2799,
+      "longitude": 8.0472
+    }
+  },
+  {
+    "id": 2,
+    "name": "Rheine, DE",
+    "flag": "🇩🇪",
+    "coordinates": {
+      "latitude": 52.2833,
+      "longitude": 7.4333
+    }
+  },
+  {
+    "id": 3,
+    "name": "São Bernardo do Campo, BR",
+    "flag": "🇧🇷",
+    "coordinates": {
+      "latitude": -23.6939,
+      "longitude": -46.5650
+    }
+  },
+  {
+    "id": 4,
+    "name": "Plymouth, US",
+    "flag": "🇺🇸",
+    "coordinates": {
+      "latitude": 42.3717,
+      "longitude": -83.4686
+    }
+  },
+  {
+    "id": 5,
+    "name": "Vendas Novas, PT",
+    "flag": "🇵🇹",
+    "coordinates": {
+      "latitude": 38.6781,
+      "longitude": -8.4553
+    }
+  },
+  {
+    "id": 6,
+    "name": "Chorzów, PL",
+    "flag": "🇵🇱",
+    "coordinates": {
+      "latitude": 50.2981,
+      "longitude": 18.9559
+    }
+  },
+  {
+    "id": 7,
+    "name": "Sunderland, GB",
+    "flag": "🇬🇧",
+    "coordinates": {
+      "latitude": 54.9061,
+      "longitude": -1.3811
+    }
+  },
+  {
+    "id": 8,
+    "name": "Puebla, MX",
+    "flag": "🇲🇽",
+    "coordinates": {
+      "latitude": 19.0414,
+      "longitude": -98.2063
+    }
+  }
+]

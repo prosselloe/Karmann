@@ -10,18 +10,11 @@
       "it": "Volkswagen SP2"
     },
     "productionYears": "1972–1976",
-    "manufacturingPlant": {
-        "ca": "São Bernardo do Campo, Brasil",
-        "en": "São Bernardo do Campo, Brazil",
-        "es": "São Bernardo do Campo, Brasil",
-        "de": "São Bernardo do Campo, Brasilien",
-        "fr": "São Bernardo do Campo, Brésil",
-        "it": "São Bernardo do Campo, Brasile"
-    },
+    "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": {
       "ca": "Un coupé esportiu dissenyat i construït per Volkswagen do Brasil. Encara que no va ser un projecte directe de Karmann a Alemanya, la seva existència va ser possible gràcies a l'experiència de la filial local Karmann-Ghia do Brasil.",
       "en": "A sports coupé designed and built by Volkswagen do Brasil. Although it was not a direct project of Karmann in Germany, its existence was made possible by the experience of the local subsidiary Karmann-Ghia do Brasil.",
-      "es": "Un coupé deportivo diseñado y construido por Volkswagen do Brasil. Aunque no fue un proyecto directo de Karmann en Alemania, su existencia fue posible gracias a la experiencia de la filial local Karmann-Ghia do Brasil.",
+      "es": "Un coupé deportivo diseñado y construido por Volkswagen do Brasil. Aunque no fue un projecto directe de Karmann en Alemania, su existencia fue posible gracias a la experiencia de la filial local Karmann-Ghia do Brasil.",
       "de": "Ein Sportcoupé, das von Volkswagen do Brasil entworfen und gebaut wurde. Obwohl es kein direktes Projekt von Karmann in Deutschland war, wurde seine Existenz durch die Erfahrung der lokalen Tochtergesellschaft Karmann-Ghia do Brasil ermöglicht.",
       "fr": "Un coupé sportif conçu et construit par Volkswagen do Brasil. Bien qu'il ne s'agisse pas d'un projet direct de Karmann en Allemagne, son existence a été rendue possible par l'expérience de la filiale locale Karmann-Ghia do Brasil.",
       "it": "Una coupé sportiva progettata e costruita da Volkswagen do Brasil. Sebbene non fosse un progetto diretto di Karmann in Germania, la sua esistenza fu resa possibile dall'esperienza della filiale locale Karmann-Ghia do Brasil."
@@ -55,7 +48,7 @@
           "fr": "SP2",
           "it": "SP2"
         },
-        "imageUrl": "assets/images/vw_sp2.jpg",
+        "imageUrl": "assets/images/vw_sp2_1972.jpg",
         "productionYears": "1972-1976",
         "changes": {
           "ca": "El model principal, sovint criticat per la seva baixa potència (SP significava 'São Paulo', però popularment es deia 'Sem Potência'). Tot i això, el seu disseny és avui molt valorat.",
@@ -81,14 +74,7 @@
       "it": "DKW Cabriolet"
     },
     "productionYears": "1950–1955",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Karmann va ser el carrosser escollit per Auto Union per a fabricar les versions descapotables de luxe dels seus models DKW de postguerra.",
       "en": "Karmann was the coachbuilder chosen by Auto Union to manufacture the luxury convertible versions of its post-war DKW models.",
@@ -172,14 +158,7 @@
       "it": "Volkswagen Golf Cabriolet (Mk1, Mk3, Mk4)"
     },
     "productionYears": "1979–2002",
-    "manufacturingPlant": {
-        "ca": "Osnabrück, Alemanya",
-        "en": "Osnabrück, Germany",
-        "es": "Osnabrück, Alemania",
-        "de": "Osnabrück, Deutschland",
-        "fr": "Osnabrück, Allemagne",
-        "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Karmann va ser el fabricant exclusiu de les versions descapotables del Golf durant diverses generacions. La característica barra antivolcada li va valer el sobrenom de \"cistella de maduixes\".",
       "en": "Karmann was the exclusive manufacturer of the convertible versions of the Golf for several generations. The characteristic roll bar earned it the nickname \"strawberry basket\".",

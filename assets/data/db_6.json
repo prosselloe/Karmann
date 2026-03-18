@@ -10,14 +10,7 @@
       "it": "Porsche 914"
     },
     "productionYears": "1969–1972",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "Una col·laboració entre Volkswagen i Porsche. Mentre que el 914/4 tenia un motor Volkswagen, el 914/6 estava equipat amb un motor Porsche de 6 cilindres. Karmann va fabricar les carrosseries completes.",
       "en": "A collaboration between Volkswagen and Porsche. While the 914/4 had a Volkswagen engine, the 914/6 was equipped with a 6-cylinder Porsche engine. Karmann manufactured the complete bodies.",
@@ -46,10 +39,7 @@
     },
     "isCabriolet": false,
     "versions": [],
-    "relatedModels": [
-      14,
-      15
-    ],
+    "relatedModels": [14, 15],
     "unitsProduced": 118978
   },
   {
@@ -63,14 +53,7 @@
       "it": "Porsche 968"
     },
     "productionYears": "1992–1995",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Osnabrück, DE",
     "description": {
       "ca": "El 968 va ser l'evolució final de la línia de models amb motor davanter de Porsche. Karmann va rebre l'encàrrec de produir les carrosseries pintades per a les versions Coupé i Cabriolet.",
       "en": "The 968 was the final evolution of Porsche's front-engine model line. Karmann was commissioned to produce the painted bodies for the Coupé and Cabriolet versions.",
@@ -140,10 +123,7 @@
         }
       }
     ],
-    "relatedModels": [
-      14,
-      16
-    ],
+    "relatedModels": [14, 16],
     "unitsProduced": 12776
   },
   {
@@ -157,14 +137,7 @@
       "it": "Audi 80 Cabriolet"
     },
     "productionYears": "1991–2000",
-    "manufacturingPlant": {
-      "ca": "Osnabrück, Alemanya",
-      "en": "Osnabrück, Germany",
-      "es": "Osnabrück, Alemania",
-      "de": "Osnabrück, Deutschland",
-      "fr": "Osnabrück, Allemagne",
-      "it": "Osnabrück, Germania"
-    },
+    "manufacturingPlant": "Rheine, DE",
     "description": {
       "ca": "Audi va confiar en Karmann per a la producció del seu primer descapotable des de la dècada de 1950. Karmann va construir les carrosseries i va realitzar el muntatge final.",
       "en": "Audi relied on Karmann for the production of its first convertible since the 1950s. Karmann built the bodies and carried out the final assembly.",
@@ -194,9 +167,7 @@
     },
     "isCabriolet": true,
     "versions": [],
-    "relatedModels": [
-      19
-    ],
+    "relatedModels": [19],
     "unitsProduced": 71510
   }
 ]
