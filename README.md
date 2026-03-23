@@ -29,6 +29,7 @@ A continuació es mostra una selecció dels 38 vehicles que defineixen la histò
 
 *   **Volkswagen Karmann Ghia (Tipus 14 i 34):** L'icònic coupé i cabriolet que va posar Karmann al mapa mundial.
 *   **Volkswagen Escarabat Cabriolet:** Un dels descapotables més venuts i reconeixibles de tots els temps.
+*   **Models emblemàtics de Porsche:** L'aplicació també inclou la participació de Karmann en la producció de carrosseries per a llegendes de Porsche com el **356**, el **911** i el **912**, consolidant la seva reputació en el segment dels cotxes esportius de luxe.
 *   **Porsche 914:** Un cotxe esportiu amb motor central desenvolupat en col·laboració amb Porsche.
 *   **Ford Escort Cabriolet (Mk3, Mk4, Mk5):** Va portar el plaer de conduir a l'aire lliure al mercat de masses.
 *   **Triumph TR6:** Karmann va fabricar les carrosseries d'aquest roadster britànic clàssic.
@@ -43,6 +44,11 @@ Aquesta col·lecció no només mostra la bellesa i l'enginyeria d'aquests vehicl
 ## Més informació
 
 https://prosselloe.wordpress.com/?p=15608
+
+## Crèdits
+
+*   **Fotografies:** La majoria de les imatges utilitzades en aquesta aplicació provenen de **Wikimedia Commons** i altres fonts públiques, utilitzades amb finalitats il·lustratives i educatives. Es reconeix el crèdit dels fotògrafs i col·laboradors originals.
+*   **Desenvolupament:** El codi de l'aplicació ha estat generat i adaptat amb l'assistència de **Firebase Studio Gemini**, una eina d'IA per al desenvolupament d'aplicacions.
 
 <table>
 <tbody>
