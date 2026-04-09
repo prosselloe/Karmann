@@ -1,4 +1,4 @@
-<img src="assets/other/karmann_logo.png" alt="Logo Karmann" width="529" height="85" />
+<img src="assets/other/logo_google_play.png" alt="Logo Karmann" width="529" height="85" />
 
 # Visor dels Models de Karmann
 
@@ -7,6 +7,8 @@ Aquest projecte és una aplicació Flutter dissenyada per explorar la rica hist�
 Fundada el 1901, Karmann es va convertir en sinònim de fabricació d'alta qualitat, enginyeria innovadora (especialment en descapotables) i col·laboració amb els principals fabricants d'automòbils del món. Aquesta aplicació explora 38 dels cotxes més famosos i estimats que Karmann va construir, muntar o per als quals va subministrar components clau.
 
 Des de coupés elegants fins a alguns dels cabriolets més populars de la història, aquesta col·lecció ofereix una visió d'un llegat automobilístic extraordinari.
+
+<img src="assets/other/karmann_logo.png" alt="Logo Karmann" width="529" height="85" />
 
 ## Característiques Principals
 
