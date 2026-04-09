@@ -1,4 +1,4 @@
-<img src="assets/other/logo_google_play.png" alt="Logo Karmann" width="529" height="85" />
+<img src="assets/other/logo_google_play.png" alt="Logo Karmann" width="512" height="512" />
 
 # Visor dels Models de Karmann
 
