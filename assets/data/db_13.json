@@ -84,15 +84,5 @@
     "unitsProduced": 50000,
     "versions": [],
     "relatedModels": [30, 36]
-  },
-  {
-    "id": 39,
-    "name": {
-      "ca": "Volkswagen Beetle Cabriolet Karmann Edition",
-      "en": "Volkswagen Beetle Cabriolet Karmann Edition",
-      "es": "Volkswagen Beetle Cabriolet Karmann Edition",
-      "de": "Volkswagen Beetle Cabriolet Karmann Edition",
-      "fr": "Volkswagen Beetle Cabriolet Karmann Edition",
-      "it": "Volkswagen Beetle Cabriolet Karmann Edition"
-    }
+  }
 ]
