@@ -84,5 +84,48 @@
     "unitsProduced": 50000,
     "versions": [],
     "relatedModels": [30, 36]
+  },
+  {
+    "id": 39,
+    "name": {
+      "ca": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "en": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "es": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "de": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "fr": "Volkswagen Beetle Cabriolet Karmann Edition",
+      "it": "Volkswagen Beetle Cabriolet Karmann Edition"
+    },
+    "productionYears": "2015-2019",
+    "manufacturingPlant": "Puebla, MX",
+    "description": {
+      "ca": "Basat en el Beetle modern, aquesta edició especial ret homenatge a la llarga història de Karmann en la producció dels descapotables de Volkswagen. Igual que altres 'Karmann Edition', incloïa detalls exclusius com tapisseria d'Alcantara, logotips 'Karmann', llantes distintives i equipament superior, fusionant el disseny retro del Beetle amb un toc de luxe i exclusivitat.",
+      "en": "Based on the modern Beetle, this special edition pays tribute to Karmann's long history of producing Volkswagen convertibles. Like other 'Karmann Edition' models, it included exclusive details such as Alcantara upholstery, 'Karmann' logos, distinctive wheels, and superior equipment, merging the Beetle's retro design with a touch of luxury and exclusivity.",
+      "es": "Basado en el Beetle moderno, esta edición especial rinde homenaje a la larga historia de Karmann en la producción de los descapotables de Volkswagen. Al igual que otras 'Karmann Edition', incluía detalles exclusivos como tapicería de Alcantara, logotipos 'Karmann', llantas distintivas y equipamiento superior, fusionando el diseño retro del Beetle con un toque de lujo y exclusividad.",
+      "de": "Basierend auf dem modernen Beetle, zollt diese Sonderedition der langen Geschichte von Karmann bei der Herstellung von Volkswagen-Cabriolets Tribut. Wie andere 'Karmann Edition'-Modelle umfasste sie exklusive Details wie Alcantara-Polsterung, 'Karmann'-Logos, markante Felgen und eine gehobene Ausstattung, die das Retro-Design des Beetle mit einem Hauch von Luxus und Exklusivität verband.",
+      "fr": "Basée sur la Beetle moderne, cette édition spéciale rend hommage à la longue histoire de Karmann dans la production des cabriolets Volkswagen. Comme les autres modèles 'Karmann Edition', elle comprenait des détails exclusifs tels qu'une sellerie en Alcantara, des logos 'Karmann', des jantes distinctives et un équipement supérieur, fusionant le design rétro de la Beetle avec une touche de luxe et d'exclusivité.",
+      "it": "Basata sulla Beetle moderna, questa edizione speciale rende omaggio alla lunga storia di Karmann nella produzione delle decappottabili Volkswagen. Come altri modelli 'Karmann Edition', includeva dettagli esclusivi come rivestimenti in Alcantara, loghi 'Karmann', cerchi distintivi e un equipaggiamento superiore, fondendo il design retrò della Beetle con un tocco di lusso ed esclusività."
+    },
+    "imageUrl": "assets/images/vw_beetle_cabrio_karmann_edition.jpg",
+    "designer": "Volkswagen & Karmann",
+    "engine": {
+      "ca": "Varis, habitualment 1.4 TSI",
+      "en": "Various, commonly 1.4 TSI",
+      "es": "Varios, habitualmente 1.4 TSI",
+      "de": "Verschiedene, üblicherweise 1.4 TSI",
+      "fr": "Divers, généralement 1.4 TSI",
+      "it": "Vari, comunemente 1.4 TSI"
+    },
+    "topSpeed": {
+      "ca": "Aprox. 200 km/h",
+      "en": "Approx. 200 km/h",
+      "es": "Aprox. 200 km/h",
+      "de": "ca. 200 km/h",
+      "fr": "Env. 200 km/h",
+      "it": "Circa 200 km/h"
+    },
+    "isCabriolet": true,
+    "unitsProduced": 3000,
+    "versions": [],
+    "relatedModels": [5]
   }
 ]
