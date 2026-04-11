@@ -46,9 +46,9 @@ Aquesta col·lecció no només mostra la bellesa i l'enginyeria d'aquests vehicl
 <table>
 <tbody>
 <tr>
-<td><img src="assets/images/logo.png" width="320" height="320" /></td>
-<td><img src="assets/images/amc_javelin.jpg"/></td>
-<td><img src="assets/images/audi_80_cabriolet.jpg"/></td>
+<td><img src="assets/images/logo.png" width="320" height="240" /></td>
+<td><img src="assets/images/amc_javelin.jpg" width="320" height="240"/></td>
+<td><img src="assets/images/audi_80_cabriolet.jpg" width="320" height="240"/></td>
 </tr>
 <tr>
 <td><img src="assets/images/audi_rs4_cabriolet.jpg"/></td>
