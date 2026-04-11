@@ -43,6 +43,131 @@ A continuació es mostra una selecció dels 38 vehicles que defineixen la histò
 
 Aquesta col·lecció no només mostra la bellesa i l'enginyeria d'aquests vehicles, sinó que també explica la història de les seves col·laboracions i el seu impacte cultural.
 
+<table>
+<tbody>
+<tr>
+<td><img src="assets/images/logo.png"/></td>
+<td><img src="assets/images/amc_javelin.jpg"/></td>
+<td><img src="assets/images/audi_80_cabriolet.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/audi_rs4_cabriolet.jpg"/></td>
+<td><img src="assets/images/bmw_2000_c_cs.jpg"/></td>
+<td><img src="assets/images/bmw_6_series.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/chrysler_crossfire.jpg"/></td>
+<td><img src="assets/images/chrysler_crossfire_coupe.jpg"/></td>
+<td><img src="assets/images/chrysler_crossfire_roadster.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/dkw_cabriolet.jpg"/></td>
+<td><img src="assets/images/dkw_f91_cabriolet.jpg"/></td>
+<td><img src="assets/images/dkw_meisterklasse_cabriolet.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/ford_eifel_roadster.jpg"/></td>
+<td><img src="assets/images/ford_escort_cabriolet.jpg"/></td>
+<td><img src="assets/images/ford_escort_rs_cosworth_t25.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/ford_escort_rs_cosworth_t35.jpg"/></td>
+<td><img src="assets/images/ford_mustang_convertible.jpg"/></td>
+<td><img src="assets/images/ford_mustang_ii_convertible.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/ford_sierra.jpg"/></td>
+<td><img src="assets/images/jaguar_e_type.jpg"/></td>
+<td><img src="assets/images/jaguar_xkr.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/karmann_gipsy_t3.jpg"/></td>
+<td><img src="assets/images/karmann_lt_camper.jpg"/></td>
+<td><img src="assets/images/kia_sportage.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/land_rover_defender.jpg"/></td>
+<td><img src="assets/images/mercedes_benz_clk_cabriolet.jpg"/></td>
+<td><img src="assets/images/mercedes_benz_clk_coupe.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/mercedes_benz_slk_cabriolet.jpg"/></td>
+<td><img src="assets/images/nissan_micra_c_c.jpg"/></td>
+<td><img src="assets/images/opel_diplomat.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/opel_diplomat_a_coupe.jpg"/></td>
+<td><img src="assets/images/opel_diplomat_b_coupe.jpg"/></td>
+<td><img src="assets/images/pontiac_g6_convertible.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/porsche_356.jpg"/></td>
+<td><img src="assets/images/porsche_356_b_hardtop.jpg"/></td>
+<td><img src="assets/images/porsche_356_pre_a.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/porsche_911.jpg"/></td>
+<td><img src="assets/images/porsche_912.jpg"/></td>
+<td><img src="assets/images/porsche_914.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/porsche_968.jpg"/></td>
+<td><img src="assets/images/porsche_968_cabriolet.jpg"/></td>
+<td><img src="assets/images/porsche_968_coupe.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/renault_megane_cc.jpg"/></td>
+<td><img src="assets/images/renault_megane_cc_I.jpg"/></td>
+<td><img src="assets/images/renault_megane_cc_II.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/spyker_c8_spyder.jpg"/></td>
+<td><img src="assets/images/triumph_tr6.jpg"/></td>
+<td><img src="assets/images/vw_beetle_cabriolet.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_beetle_cabriolet_classic.jpg"/></td>
+<td><img src="assets/images/vw_beetle_cabriolet_super.jpg"/></td>
+<td><img src="assets/images/vw_beetle_cabrio_karmann_edition.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_corrado.jpg"/></td>
+<td><img src="assets/images/vw_golf_cabriolet.jpg"/></td>
+<td><img src="assets/images/vw_golf_mk1_cabriolet.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_golf_mk3_cabriolet.jpg"/></td>
+<td><img src="assets/images/vw_golf_mk4_cabriolet.jpg"/></td>
+<td><img src="assets/images/vw_karmann_buggy.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_karmann_gf_buggy.jpg"/></td>
+<td><img src="assets/images/vw_karmann_ghia_razor_edge.jpg"/></td>
+<td><img src="assets/images/vw_karmann_ghia_tc.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_karmann_ghia_tc_1970.jpg"/></td>
+<td><img src="assets/images/vw_karmann_ghia_type_14.jpg"/></td>
+<td><img src="assets/images/vw_karmann_ghia_type_14_cabriolet.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_karmann_ghia_type_14_coupe.jpg"/></td>
+<td><img src="assets/images/vw_karmann_ghia_type_34.jpg"/></td>
+<td><img src="assets/images/vw_new_beetle_cabrio.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_scirocco.jpg"/></td>
+<td><img src="assets/images/vw_scirocco_mk1.jpg"/></td>
+<td><img src="assets/images/vw_scirocco_mk2.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/images/vw_sp2.jpg"/></td>
+<td><img src="assets/images/vw_sp2_1972.jpg"/></td>
+<td><img src="assets/images/vw_transporter_t3.jpg"/></td>
+</tr>
+</tbody>
+</table>
+
 ## Més informació
 
 https://prosselloe.wordpress.com/?p=15608
