@@ -9,6 +9,7 @@ import 'package:karmann/models/karmann_model.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:karmann/l10n/app_localizations.dart';
 import 'package:karmann/widgets/plant_map.dart';
+import 'package:karmann/screens/about_screen.dart';
 
 class ThemeProvider with ChangeNotifier {
   ThemeMode _themeMode = ThemeMode.system;
@@ -52,6 +53,12 @@ final GoRouter _router = GoRouter(
             return DetailScreen(model: model);
           },
         ),
+         GoRoute(
+          path: 'about',
+          builder: (BuildContext context, GoRouterState state) {
+            return const AboutScreen();
+          },
+        ),
       ],
     ),
   ],
@@ -86,6 +93,7 @@ class KarmannApp extends StatelessWidget {
         titleTextStyle: GoogleFonts.exo2(
           fontSize: 22,
           fontWeight: FontWeight.bold,
+          color: Colors.white, // Ensure title is white
         ),
         elevation: 2,
       ),
@@ -132,6 +140,7 @@ class KarmannApp extends StatelessWidget {
         titleTextStyle: GoogleFonts.exo2(
           fontSize: 22,
           fontWeight: FontWeight.bold,
+          color: Colors.white, // Ensure title is white
         ),
       ),
       cardTheme: CardThemeData(
@@ -187,7 +196,7 @@ class KarmannApp extends StatelessWidget {
                 Locale('es'),
                 Locale('de'),
                 Locale('fr'),
-                Locale('it'),
+                Locale('pt'),
               ],
             );
           },
@@ -246,6 +255,11 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text(l10n.appTitle),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.info_outline),
+            onPressed: () => context.go('/about'),
+            tooltip: 'About',
+          ),
           IconButton(
             icon: Icon(
               themeProvider.themeMode == ThemeMode.dark

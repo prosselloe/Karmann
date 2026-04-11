@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:developer' as developer;
 import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 import 'package:karmann/models/karmann_model.dart';
 import 'package:karmann/models/plant.dart';
 
@@ -13,6 +14,8 @@ class KarmannService {
   List<Plant>? _plants;
 
   Future<List<KarmannModel>> getModels() async {
+    // Si els models ja estan carregats, els retornem directament.
+    // Per forçar una recàrrega, s'hauria de posar _models a null.
     if (_models == null) {
       await _loadModels();
     }
@@ -27,8 +30,43 @@ class KarmannService {
   }
 
   Future<void> _loadPlants() async {
+    const String baseUrl = 'https://raw.githubusercontent.com/prosselloe/Karmann/main/assets/data/';
+    const String fileName = 'plants.json';
+    final Uri remoteUrl = Uri.parse('$baseUrl$fileName');
+    String jsonString;
+
     try {
-      final jsonString = await rootBundle.loadString('assets/data/plants.json');
+      // 1. Intent de càrrega remota
+      developer.log('Attempting to load remote data from: $remoteUrl', name: 'KarmannService');
+      final response = await http.get(remoteUrl);
+
+      if (response.statusCode == 200) {
+        jsonString = response.body;
+        developer.log('Successfully loaded remote data for $fileName.', name: 'KarmannService');
+      } else {
+        throw Exception('Failed to load remote data (status code: ${response.statusCode})');
+      }
+    } catch (e) {
+      // 2. Fallback a càrrega local
+      developer.log('Error loading remote data for $fileName: $e', name: 'KarmannService');
+      developer.log('Falling back to local asset for $fileName.', name: 'KarmannService');
+      try {
+        jsonString = await rootBundle.loadString('assets/data/$fileName');
+        developer.log('Successfully loaded local data for $fileName.', name: 'KarmannService');
+      } catch (localError, s) {
+        developer.log(
+          'Failed to load local asset for $fileName: $localError',
+          name: 'KarmannService',
+          error: localError,
+          stackTrace: s,
+        );
+        _plants = [];
+        return;
+      }
+    }
+
+    // 3. Anàlisi del JSON
+    try {
       final jsonList = json.decode(jsonString) as List;
       _plants = jsonList.map((json) => Plant.fromJson(json)).toList();
     } catch (e, s) {
@@ -53,19 +91,51 @@ class KarmannService {
 
   Future<void> _loadModels() async {
     List<KarmannModel> loadedModels = [];
+    const String baseUrl = 'https://raw.githubusercontent.com/prosselloe/Karmann/main/assets/data/';
 
     for (int i = 1; i <= 13; i++) {
+      String jsonString;
+      final String fileName = 'db_$i.json';
+      final Uri remoteUrl = Uri.parse('$baseUrl$fileName');
+
       try {
-        final jsonString = await rootBundle.loadString(
-          'assets/data/db_$i.json',
-        );
+        // 1. Intent de càrrega remota
+        developer.log('Attempting to load remote data from: $remoteUrl', name: 'KarmannService');
+        final response = await http.get(remoteUrl);
+
+        if (response.statusCode == 200) {
+          jsonString = response.body;
+          developer.log('Successfully loaded remote data for $fileName.', name: 'KarmannService');
+        } else {
+          throw Exception('Failed to load remote data (status code: ${response.statusCode})');
+        }
+      } catch (e) {
+        // 2. Fallback a càrrega local
+        developer.log('Error loading remote data for $fileName: $e', name: 'KarmannService');
+        developer.log('Falling back to local asset for $fileName.', name: 'KarmannService');
+        try {
+          jsonString = await rootBundle.loadString('assets/data/$fileName');
+          developer.log('Successfully loaded local data for $fileName.', name: 'KarmannService');
+        } catch (localError, s) {
+          developer.log(
+            'Failed to load local asset for $fileName: $localError',
+            name: 'KarmannService',
+            error: localError,
+            stackTrace: s,
+          );
+          continue; // Si ni el remot ni el local funcionen, passem al següent fitxer
+        }
+      }
+
+      // 3. Anàlisi del JSON
+      try {
         final jsonList = json.decode(jsonString) as List;
         for (var jsonItem in jsonList) {
           try {
             loadedModels.add(KarmannModel.fromJson(jsonItem));
           } catch (e, s) {
             developer.log(
-              'Error parsing model from db_$i.json',
+              'Error parsing model from $fileName',
               name: 'KarmannService',
               error: e,
               stackTrace: s,
@@ -73,8 +143,8 @@ class KarmannService {
           }
         }
       } catch (e, s) {
-        developer.log(
-          'Error loading or parsing db_$i.json',
+         developer.log(
+          'Error parsing the entire JSON structure from $fileName',
           name: 'KarmannService',
           error: e,
           stackTrace: s,
