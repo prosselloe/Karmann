@@ -1,7 +1,7 @@
 name: karmann
 description: "Karmann Models"
 publish_to: 'none'
-version: 1.0.0+14
+version: 1.0.0+16
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
@@ -18,6 +18,9 @@ dependencies:
   path_provider: any # Deixem que Flutter gestioni la versió
   flutter_map: ^8.2.2
   latlong2: ^0.9.1
+  http: ^1.6.0
+  flutter_markdown_plus: ^1.0.7
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
@@ -31,6 +34,7 @@ flutter:
   assets:
     - assets/images/
     - assets/data/
+    - README.md
 
 flutter_launcher_icons:
   android: true
