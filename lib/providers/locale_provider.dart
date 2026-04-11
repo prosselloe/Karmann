@@ -23,8 +23,8 @@ class LocaleProvider with ChangeNotifier {
         return 'Deutsch';
       case 'fr':
         return 'Français';
-      case 'it':
-        return 'Italiano';
+      case 'pt':
+        return 'Português';
       default:
         return '??';
     }
