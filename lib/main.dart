@@ -269,6 +269,23 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () => themeProvider.toggleTheme(),
             tooltip: 'Canviar tema',
           ),
+          PopupMenuButton<Locale>(
+            icon: const Icon(Icons.language),
+            tooltip: 'Canviar idioma',
+            onSelected: (Locale locale) {
+              localeProvider.setLocale(locale);
+            },
+            itemBuilder: (BuildContext context) {
+              return AppLocalizations.supportedLocales.map((Locale locale) {
+                return PopupMenuItem<Locale>(
+                  value: locale,
+                  child: Text(
+                    localeProvider.getLocaleName(locale.languageCode),
+                  ),
+                );
+              }).toList();
+            },
+          ),
           if (availablePlants.isNotEmpty)
             PopupMenuButton<String>(
               icon: const Icon(Icons.factory_outlined),
@@ -343,23 +360,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Text(l10n.sortDefault),
               ),
             ],
-          ),
-          PopupMenuButton<Locale>(
-            icon: const Icon(Icons.language),
-            tooltip: 'Canviar idioma',
-            onSelected: (Locale locale) {
-              localeProvider.setLocale(locale);
-            },
-            itemBuilder: (BuildContext context) {
-              return AppLocalizations.supportedLocales.map((Locale locale) {
-                return PopupMenuItem<Locale>(
-                  value: locale,
-                  child: Text(
-                    localeProvider.getLocaleName(locale.languageCode),
-                  ),
-                );
-              }).toList();
-            },
           ),
         ],
       ),
