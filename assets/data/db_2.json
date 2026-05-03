@@ -19,7 +19,7 @@
       "fr": "La réponse de Karmann à la folie des Dune Buggies. Basé sur le châssis de la Volkswagen Coccinelle, le buggy GF (Gute Fahrt) offrait son propre design et une qualité de construction supérieure aux kits de l'époque.",
       "it": "La risposta di Karmann alla febbre dei Dune Buggy. Basato sul telaio del Maggiolino Volkswagen, il Buggy GF (Gute Fahrt) offriva un design proprio e una qualità costruttiva superiore ai kit dell'epoca."
     },
-    "imageUrl": "assets/images/vw_karmann_buggy.jpg",
+    "imageUrl": "assets/images/vw_karmann_gf_buggy.jpg",
     "designer": "Karmann",
     "engine": {
       "ca": "Bòxer de 4 cilindres",
@@ -48,7 +48,7 @@
           "fr": "GF Buggy",
           "it": "GF Buggy"
         },
-        "imageUrl": "assets/images/vw_karmann_gf_buggy.jpg",
+        "imageUrl": "assets/images/vw_karmann_buggy.jpg",
         "productionYears": "1971-1974",
         "changes": {
           "ca": "Es venia com un vehicle complet, no un kit. Tenia una carrosseria de plàstic reforçat i estava disponible amb diferents opcions de motorització de l'Escarabat.",
