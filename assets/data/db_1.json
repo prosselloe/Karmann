@@ -164,7 +164,7 @@
       "fr": "Conçu par Ghia et produit au Brésil, ce coupé (Touring Coupé) offrait une esthétique plus moderne et sportive, exclusive au marché sud-américain. 18 119 unités ont été produites.",
       "it": "Progettata da Ghia e prodotta in Brasile, questa coupé (Touring Coupé) offriva un'estetica più moderna e sportiva, esclusiva per il mercato sudamericano. Furono prodotte 18.119 unità."
     },
-    "imageUrl": "assets/images/vw_karmann_ghia_tc_1970.jpg",
+    "imageUrl": "assets/images/vw_karmann_ghia_tc.jpg",
     "designer": "Giorgetto Giugiaro (Carrozzeria Ghia)",
     "engine": {
       "ca": "Bòxer de 4 cilindres, 1.6L",
@@ -193,7 +193,7 @@
           "fr": "Touring Coupé (Brésil)",
           "it": "Touring Coupé (Brasile)"
         },
-        "imageUrl": "assets/images/vw_karmann_ghia_tc.jpg",
+        "imageUrl": "assets/images/vw_karmann_ghia_tc_1970.jpg",
         "changes": {
           "ca": "Una versió fastback 2+2 dissenyada per Giugiaro, exclusiva per al mercat brasiler. Tenia un aspecte més modern i aerodinàmic que el Tipus 14, amb una gran porta posterior de vidre.",
           "en": "A 2+2 fastback version designed by Giugiaro, exclusive to the Brazilian market. It had a more modern and aerodynamic look than the Type 14, with a large rear glass hatch.",
